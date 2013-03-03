@@ -209,6 +209,22 @@ en:
     note: '*  For the purpose of this contest, "LIFE" is considered to be 25 years.'
     note_two: '**  Galaxy Tab 2 is a registered trademark of Samsung Electronics Canada Inc. Samsung is not a sponsor of, nor participant in, this promotion.'
 
+  challenges:
+    index:
+      header: 'YOUR CHALLENGE PROGRESS'
+      next_challenge_header: |
+        The next challenge
+        is ready to go!
+    progress:
+      copy: |
+        ALL SIX CHALLENGES
+        MUST BE COMPLETED IN
+        ORDER TO QUALIFY FOR
+        A CHANCE TO...
+      tagline: |
+        Win Milk
+        For Life!
+
   contact:
     header: 'CONTACT US'
     copy: |

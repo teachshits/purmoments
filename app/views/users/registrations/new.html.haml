@@ -27,18 +27,15 @@
                 = f.label I18n.t('register.form.first_name')
                 %br
                 = f.text_field :first_name, :placeholder => I18n.t('register.form.prompt.first_name')
-                .error= resource.errors['first_name'].first
               .field
                 = f.label I18n.t('register.form.email')
                 %br
                 = f.text_field :email, :placeholder => I18n.t('register.form.prompt.email')
-                .error= resource.errors['email'].first
             #right
               .field
                 = f.label I18n.t('register.form.last_name')
                 %br
                 = f.text_field :last_name, :placeholder => I18n.t('register.form.prompt.last_name')
-                .error= resource.errors['last_name'].first
               #mini
                 .field
                   = f.label I18n.t('register.form.gender')
@@ -61,34 +58,28 @@
               = f.label :mailing_address
               %br
               = f.text_field :mailing_address, :placeholder => I18n.t('register.form.prompt.mailing_address')
-              .error= resource.errors['mailing_address'].first
           #left
             .field
               = f.label :city
               %br
               = f.text_field :city, :placeholder => I18n.t('register.form.prompt.city')
-              .error= resource.errors['city'].first
             .field
               = f.label :password
               %br
               = f.password_field :password, :placeholder => I18n.t('register.form.prompt.password')
-              .error= resource.errors['password'].first
           #right
             .field
               = f.label :province
               %br
               = f.select :province, I18n.t('register.form.province_options').map{|key, value| [value[:option], value[:value]]}
-              .error= resource.errors['province'].first
             .field
               = f.label :password_confirmation
               %br
               = f.password_field :password_confirmation, :placeholder => I18n.t('register.form.prompt.password_confirmation')
-              .error= resource.errors['password_confirmation'].first
           #left
             .field
               = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
               = render 'shared/recaptcha'
-              .error= resource.errors['recaptcha'].first
           #right
             .field
               .checkbox= f.check_box :rules_and_regulations

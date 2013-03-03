@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="" />
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/challenge_index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/shield_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/shield_completed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/shield_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/steps_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/challenges/challenge_one.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/challenges/index.html.haml" afterPath="$PROJECT_DIR$/app/views/challenges/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/purmoments.iml" afterPath="$PROJECT_DIR$/.idea/purmoments.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="purmoments.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/database.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361925557366" ignored="false" />
+    <file path="/database.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362286541723" ignored="false" />
     <file path="/Gemfile" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361925905155" ignored="false" />
-    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078263390" ignored="false" />
+    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362341142457" ignored="false" />
     <file path="/main_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361927070758" ignored="false" />
     <file path="/application.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362116375214" ignored="false" />
-    <file path="/application.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254848152" ignored="false" />
+    <file path="/application.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362290773204" ignored="false" />
     <file path="/a.dummy" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361926903293" ignored="false" />
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361927547323" ignored="false" />
-    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278402775" ignored="false" />
+    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362339232536" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362120500131" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362279066389" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362289756696" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
     <file path="/prizes.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362252910758" ignored="false" />
-    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362117623303" ignored="false" />
+    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362339418933" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/views/layouts/page_templates/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988726092" ignored="false" />
     <file path="/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988508049" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/assets/stylesheets/main.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361993232526" ignored="false" />
@@ -59,12 +78,14 @@
     <file path="/contact.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362123147348" ignored="false" />
     <file path="/prizes.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362253331869" ignored="false" />
     <file path="/rules.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254643229" ignored="false" />
-    <file path="/registration.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362277199811" ignored="false" />
+    <file path="/registration.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362289150387" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/db/migrate/20130226174652_create_ajo_register_users.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362272117694" ignored="false" />
     <file path="/20130226174652_create_ajo_register_users.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362272115457" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/views/users/registrations/new.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362274502445" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/models/ajo_register/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278592450" ignored="false" />
     <file path="/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278590566" ignored="false" />
+    <file path="/challenges.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362339597075" ignored="false" />
+    <file path="/challenge_one.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362344053708" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,122 +99,125 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="prizes.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main/prizes.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="11" selection-start="289" selection-end="289" vertical-scroll-proportion="-8.75">
-              <folding>
-                <element signature="e#141#164#1" expanded="true" />
-                <element signature="n#t('prizes.weekly_prize_header')#0;n#!!top" expanded="true" />
-                <element signature="e#230#254#1" expanded="true" />
-                <element signature="n#t('prizes.note')#0;n#!!top" expanded="true" />
-                <element signature="n#t('prizes.note_two')#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="53" selection-start="3297" selection-end="3297" vertical-scroll-proportion="-6.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rules.css.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rules.css.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.css.sass" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="68" selection-start="734" selection-end="734" vertical-scroll-proportion="0.71428573">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="58" selection-start="3345" selection-end="3345" vertical-scroll-proportion="-5.0">
-              <folding>
-                <element signature="n#I18n.t('register.header')#0;n#!!top" expanded="true" />
-                <element signature="e#774#808#1" expanded="true" />
-                <element signature="e#1038#1067#1" expanded="true" />
-                <element signature="e#1301#1334#1" expanded="true" />
-                <element signature="e#1585#1615#1" expanded="true" />
-                <element signature="e#2029#2066#1" expanded="true" />
-                <element signature="e#3856#3901#1" expanded="true" />
-                <element signature="e#4001#4031#1" expanded="true" />
-                <element signature="e#4073#4103#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rules.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main/rules.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="22" selection-start="348" selection-end="348" vertical-scroll-proportion="-9.375">
-              <folding>
-                <element signature="n#t('rules.header')#0;n#!!top" expanded="true" />
-                <element signature="e#122#143#1" expanded="true" />
-                <element signature="n#t('rules.challenge_one.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_one.copy')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_two.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_two.copy')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_three.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_three.copy')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_four.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_four.copy')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_five.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_five.copy')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_six.header')#0;n#!!top" expanded="true" />
-                <element signature="n#t('rules.challenge_six.copy')#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.css.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prizes.css.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prizes.css.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="21" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="prizes.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/main/prizes.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="-10.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="prizes.css.sass" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prizes.css.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="19" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/main/index.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="24" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-20.0">
+                  <folding>
+                    <element signature="n#t('landing.main_copy')#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="165" column="76" selection-start="4901" selection-end="4901" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="challenge_one.html.haml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/challenges/challenge_one.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="21" selection-start="59" selection-end="59" vertical-scroll-proportion="0.025188917">
+                  <folding>
+                    <marker date="1362345296000" expanded="true" signature="0:43" placeholder="#main_narrow" />
+                    <marker date="1362345296000" expanded="true" signature="15:43" placeholder="#main_narrow_container" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="-2.5">
+                  <folding>
+                    <marker date="1362339418000" expanded="true" signature="0:126" placeholder="#main_narrow" />
+                    <marker date="1362339418000" expanded="true" signature="15:126" placeholder="#main_narrow_container" />
+                    <marker date="1362339418000" expanded="true" signature="42:126" placeholder="#main_narrow_left" />
+                    <marker date="1362339418000" expanded="true" signature="98:126" placeholder="&quot;YOUR CHALLENGE PROGRESS&quot;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="64" selection-start="730" selection-end="730" vertical-scroll-proportion="0.23730224">
+                  <folding>
+                    <element signature="n#t('challenges.index.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#208#251#1" expanded="true" />
+                    <element signature="n#t('landing.landing_prizes.milk_bags.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#590#632#1" expanded="true" />
+                    <element signature="n#t('landing.landing_prizes.bay.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#849#885#1" expanded="true" />
+                    <element signature="n#t('landing.landing_prizes.ipad.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#1088#1125#1" expanded="true" />
+                    <element signature="e#2260#2289#1" expanded="true" />
+                    <element signature="e#2350#2382#1" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="0" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="challenges.css.sass" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="13" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -204,25 +228,33 @@
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
     <option name="ENVIRONMENT" value="development" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/footer.css.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/login.css.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/header.css.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/footer.css.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/landing.css.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" />
         <option value="$PROJECT_DIR$/app/views/ajo_contact/contact/_contact_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/main/prizes.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/prizes.css.sass" />
         <option value="$PROJECT_DIR$/app/views/main/rules.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/rules.css.sass" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/views/challenges/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/challenges/challenge_one.html" />
+        <option value="$PROJECT_DIR$/app/views/challenges/challenge_one.html.haml" />
       </list>
     </option>
   </component>
@@ -234,9 +266,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1105" />
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="735" />
+    <option name="width" value="1455" />
+    <option name="height" value="1361" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,7 +288,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -281,6 +314,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,6 +410,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -391,11 +429,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="challenges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,7 +516,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +523,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AjoContact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AjoRegister" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -463,7 +536,7 @@
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate">
+  <component name="RunManager" selected="Rake.assets:clean">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -520,55 +593,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="purmoments" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Rails console: purmoments" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="purmoments" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/script/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="ajo_register:install:migrations" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -586,6 +610,58 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="ajo_register:install:migrations" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:create:all" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="purmoments" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create:all" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assets:clean" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="purmoments" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:clean" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -791,6 +867,12 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -902,17 +984,17 @@
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: purmoments" />
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
       <item index="5" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="7" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.ajo_register:install:migrations" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.ajo_register:install:migrations" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:create:all" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.assets:clean" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.ajo_register:install:migrations" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:rollback" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.routes" />
-        <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.assets:clean" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:create:all" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.ajo_register:install:migrations" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
       </list>
     </recent_temporary>
   </component>
@@ -944,23 +1026,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="735" extended-state="0" />
+    <frame x="1105" y="22" width="1455" height="1361" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21078779" sideWeight="0.67117834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1022,100 +1105,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/landing.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="73" selection-start="574" selection-end="574" vertical-scroll-proportion="0.2704918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/header.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="101" selection-end="101" vertical-scroll-proportion="0.09836066">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/footer.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="494" selection-end="494" vertical-scroll-proportion="0.6885246">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="489" selection-end="489" vertical-scroll-proportion="0.29836065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/recaptcha.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main/prizes.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="289" selection-end="289" vertical-scroll-proportion="-8.75">
-          <folding>
-            <element signature="e#141#164#1" expanded="true" />
-            <element signature="n#t('prizes.weekly_prize_header')#0;n#!!top" expanded="true" />
-            <element signature="e#230#254#1" expanded="true" />
-            <element signature="n#t('prizes.note')#0;n#!!top" expanded="true" />
-            <element signature="n#t('prizes.note_two')#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prizes.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/rules.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="348" selection-end="348" vertical-scroll-proportion="-9.375">
-          <folding>
-            <element signature="n#t('rules.header')#0;n#!!top" expanded="true" />
-            <element signature="e#122#143#1" expanded="true" />
-            <element signature="n#t('rules.challenge_one.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_one.copy')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_two.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_two.copy')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_three.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_three.copy')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_four.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_four.copy')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_five.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_five.copy')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_six.header')#0;n#!!top" expanded="true" />
-            <element signature="n#t('rules.challenge_six.copy')#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="15" column="22" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1129,39 +1121,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8630137">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8630137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="58" selection-start="3345" selection-end="3345" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="n#I18n.t('register.header')#0;n#!!top" expanded="true" />
-            <element signature="e#774#808#1" expanded="true" />
-            <element signature="e#1038#1067#1" expanded="true" />
-            <element signature="e#1301#1334#1" expanded="true" />
-            <element signature="e#1585#1615#1" expanded="true" />
-            <element signature="e#2029#2066#1" expanded="true" />
-            <element signature="e#3856#3901#1" expanded="true" />
-            <element signature="e#4001#4031#1" expanded="true" />
-            <element signature="e#4073#4103#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="53" selection-start="3297" selection-end="3297" vertical-scroll-proportion="-6.4">
+        <state line="81" column="74" selection-start="3196" selection-end="3196" vertical-scroll-proportion="-20.583334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="68" selection-start="734" selection-end="734" vertical-scroll-proportion="0.71428573">
+        <state line="24" column="64" selection-start="471" selection-end="471" vertical-scroll-proportion="-10.8">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="0.24509804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/641ad39c/dd19e5ab-d39f-482e-8c7f-c4f8d5e54a65/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prizes.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-20.0">
+          <folding>
+            <element signature="n#t('landing.main_copy')#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/prizes.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="76" selection-start="4901" selection-end="4901" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="-2.5">
+          <folding>
+            <marker date="1362339418000" expanded="true" signature="0:126" placeholder="#main_narrow" />
+            <marker date="1362339418000" expanded="true" signature="15:126" placeholder="#main_narrow_container" />
+            <marker date="1362339418000" expanded="true" signature="42:126" placeholder="#main_narrow_left" />
+            <marker date="1362339418000" expanded="true" signature="98:126" placeholder="&quot;YOUR CHALLENGE PROGRESS&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/challenge_one.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="59" selection-end="59" vertical-scroll-proportion="0.025188917">
+          <folding>
+            <marker date="1362345296000" expanded="true" signature="0:43" placeholder="#main_narrow" />
+            <marker date="1362345296000" expanded="true" signature="15:43" placeholder="#main_narrow_container" />
+          </folding>
         </state>
       </provider>
     </entry>
