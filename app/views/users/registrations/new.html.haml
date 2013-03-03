@@ -1,0 +1,103 @@
+:javascript
+  $('document').ready ->
+    $('input').focus(->
+      input = $(this)
+      if input.val() is input.attr('placeholder')
+        input.val ''
+    ).blur(->
+      input = $(this)
+      if input.val() is "" or input.val() is input.attr("placeholder")
+        input.val input.attr("placeholder")
+    ).blur()
+    $('form').submit ->
+      $(this).find('input').each ->
+        input = $(this)
+        input.val "" if input.val() is input.attr("placeholder")
+
+
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #registration
+        %h1= I18n.t('register.header')
+        = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+          .row-fluid
+            #left
+              .field
+                = f.label I18n.t('register.form.first_name')
+                %br
+                = f.text_field :first_name, :placeholder => I18n.t('register.form.prompt.first_name')
+                .error= resource.errors['first_name'].first
+              .field
+                = f.label I18n.t('register.form.email')
+                %br
+                = f.text_field :email, :placeholder => I18n.t('register.form.prompt.email')
+                .error= resource.errors['email'].first
+            #right
+              .field
+                = f.label I18n.t('register.form.last_name')
+                %br
+                = f.text_field :last_name, :placeholder => I18n.t('register.form.prompt.last_name')
+                .error= resource.errors['last_name'].first
+              #mini
+                .field
+                  = f.label I18n.t('register.form.gender')
+                  %br
+                  .radio
+                    = f.radio_button :gender, :value => 'M'
+                  .radio_label
+                    = f.label 'Male'
+                  .radio
+                    = f.radio_button :gender, :value => 'F'
+                  .radio_label
+                    = f.label 'Female'
+              #mini
+                .field.mini.select
+                  = f.label I18n.t('register.form.date_of_birth')
+                  %br
+                  = f.select(:date_of_birth, [['Select', '']] + 2013.downto(1913).to_a.collect { |y| ["#{y}", "#{y}-01-01"]})
+          #full
+            .field
+              = f.label :mailing_address
+              %br
+              = f.text_field :mailing_address, :placeholder => I18n.t('register.form.prompt.mailing_address')
+              .error= resource.errors['mailing_address'].first
+          #left
+            .field
+              = f.label :city
+              %br
+              = f.text_field :city, :placeholder => I18n.t('register.form.prompt.city')
+              .error= resource.errors['city'].first
+            .field
+              = f.label :password
+              %br
+              = f.password_field :password, :placeholder => I18n.t('register.form.prompt.password')
+              .error= resource.errors['password'].first
+          #right
+            .field
+              = f.label :province
+              %br
+              = f.select :province, I18n.t('register.form.province_options').map{|key, value| [value[:option], value[:value]]}
+              .error= resource.errors['province'].first
+            .field
+              = f.label :password_confirmation
+              %br
+              = f.password_field :password_confirmation, :placeholder => I18n.t('register.form.prompt.password_confirmation')
+              .error= resource.errors['password_confirmation'].first
+          #left
+            .field
+              = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
+              = render 'shared/recaptcha'
+              .error= resource.errors['recaptcha'].first
+          #right
+            .field
+              .checkbox= f.check_box :rules_and_regulations
+              .label= simple_format I18n.t('register.form.rules_and_regulations')
+              %br
+              .checkbox= f.check_box :opt_in
+              .label= simple_format I18n.t('register.form.opt_in')
+
+          .field
+            = f.submit I18n.t('register.form.submit')
+    #main_narrow_right
+      = image_tag('milk_carton.png')

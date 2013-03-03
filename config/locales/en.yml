@@ -1,0 +1,221 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  navigation:
+    header:
+      challenges: 'CHALLENGES'
+      contest_prizes: 'CONTEST PRIZES'
+      rules: 'HOW TO PLAY'
+      french: 'FRANCAIS'
+    footer:
+      terms_of_use: 'Terms of Use'
+      rules: 'Rules and Regulations'
+      privacy_policy: 'Privacy Policy'
+      contact: 'Contact Us'
+      french: 'Francais'
+      trademarks: '© Parmalat 2013 Trademarks owned or used under licence by Parmalat Canada, Toronto, ON, M9C 5J1'
+
+  login:
+    header: 'LOGIN'
+    register_link: 'Register'
+    forgot_password: 'Forgot Password'
+    logged_in:
+      header: 'LOGIN'
+      log_out: '[ Logout ]'
+    reset_password:
+      header: 'FORGOTTEN PASSWORD'
+      instructions: |
+        Please enter your email
+        and we will send you a link
+        to reset your password.
+      back_to_login: 'back to login'
+      submit: 'SEND'
+      thank_you:
+        header: 'FORGOTTEN PASSWORD'
+        sub_header: 'Almost there!'
+        instructions: |
+          Lactancia Purmoments has just
+          sent you an email to reset your
+          password.
+
+          If you don't receive an email from
+          us within a few minutes, please
+          be sure to check your spam filter,
+          the email will be coming from
+          lactanciapurmoments.ca
+        back_to_home: 'GO TO HOME PAGE'
+
+  register:
+    header: 'REGISTRATION'
+    form:
+      first_name: 'First Name'
+      last_name: 'Last Name'
+      email: 'Email'
+      gender: 'Are you'
+      date_of_birth: 'Year of Birth'
+      mailing_address: 'Mailing Address'
+      city: 'City'
+      province: 'Province'
+      province_options:
+        item1:
+          option: 'AB'
+          value: 'AB'
+        item2:
+          option: 'BC'
+          value: 'BC'
+        item3:
+          option: 'MB'
+          value: 'MB'
+        item4:
+          option: 'NB'
+          value: 'NB'
+        item5:
+          option: 'NL'
+          value: 'NL'
+        item6:
+          option: 'NT'
+          value: 'NT'
+        item7:
+          option: 'NS'
+          value: 'NS'
+        item8:
+          option: 'NU'
+          value: 'NU'
+        item9:
+          option: 'ON'
+          value: 'ON'
+        item10:
+          option: 'PE'
+          value: 'PE'
+        item11:
+          option: 'QC'
+          value: 'QC'
+        item12:
+          option: 'SK'
+          value: 'SK'
+        item13:
+          option: 'YT'
+          value: 'YT'
+      password: 'Password'
+      password_confirmation: 'Password Confirmation'
+      rules_and_regulations: |
+        I accept the official contest rules and regulations
+      opt_in: |
+        I would like to receive more information about
+        <i>Lactantia</i> and <i>Lactantia PurFiltre</i> milk.
+      submit: 'SUBMIT REGISTRATION'
+      prompt:
+        first_name: '* Please enter your first name'
+        last_name: '* Please enter your last name'
+        email: '* Please enter your email address'
+        mailing_address: '* Please enter your address'
+        city: '* Please enter your city'
+        password: '* Please enter your password'
+        password_confirmation: '* Please confirm your password'
+
+  landing:
+    main_copy: |
+      Win milk for life and create everlasting
+      PurMoments with Lactantia!
+      Make every day special with Lactantia
+      PurFiltre milk, forever. Its pure, creamy taste
+      that stays fresher longer makes every sip a
+      delightful PurMoment.
+    challenge_tagline: 'TAKE THE 6 CHALLENGES FOR YOUR CHANCE TO WIN!'
+    landing_prizes:
+      milk_bags:
+        header: 'THE GRAND PRIZE'
+        copy: |
+          FREE Lactantia Purfiltre milk
+          FOR LIFE!*
+      bay:
+        header: 'WEEKLY PRIZES'
+        copy: |
+          FREE Lactantia PurFiltre milk
+          for a year or $150 Hudson’s Bay
+          gift cards.
+      ipad:
+        header: 'VISIT OUR FACEBOOK PAGE'
+        copy: |
+          LIKE us on Facebook for a
+          chance to win a Samsung
+          Galaxy Tab 2! **
+    fine_print:
+      one: |
+        †  Purer and creamier than regular
+           pasteurized milk
+      two: |
+        *   For the purpose of this Contest,
+            “LIFE” is considered to be 25 years.
+      three: |
+        **  Galaxy Tab 2 is a registered
+        trademark of Samsung Electronics
+        Canada Inc. Samsung is not a
+        sponsor of, nor participant in,
+        this promotion.
+
+
+  rules:
+    header: 'HOW TO PLAY'
+
+    directions: |
+     Click START to take your first challenge.  Once the challenge is successfully
+     completed you are automatically entered in the weekly draws.  A new challenge
+     is presented every two weeks during the contest period.<br />
+     <b>You must successfully complete all six (6) challenges to be entered in the
+     Grand Prize draw.</b><br />
+     Winners of a Weekly Prize remain elegible for the Grand Prize, provided they
+     successfully complete all <b>six (6) challenges</b> and comply with all other
+     requirements stated in the Official Rules and Regulations.
+     Limit 1 weekly prize per person, per household.
+
+    challenge_one:
+      header: 'CHALLENGE 1'
+      copy: 'Active March 25, 2013'
+    challenge_two:
+      header: 'CHALLENGE 2'
+      copy: 'Active April 8, 2013'
+    challenge_three:
+      header: 'CHALLENGE 3'
+      copy: 'Active April 22, 2013'
+    challenge_four:
+      header: 'CHALLENGE 4'
+      copy: 'Active May 6, 2013'
+    challenge_five:
+      header: 'CHALLENGE 5'
+      copy: 'Active May 20, 2013'
+    challenge_six:
+      header: 'CHALLENGE 6'
+      copy: 'Active June 3, 2013'
+
+  prizes:
+    header: 'CONTEST PRIZES'
+    grand_prize: |
+     <b>Grand Prize: Free Milk For Life!*</b>
+     Complete all six Lactancia PurMoments Challenges to be elegible for one of two grand prizes
+     (one in Ontario and one in Quebec) of <b>FREE MILK FOR LIFE!*</b>
+    weekly_prize_header: WEEKLY PRIZES
+    weekly_prize: |
+      <b>FREE MILK FOR A YEAR!</b> Participating in each new challenge makes you elegible to win
+      1 of 24 weekly prizes of free Lactancia Purfiltre milk for a year.<br />
+      <b>$150 HUDSON'S BAY GIFT CARDS!</b> By participating in each new challenge, you will also be
+      elegible to win 1 of 24 weekly prizes of a $150 Hudson's Bay gift card to purchase items of
+      your choice at The Bay or Home Outfitters.<br />
+      <b>LIKE US ON FACEBOOK FOR A CHANCE TO WIN A SAMSUNG GALAXY TAB 2!**</b>
+      Take our Facebook PurMoments Word of the day challenge for a chance to win one of 24
+      weekly prizes of a <b>Samsung Galaxy Tab 2** 10.1" 16GB tablet!</b><br /><br />
+
+    note: '*  For the purpose of this contest, "LIFE" is considered to be 25 years.'
+    note_two: '**  Galaxy Tab 2 is a registered trademark of Samsung Electronics Canada Inc. Samsung is not a sponsor of, nor participant in, this promotion.'
+
+  contact:
+    header: 'CONTACT US'
+    copy: |
+      Do you have a question, concern or comment about this contest?
+      Send our team an email, and we will get back to you as soon as we can!
+    form:
+      first_name: 'First Name'
+      last_name: 'Last Name'
+      subject: 'Subject'
+      message: 'Message'

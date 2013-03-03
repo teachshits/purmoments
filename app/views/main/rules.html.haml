@@ -1,0 +1,30 @@
+#main_narrow
+	#main_narrow_container
+		#main_narrow_left
+			#rules
+				%h1= t('rules.header')
+				%p
+					= simple_format t('rules.directions')
+				.row-fluid
+					.span17
+						%h4= t('rules.challenge_one.header')
+						= t('rules.challenge_one.copy')
+
+						%h4= t('rules.challenge_two.header')
+						= t('rules.challenge_two.copy')
+
+					.span17
+						%h4= t('rules.challenge_three.header')
+						= t('rules.challenge_three.copy')
+
+						%h4= t('rules.challenge_four.header')
+						= t('rules.challenge_four.copy')
+
+					.span17
+						%h4= t('rules.challenge_five.header')
+						= t('rules.challenge_five.copy')
+
+						%h4= t('rules.challenge_six.header')
+						= t('rules.challenge_six.copy')
+		#main_narrow_right
+			= image_tag('milk_carton.png')

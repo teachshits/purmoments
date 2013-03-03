@@ -1,0 +1,39 @@
+- if user_signed_in?
+  #login
+    #login_form
+      .row
+        .span12
+          #login_header
+            = t('login.logged_in.header')
+          = "#{current_user.first_name} #{current_user.last_name}"
+          %br
+          = link_to I18n.t('login.logged_in.log_out'), ajo_register.destroy_user_session_path, :method => :delete
+- elsif params[:reset] == 'true'
+  #login.reset
+    #login_form
+      .row
+        .span12
+          #login_header.forgotten
+            = t('login.reset_password.header')
+          #login_reset_instructions
+            = simple_format t('login.reset_password.instructions')
+
+          = form_for "user", :url => ajo_register.user_password_path, :html => { :method => :post } do |f|
+            = f.text_field :email, :placeholder => 'Email Address'
+            = f.submit I18n.t('login.reset_password.submit')
+
+          = link_to I18n.t('login.reset_password.back_to_login'), '?reset=false'
+-else
+  #login
+    #login_form
+      .row
+        .span12
+          #login_header= t('login.header')
+          = form_for "user", :url => ajo_register.user_session_path do |f|
+            = f.text_field :email, :placeholder => 'email'
+            %br
+            = f.password_field :password, :placeholder => 'password'
+          #login_links
+            = link_to I18n.t('login.register_link'), ajo_register.new_user_registration_path
+            = '/'
+            = link_to I18n.t('login.forgot_password'), '?reset=true'

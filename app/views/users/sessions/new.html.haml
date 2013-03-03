@@ -1,0 +1,9 @@
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      %h1= t('login.reset_password.thank_you.header')
+      %h1= t('login.reset_password.thank_you.sub_header')
+      %p= t('login.reset_password.thank_you.instructions')
+      = link_to I18n.t('login.reset_password.thank_you.back_to_home'), root_path
+    #main_narrow_right
+      = image_tag('milk_carton.png')

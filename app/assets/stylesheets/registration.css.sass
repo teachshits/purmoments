@@ -1,0 +1,92 @@
+#registration
+  h1
+    font-size: 26px
+    font-weight: normal
+    color: #e51937
+  .field
+    margin-bottom: 10px
+    height: 50px
+
+  #left, #right
+    float: left
+    width:  330px
+  select
+    -webkit-appearance: none
+    border:  1px solid #CCCCCC
+    color:  #999999
+    font-size:  12px
+    padding: 7px
+    +border-radius(3px)
+    width:  315px
+    background: URL('select_arrow.jpg') no-repeat 290px
+  #mini
+    float: left
+    width: 150px
+    .field.mini.select
+      margin-left: 40px
+    select
+      width:  120px
+      -webkit-appearance: none
+      background: URL('select_arrow.jpg') no-repeat 97px
+  input[type=text], input[type=password]
+    padding:  7px
+    width: 298px
+    +border-radius(3px)
+    color:  #666666
+    font-size: 12px
+
+  #full
+    width: 635px
+    input[type=text]
+      width: 628px
+  label
+    color: #666666
+    font-size: 13px
+  .radio
+    margin-top: 4px
+    display: inline-block
+  .radio_label
+    margin-right: 12px
+    margin-left: 2px
+    height: 12px
+    padding-top: 0px
+    display: inline-block
+    font-size:  12px
+    label
+      color: #AAAAAA
+  .checkbox
+    float: left
+    width:  15px
+  .label
+    float: left
+    font-size: 11px
+    color: #999999
+    width: 310px
+    line-height: 16px
+    margin-left: 2px
+    p
+      margin-top: 3px
+      margin-bottom: 0px
+  input[type="checkbox"]
+    -webkit-appearance: radio
+    -moz-appearance: radio
+    -ms-appearance: radio     /* not currently supported */
+    -o-appearance: radio      /* not currently supported */
+  input[type=submit]
+    width: 311px
+    height: 31px
+    margin-top: 14px
+    padding: 4px
+    -webkit-appearance: none
+    -moz-appearance: none
+    background: URL('sign_up_button.png')
+    border: none
+    font-size: 16px
+    color:  #FFF
+  input[type=submit]:hover
+    background: URL('sign_up_button.png') 0px -31px no-repeat
+  #recaptcha_widget
+    width: 312px
+
+  #recaptcha_response_field
+    margin-top: 8px

@@ -1,0 +1,17 @@
+#main_narrow
+	#main_narrow_container
+		#main_narrow_left
+			#prizes_header
+				%h1= t('prizes.header')
+			#prizes_copy
+				%p= simple_format t('prizes.grand_prize')
+
+				%h4= t('prizes.weekly_prize_header')
+
+				%p= simple_format t('prizes.weekly_prize')
+
+				%p= t('prizes.note')
+
+				%p= t('prizes.note_two')
+		#main_narrow_right
+			= image_tag('milk_carton.png')
