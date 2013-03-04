@@ -5,34 +5,28 @@
     = simple_format t "contact.copy"
   = form_for @message, :url => contact_index_path do |f|
     .row-fluid
-      .span24
+      #left
         .field
           = f.label I18n.t('contact.form.first_name')
           %br
-          = f.text_field :first_name
-          .error= @message.errors['first_name'].first
-      .span1
-      .span24
+          = f.text_field :first_name, :placeholder => I18n.t('contact.form.prompt.first_name')
+      #right
         .field
           = f.label I18n.t('contact.form.last_name')
           %br
-          = f.text_field :last_name
-          .error= @message.errors['last_name'].first
-    .row-fluid
-      .span48
-        .field
-          = f.label I18n.t('contact.form.email_address')
-          %br
-          .wide
-            = f.text_field :email_address
-          .error= @message.errors['email_address'].first
-    .row-fluid
-      .span48
-        .field
-          = f.label I18n.t('contact.form.subject')
-          %br
-          = f.select :subject, I18n.t('contact.form.subject_options').map{|key, value| [value[:option], value[:value]]}
-          .error= @message.errors['subject'].first
+          = f.text_field :last_name, :placeholder => I18n.t('contact.form.prompt.last_name')
+    #full
+      .field
+        = f.label I18n.t('contact.form.email_address')
+        %br
+        .wide
+          = f.text_field :email_address, :placeholder => I18n.t('contact.form.prompt.email_address')
+    #full
+      .field
+        = f.label I18n.t('contact.form.subject')
+        %br
+        = f.select :subject, I18n.t('contact.form.subject_options').map{|key, value| [value[:option], value[:value]]}
+        .error= @message.errors['subject'].first
     .row-fluid
       .span48
         .field
@@ -42,10 +36,12 @@
           .error= @message.errors['message'].first
 
     .row-fluid
-      .span22
+      #left
         .field
           = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
-          = render 'shared/recaptcha'
+          = render 'shared/recaptcha_contact'
           .error= @message.errors['recaptcha'].first
-
-    = f.submit I18n.t('helpers.submit')
+      #right
+        .field
+          %input#recaptcha_response_field{:name => "recaptcha_response_field", :type => "text", :placeholder => I18n.t('register.form.prompt.recaptcha')}
+        = f.submit I18n.t('contact.form.submit')

@@ -26,7 +26,7 @@
             .landing_prizes_header
               = t('landing.landing_prizes.ipad.header')
             .landing_prizes_copy
-            = simple_format t('landing.landing_prizes.ipad.copy')
+              = simple_format t('landing.landing_prizes.ipad.copy')
     #main_narrow_right
       #progress_chart
         .row-fluid
@@ -37,37 +37,43 @@
                 .shield
                   1
               .span29
-                CHALLENGE COMPLETED
+                #challenge_text= t('challenges.progress.challenge_completed')
+                #challenge_date= t('challenges.dates.challenge_one')
             #step_two.active.row-fluid
               .span18
                 .shield
                   2
               .span29
-                CHALLENGE ACTIVE
+                #challenge_text= t('challenges.progress.challenge_active')
+                #challenge_date= t('challenges.dates.challenge_two')
             #step_three.inactive.row-fluid
               .span18
                 .shield
                   3
-              .span18
-                CHALLENGE ACTIVE
+              .span29
+                #challenge_text= t('challenges.progress.challenge_active')
+                #challenge_date= t('challenges.dates.challenge_three')
             #step_four.inactive.row-fluid
               .span18
                 .shield
                   4
-              .span18
-                CHALLENGE ACTIVE
+              .span29
+                #challenge_text= t('challenges.progress.challenge_active')
+                #challenge_date= t('challenges.dates.challenge_four')
             #step_five.inactive.row-fluid
               .span18
                 .shield
                   5
               .span29
-                CHALLENGE ACTIVE
+                #challenge_text= t('challenges.progress.challenge_active')
+                #challenge_date= t('challenges.dates.challenge_five')
             #step_six.inactive.row-fluid
               .span18
                 .shield
                   6
               .span29
-                CHALLENGE ACTIVE
+                #challenge_text= t('challenges.progress.challenge_active')
+                #challenge_date= t('challenges.dates.challenge_six')
             #progress_copy
               = simple_format t('challenges.progress.copy')
             #progress_tagline

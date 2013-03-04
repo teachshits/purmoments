@@ -1,0 +1,14 @@
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #optin_header
+        %h1= t('double_optin.opted_in.thank_you.header')
+      #optin_copy
+        #confirmation_copy
+          %h2= simple_format t('double_optin.opted_in.thank_you.subheader')
+          = simple_format t('double_optin.opted_in.thank_you.copy')
+          = link_to challenges_path do
+            #proceed_button
+              = I18n.t('double_optin.opted_out.button')
+    #main_narrow_right
+      = image_tag('milk_carton.png')

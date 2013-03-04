@@ -1,0 +1,36 @@
+- if current_user.opt_in == true
+  #main_narrow
+    #main_narrow_container
+      #main_narrow_left
+        #optin_header
+          %h1= t('double_optin.opted_in.header')
+        #optin_copy
+          #confirmation_copy
+            %h2= simple_format t('double_optin.opted_in.subheader')
+            = simple_format t('double_optin.opted_in.copy')
+          = link_to confirm_opt_in_path(current_user) do
+            #proceed_button
+              = I18n.t('double_optin.opted_in.confirm_button')
+          = link_to opt_out_path(current_user) do
+            #proceed_button
+              = I18n.t('double_optin.opted_in.no_thanks_button')
+
+
+
+      #main_narrow_right
+        = image_tag('milk_carton.png')
+- else
+  #main_narrow
+    #main_narrow_container
+      #main_narrow_left
+        #optin_header
+          %h1= t('double_optin.opted_out.header')
+        #optin_copy
+          #confirmation_copy
+            %h2= simple_format t('double_optin.opted_out.subheader')
+            = simple_format t('double_optin.opted_out.copy')
+            = link_to challenges_path do
+              #proceed_button
+                = I18n.t('double_optin.opted_out.button')
+      #main_narrow_right
+        = image_tag('milk_carton.png')

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130303010508) do
+ActiveRecord::Schema.define(:version => 20130304214010) do
 
   create_table "ajo_contact_messages", :force => true do |t|
     t.string   "first_name"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20130303010508) do
     t.date     "date_of_birth"
     t.boolean  "rules_and_regulations"
     t.boolean  "opt_in"
+    t.boolean  "opt_in_confirmed"
     t.boolean  "age_of_consent"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false

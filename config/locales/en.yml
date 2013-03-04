@@ -29,7 +29,7 @@ en:
         Please enter your email
         and we will send you a link
         to reset your password.
-      back_to_login: 'back to login'
+      back_to_login: 'Back to Login'
       submit: 'SEND'
       thank_you:
         header: 'FORGOTTEN PASSWORD'
@@ -58,6 +58,9 @@ en:
       city: 'City'
       province: 'Province'
       province_options:
+        item0:
+          option: '* Select'
+          value: ''
         item1:
           option: 'AB'
           value: 'AB'
@@ -113,11 +116,64 @@ en:
         city: '* Please enter your city'
         password: '* Please enter your password'
         password_confirmation: '* Please confirm your password'
+        recaptcha: '* Enter the above letters'
+
+  double_optin:
+    opted_in:
+      header: 'ACCOUNT ACTIVATION'
+      subheader: |
+        Thanks for
+        signing up!
+      copy: |
+        You have chosen to be sent
+        emails from Lactantia
+        PurMoments. If you would like
+        to be part of our mailing list,
+        please click confirm.
+      confirm_button: 'CONFIRM'
+      no_thanks_button: 'NO THANKS'
+      thank_you:
+        header: 'ACTIVATION COMPLETE'
+        subheader: |
+          Thanks for
+          signing up!
+        copy: |
+          You’ve been added to the
+          Lactantia PurMoments mailing
+          list! Everytime there is a new
+          PurMoment event, we’ll let
+          you know.
+
+    opted_out:
+      header: |
+        ACTIVATION COMPLETE
+      subheader: |
+        Thanks for
+        Registering!
+      copy: |
+        You have chosen not to be
+        sent emails from Lactantia
+        PurMoments. Click below to
+        take your first PurMoments
+        Challenge!
+      button: 'PROCEED'
+      thank_you:
+        header: |
+          ACTIVATION COMPLETE
+        subheader: |
+          Thanks for
+          registering!
+        copy: |
+          You have chosen not to be
+          sent emails from Lactantia
+          PurMoments. Click below to
+          take your first PurMoments
+          Challenge!
 
   landing:
     main_copy: |
-      Win milk for life and create everlasting
-      PurMoments with Lactantia!
+      <b>Win milk for life and create everlasting
+      PurMoments with Lactantia!</b>
       Make every day special with Lactantia
       PurFiltre milk, forever. Its pure, creamy taste
       that stays fresher longer makes every sip a
@@ -143,17 +199,17 @@ en:
           Galaxy Tab 2! **
     fine_print:
       one: |
-        †  Purer and creamier than regular
-           pasteurized milk
+        †&nbsp&nbsp&nbspPurer and creamier than regular
+        &nbsp&nbsp&nbsp&nbsppasteurized milk
       two: |
-        *   For the purpose of this Contest,
-            “LIFE” is considered to be 25 years.
+        *&nbsp&nbsp&nbspFor the purpose of this Contest,
+        &nbsp&nbsp&nbsp&nbsp“LIFE” is considered to be 25 years.
       three: |
         **  Galaxy Tab 2 is a registered
-        trademark of Samsung Electronics
-        Canada Inc. Samsung is not a
-        sponsor of, nor participant in,
-        this promotion.
+        &nbsp&nbsp&nbsp&nbsptrademark of Samsung Electronics
+        &nbsp&nbsp&nbsp&nbspCanada Inc. Samsung is not a
+        &nbsp&nbsp&nbsp&nbspsponsor of, nor participant in,
+        &nbsp&nbsp&nbsp&nbspthis promotion.
 
 
   rules:
@@ -192,7 +248,7 @@ en:
   prizes:
     header: 'CONTEST PRIZES'
     grand_prize: |
-     <b>Grand Prize: Free Milk For Life!*</b>
+     <b class="head">GRAND PRIZE: FREE MILK FOR LIFE!*</b>
      Complete all six Lactancia PurMoments Challenges to be elegible for one of two grand prizes
      (one in Ontario and one in Quebec) of <b>FREE MILK FOR LIFE!*</b>
     weekly_prize_header: WEEKLY PRIZES
@@ -206,8 +262,11 @@ en:
       Take our Facebook PurMoments Word of the day challenge for a chance to win one of 24
       weekly prizes of a <b>Samsung Galaxy Tab 2** 10.1" 16GB tablet!</b><br /><br />
 
-    note: '*  For the purpose of this contest, "LIFE" is considered to be 25 years.'
-    note_two: '**  Galaxy Tab 2 is a registered trademark of Samsung Electronics Canada Inc. Samsung is not a sponsor of, nor participant in, this promotion.'
+    note: |
+     *&nbsp&nbsp&nbsp&nbspFor the purpose of this contest, "LIFE" is considered to be 25 years.'
+    note_two: |
+     **&nbsp&nbspGalaxy Tab 2 is a registered trademark of Samsung Electronics Canada Inc. Samsung is not a sponsor of,
+     &nbsp&nbsp&nbsp&nbsp&nbspnor participant in, this promotion.
 
   challenges:
     index:
@@ -222,8 +281,33 @@ en:
         ORDER TO QUALIFY FOR
         A CHANCE TO...
       tagline: |
-        Win Milk
-        For Life!
+        Win milk
+        for life!
+      challenge_active: 'CHALLENGE ACTIVE'
+      challenge_completed: 'CHALLENGE COMPLETED'
+    dates:
+      challenge_one: 'March 25, 2013'
+      challenge_two: 'April 8, 2013'
+      challenge_three: 'April 22, 2013'
+      challenge_four: 'May 6, 2013'
+      challenge_five: 'May 20, 2013'
+      challenge_six: 'June 3, 2013'
+    intro:
+     challenge_one: 'CHALLENGE #1'
+     challenge_two: 'CHALLENGE #2'
+     challenge_three: 'CHALLENGE #3'
+     challenge_four: 'CHALLENGE #4'
+     challenge_five: 'CHALLENGE #5'
+     challenge_six: 'CHALLENGE #6'
+    contest_name:
+      challenge_one: |
+        Find the PurMoment
+        Differences.
+      challenge_two: |
+        PurMoment
+        Milk Quiz.
+    start_button: |
+      START CHALLENGE
 
   contact:
     header: 'CONTACT US'
@@ -235,3 +319,8 @@ en:
       last_name: 'Last Name'
       subject: 'Subject'
       message: 'Message'
+      submit: 'SEND'
+      prompt:
+        first_name: '* Please enter your first name'
+        last_name: '* Please enter your last name'
+        email_address: '* Please enter your email address'

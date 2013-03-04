@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-# Add new inflection rules using the following format
+# Add new inflection how_to_play using the following format
 # (all these examples are active by default):
 # ActiveSupport::Inflector.inflections do |inflect|
 #   inflect.plural /^(ox)$/i, '\1en'
@@ -9,7 +9,7 @@
 #   inflect.uncountable %w( fish sheep )
 # end
 #
-# These inflection rules are supported but not enabled by default:
+# These inflection how_to_play are supported but not enabled by default:
 # ActiveSupport::Inflector.inflections do |inflect|
 #   inflect.acronym 'RESTful'
 # end
