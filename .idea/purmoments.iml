@@ -43,6 +43,7 @@
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.2.1, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, RVM: ruby-1.9.2-p180) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kgio (v2.7.4, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.21, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.6.1, RVM: ruby-1.9.2-p180) [gem]" level="application" />
@@ -55,6 +56,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.2.12, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.12, RVM: ruby-1.9.2-p180) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="raindrops (v0.10.0, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.3, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="recaptcha (v0.3.5, RVM: ruby-1.9.2-p180) [gem]" level="application" />
@@ -67,6 +69,7 @@
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.36, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v1.3.0, RVM: ruby-1.9.2-p180) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unicorn (v4.3.1, RVM: ruby-1.9.2-p180) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, RVM: ruby-1.9.2-p180) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
