@@ -117,6 +117,20 @@ en:
         password: '* Please enter your password'
         password_confirmation: '* Please confirm your password'
         recaptcha: '* Enter the above letters'
+    thank_you:
+      header: 'ACCOUNT ACTIVATION'
+      subheader: 'Almost there!'
+      copy: |
+        Lactantia PurMoments has just
+        sent you an email to activate
+        your account.
+
+        If you don’t receive an email from
+        us within a few minutes, please
+        be sure to check your spam filter,
+        the email will be coming from
+        <b>lactantiapurmoments.ca</b>
+      back_to_home: 'GO TO HOME PAGE'
 
   double_optin:
     opted_in:
@@ -299,6 +313,78 @@ en:
      challenge_four: 'CHALLENGE #4'
      challenge_five: 'CHALLENGE #5'
      challenge_six: 'CHALLENGE #6'
+     gameplay:
+       header:
+         challenge_one: 'PUT YOUR OBSERVATION TO THE TEST'
+         challenge_two: 'HOW MUCH DO YO KNOW ABOUT MILK?'
+         challenge_three: 'TEST YOUR MEMORY SKILLS'
+         challenge_four: 'CAN YOU FOCUS ON THE LETTERS THAT FORM A WORD?'
+         challenge_five: 'CAN YOU RECREATE THE SCENE?'
+         challenge_six: 'UNSCRAMBLE THE LETTERS AND UNCOVER THE SECRET WORD!'
+       copy:
+         challenge_one: |
+           5 items in the picture on the right are different from the original. Click on each of them until you've
+           spotted them all, then click on submit. NOTE TO PARMALAT: FINAL TEXT TO BE CONFIRMED
+           AFTER GAMEPLAY DEVELOPED BY BLUEBAND MEDIA.
+         challenge_two: |
+           Answer the following 5 questions by checking the box of your choice, then clicking on submit. But
+           choose carefully: every mistake you make will be a strike against you. Five strikes, and you're out!
+           NOTE TO PARMALAT: FINAL TEXT TO BE CONFIRMED AFTER GAMEPLAY DEVELOPED BY
+           BLUEBAND MEDIA.
+         challenge_three: |
+           Find the matching PurMoments on the grid. But make it quick: you have XX seconds to do it, and
+           the countdown starts when you click on the start button! NOTE TO PARMALAT: FINAL TEXT TO
+           BE CONFIRMED AFTER GAMEPLAY DEVELOPED BY BLUEBAND MEDIA.
+         challenge_four: |
+           Find the hidden words in the following grid. But make it quick: you have XX seconds to do it, and
+           the countdown starts when you click on the button! NOTE TO PARMALAT: FINAL TEXT TO BE
+           CONFIRMED AFTER GAMEPLAY DEVELOPED BY BLUEBAND MEDIA.
+         challenge_five: |
+           Move the jumbled pieces of the picture to uncover the PurMoment shared by this family. But make
+           it quick: you have XX seconds to do it, and the countdown starts when you click on the start
+           button! NOTE TO PARMALAT: FINAL TEXT TO BE CONFIRMED AFTER GAMEPLAY DEVELOPED
+           BY BLUEBAND MEDIA.
+         challenge_six: |
+           Put the letters in the right order to reveal the words, then click on submit. But make it quick: you
+           have XX seconds to do it, and the countdown starts when you click on the start button! NOTE TO
+           PARMALAT: FINAL TEXT TO BE CONFIRMED AFTER GAMEPLAY DEVELOPED BY BLUEBAND
+           MEDIA.
+     gamenote:
+       header: 'PLAY TO WIN!'
+       copy: |
+         Each new challenge you
+         complete enters you in the
+         draw for one of our weekly
+         prizes. Complete all 6 for a
+         chance to win the Grand Prize!
+    completed:
+      header: 'CHALLENGE COMPLETED!'
+      tagline: 'CLICK LIKE AND TAKE THE CHALLENGE'
+      subtagline: 'DISCOVER HOW YOU COULD WIN AMAZING ADDITIONAL PRIZES!'
+      subheader: |
+        You could win
+        a Samsung
+        Galaxy Tab 2!<span id="asterix">**</span>
+    landing_prizes:
+      milk_bags:
+        header: 'THE NEXT CHALLENGE'
+        copy: |
+          The next challenge will be unlocked
+          April XX.
+      bay:
+        header: 'SHARE ONLINE'
+        copy: |
+          Share via Facebook, Twitter or by
+          email to receive an additional entry
+          into the weekly draw.
+      ipad:
+        header: 'VISIT OUR FACEBOOK PAGE'
+        copy: |
+          Visit the Lactantia Facebook page
+          to uncover the Word of the Day for
+          a chance to win a Samsung Galaxy
+          Tab 2!**
+
     contest_name:
       challenge_one: |
         Find the PurMoment
@@ -324,3 +410,7 @@ en:
         first_name: '* Please enter your first name'
         last_name: '* Please enter your last name'
         email_address: '* Please enter your email address'
+    thank_you_copy: |
+      THANK YOU! We have received your message and will get back to you as soon as possible.
+      For additional information, visit us at Lactancia.ca
+    go_to_home: 'GO TO HOME PAGE'

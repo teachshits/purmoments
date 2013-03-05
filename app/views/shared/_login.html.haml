@@ -5,9 +5,11 @@
         .span12
           #login_header
             = t('login.logged_in.header')
-          = "#{current_user.first_name} #{current_user.last_name}"
+          #current_user
+            = "#{current_user.first_name} #{current_user.last_name}"
           %br
-          = link_to I18n.t('login.logged_in.log_out'), ajo_register.destroy_user_session_path, :method => :delete
+          #logout_link
+            = link_to I18n.t('login.logged_in.log_out'), ajo_register.destroy_user_session_path, :method => :delete
 - elsif params[:reset] == 'true'
   #login.reset
     #login_form
@@ -33,6 +35,7 @@
             = f.text_field :email, :placeholder => 'email'
             %br
             = f.password_field :password, :placeholder => 'password'
+            = f.submit 'Submit', :id => 'login_submit_button'
           #login_links
             = link_to I18n.t('login.register_link'), ajo_register.new_user_registration_path
             = '/'

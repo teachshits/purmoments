@@ -1,1 +1,14 @@
-%h1 Gee thanks
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #contact_page
+        #contact_header
+          %h1= t('contact.header')
+        #contact_copy
+          = simple_format t('contact.thank_you_copy')
+          = link_to main_app.root_path do
+            #back_to_home_button
+              = I18n.t('contact.go_to_home')
+
+    #main_narrow_right
+      = image_tag('milk_carton.png')

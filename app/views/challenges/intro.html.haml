@@ -1,0 +1,20 @@
+#main_wide
+  #main_wide_container
+    .challenge_container{:id => "challenge_#{@challenge}_container"}
+      .row
+        #main_wide_left
+          #challenge_intro_copy
+            = t("challenges.intro.challenge_#{@challenge}")
+            %h2= simple_format t("challenges.contest_name.challenge_#{@challenge}")
+            = link_to play_challenge_path(params[:id]) do
+              #start_challenge_button
+                = t('challenges.start_button')
+        #main_wide_right
+          = image_tag('milk_carton.png')
+      .row
+        #game_play
+          #game_play_header= t("challenges.intro.gameplay.header.challenge_#{@challenge}")
+          #game_play_copy= simple_format t("challenges.intro.gameplay.copy.challenge_#{@challenge}")
+        #game_note
+          #game_note_header= t("challenges.intro.gamenote.header")
+          #game_note_copy= simple_format t("challenges.intro.gamenote.copy")

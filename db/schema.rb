@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130304214010) do
+ActiveRecord::Schema.define(:version => 20130305041225) do
 
   create_table "ajo_contact_messages", :force => true do |t|
     t.string   "first_name"
@@ -55,5 +55,13 @@ ActiveRecord::Schema.define(:version => 20130304214010) do
 
   add_index "ajo_register_users", ["confirmation_token"], :name => "index_ajo_register_users_on_confirmation_token", :unique => true
   add_index "ajo_register_users", ["reset_password_token"], :name => "index_ajo_register_users_on_reset_password_token", :unique => true
+
+  create_table "entries", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "challenge_id"
+    t.string   "entry_code"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
 end

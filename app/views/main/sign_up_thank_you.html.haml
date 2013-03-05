@@ -1,0 +1,14 @@
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #optin_header
+        %h1= t('register.thank_you.header')
+      #optin_copy
+        #confirmation_copy.sign_up_thank_you
+          %h2= simple_format t('register.thank_you.subheader')
+          = simple_format t('register.thank_you.copy')
+          = link_to main_app.root_path do
+            #back_to_home_button
+              = I18n.t('register.thank_you.back_to_home')
+    #main_narrow_right
+      = image_tag('milk_carton.png')

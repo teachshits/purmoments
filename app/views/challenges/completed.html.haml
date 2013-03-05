@@ -2,35 +2,34 @@
   #main_narrow_container
     #main_narrow_left
       #challenges_header
-        %h1= t('challenges.index.header')
-      #challenges_copy
-        #next_challenge_copy
-          %h2= simple_format t('challenges.index.next_challenge_header')
-          - if current_user
-            = link_to challenge_intro_path(@latest_challenge + 1) do
-              #click_here_to_get_started
-          - else
-            = link_to ajo_register.new_user_registration_path do
-              #click_here_to_get_started
-        %ul#landing_prizes
-          %li.bordered
-            = image_tag('milk_bags.png')
-            .landing_prizes_header.left
-              = t('landing.landing_prizes.milk_bags.header')
-            .landing_prizes_copy.left
-              = simple_format t('landing.landing_prizes.milk_bags.copy')
-          %li.bordered
-            = image_tag('bay_card.png')
-            .landing_prizes_header
-              = t('landing.landing_prizes.bay.header')
-            .landing_prizes_copy
-              = simple_format t('landing.landing_prizes.bay.copy')
-          %li
-            = image_tag('ipad.png')
-            .landing_prizes_header
-              = t('landing.landing_prizes.ipad.header')
-            .landing_prizes_copy
-              = simple_format t('landing.landing_prizes.ipad.copy')
+        %h1= t('challenges.completed.header')
+      #challenges_copy.completed
+        #next_challenge_copy.completed
+          #tagline= t('challenges.completed.tagline')
+          %h2
+            = simple_format t('challenges.completed.subheader')
+          #galaxy_tab= image_tag('galaxy_tab.png')
+          #challenge_tagline
+            = t('challenges.completed.subtagline')
+          %ul#landing_prizes
+            %li.bordered
+              = image_tag('milk_bags.png')
+              .landing_prizes_header.left
+                = t('challenges.landing_prizes.milk_bags.header')
+              .landing_prizes_copy.left
+                = simple_format t('challenges.landing_prizes.milk_bags.copy')
+            %li.bordered
+              = image_tag('landing_prize_social_share.jpg')
+              .landing_prizes_header
+                = t('challenges.landing_prizes.bay.header')
+              .landing_prizes_copy
+                = simple_format t('challenges.landing_prizes.bay.copy')
+            %li
+              = image_tag('ipad.png')
+              .landing_prizes_header
+                = t('challenges.landing_prizes.ipad.header')
+              .landing_prizes_copy
+                = simple_format t('challenges.landing_prizes.ipad.copy')
     #main_narrow_right
       #progress_chart
         .row-fluid
