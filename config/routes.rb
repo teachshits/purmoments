@@ -20,6 +20,8 @@ Purmoments::Application.routes.draw do
   match '/challenge/:id/play' => 'challenges#play', :as => 'play_challenge'
   match '/challenges_completed' => 'challenges#completed', :as => 'challenge_completed'
 
+  match '/facebook' => 'facebook#index', :as => 'facebook_root'
+
   mount AjoContact::Engine => '/contact'
   mount AjoRegister::Engine => '/'
 end
