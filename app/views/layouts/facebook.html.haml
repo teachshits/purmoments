@@ -10,31 +10,38 @@
     :javascript
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '465089766897235', // App ID
-          status     : true, // check login status
-          cookie     : true, // enable cookies to allow the server to access the session
-          xfbml      : true  // parse XFBML
+          appId     : '465089766897235',
+          channelUrl: 'http://purmoments.herokuapp.com/facebook/channel.html',
+          status    : true,
+          cookie    : true,
+          xfbml     : true
         });
-        isLoaded = true;
 
-        // Additional initialization code here
+        FB.getLoginStatus(function(response) {
+          if (response.status === 'connected') {
+            testAPI();
+          } else if (response.status === 'not_authorized') {
+            login();
+          } else {
+            login();
+          }
+        });
+
+        function testAPI() {
+            console.log('Welcome!  Fetching your information.... ');
+            FB.api('/me', function(response) {
+                console.log('Good to see you, ' + response.name + '.');
+            });
+        };
       };
 
-      function checkIfLoaded() {
-        if(isLoaded) console.log("LOADED!");
-        else console.log("NOT YET!");
-
-        return false;
-      }
-
-      // Load the SDK Asynchronously
-      (function(d){
-         var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement('script'); js.id = id; js.async = true;
-         js.src = "//connect.facebook.net/en_US/all.js";
-         ref.parentNode.insertBefore(js, ref);
-       }(document));
+      (function(d) {
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0]
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+      }(document));
 
 
     .container.facebook_container
@@ -57,11 +64,11 @@
           .row-fluid
             .span20
               %ul#footer
-                %li.left= link_to I18n.t('navigation.footer.terms_of_use')
-                %li= link_to I18n.t('navigation.footer.rules')
-                %li= link_to I18n.t('navigation.footer.privacy_policy')
+                %li.left= link_to I18n.t('navigation.footer.terms_of_use'), main_app.terms_of_use_path
+                %li= link_to I18n.t('navigation.footer.rules'), main_app.how_to_play_path
+                %li= link_to I18n.t('navigation.footer.privacy_policy'), main_app.privacy_policy_path
                 %li= link_to "www.lactantia.ca", 'http://www.lactantia.ca'
-                %li= link_to I18n.t('navigation.footer.contact')
+                %li= link_to I18n.t('navigation.footer.contact'), main_app.ajo_contact_path
                 %li.right= link_to I18n.t('navigation.footer.french')
               #footer_notes
                 = t('navigation.footer.trademarks')
