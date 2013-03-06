@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362477130466" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362541933053" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362542160460" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -103,7 +103,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362538871707" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362540416673" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362542811400" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -136,13 +136,13 @@
           <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="12" selection-start="311" selection-end="311" vertical-scroll-proportion="0.45882353">
+                <state line="52" column="49" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.6">
                   <folding>
-                    <element signature="e#1905#1945#0" expanded="true" />
-                    <element signature="e#2003#2036#0" expanded="true" />
-                    <element signature="e#2093#2135#0" expanded="true" />
-                    <element signature="e#2270#2305#0" expanded="true" />
-                    <element signature="e#2368#2402#1" expanded="true" />
+                    <element signature="e#1939#1979#0" expanded="true" />
+                    <element signature="e#2037#2070#0" expanded="true" />
+                    <element signature="e#2127#2169#0" expanded="true" />
+                    <element signature="e#2304#2339#0" expanded="true" />
+                    <element signature="e#2402#2436#1" expanded="true" />
                     <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -1191,7 +1191,11 @@
       <created>1362541936303</created>
       <updated>1362541936303</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix js init">
+      <created>1362542162190</created>
+      <updated>1362542162190</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1284,7 +1288,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml</url>
-          <line>51</line>
+          <line>52</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -1383,13 +1387,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="311" selection-end="311" vertical-scroll-proportion="0.45882353">
+        <state line="52" column="49" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.6">
           <folding>
-            <element signature="e#1905#1945#0" expanded="true" />
-            <element signature="e#2003#2036#0" expanded="true" />
-            <element signature="e#2093#2135#0" expanded="true" />
-            <element signature="e#2270#2305#0" expanded="true" />
-            <element signature="e#2368#2402#1" expanded="true" />
+            <element signature="e#1939#1979#0" expanded="true" />
+            <element signature="e#2037#2070#0" expanded="true" />
+            <element signature="e#2127#2169#0" expanded="true" />
+            <element signature="e#2304#2339#0" expanded="true" />
+            <element signature="e#2402#2436#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
         </state>
