@@ -29,7 +29,7 @@ Purmoments::Application.routes.draw do
   match '/facebook/share' => 'facebook#share', :as => 'facebook_share'
   match'/facebook/share_thank_you' => 'facebook#share_thank_you', :as => 'facebook_share_thank_you'
 
-  match '/facebook/channel' => 'facebook#channel', :as => 'facebook_channel'
+  match '/facebook/channel.html' => 'facebook#channel', :as => 'facebook_channel'
 
   mount AjoContact::Engine => '/contact'
   mount AjoRegister::Engine => '/'
