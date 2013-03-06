@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="add css">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-edc7f06d15c022ef0d0a84685036063e.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-edc7f06d15c022ef0d0a84685036063e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application-9a717ea62eac3463d689b2ba0a4e85b4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application-edc7f06d15c022ef0d0a84685036063e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application-edc7f06d15c022ef0d0a84685036063e.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-application.js.gz" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/facebook-application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/facebook.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/facebook-application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/facebook.css" />
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_app_container-9812e8a6347f6c57f474edcdb8343c52.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/facebook_app_container.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_background-568bc81d8a4cedf28df465620f444002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/fb_background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/facebook/facebook_app_container.png" afterPath="$PROJECT_DIR$/public/assets/facebook_app_container.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/facebook/fb_background.jpg" afterPath="$PROJECT_DIR$/public/assets/fb_background.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-edc7f06d15c022ef0d0a84685036063e.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-edc7f06d15c022ef0d0a84685036063e.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,7 +31,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362477130466" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532767570" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362533104834" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -158,7 +148,7 @@
           <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="38" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1764706">
+                <state line="13" column="64" selection-start="372" selection-end="372" vertical-scroll-proportion="0.45882353">
                   <folding />
                 </state>
               </provider>
@@ -234,7 +224,7 @@
           <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/application.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="3" selection-start="356" selection-end="356" vertical-scroll-proportion="0.25519848">
+                <state line="9" column="3" selection-start="356" selection-end="356" vertical-scroll-proportion="-0.81474483">
                   <folding />
                 </state>
               </provider>
@@ -853,32 +843,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="purmoments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="purmoments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -897,8 +861,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/images/facebook" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets/images/facebook" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
@@ -1440,7 +1404,11 @@
       <created>1362531762803</created>
       <updated>1362531762803</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add css">
+      <created>1362532799592</created>
+      <updated>1362532799593</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1626,14 +1594,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="356" selection-end="356" vertical-scroll-proportion="0.25519848">
+        <state line="9" column="3" selection-start="356" selection-end="356" vertical-scroll-proportion="-0.81474483">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1764706">
+        <state line="13" column="64" selection-start="372" selection-end="372" vertical-scroll-proportion="0.45882353">
           <folding />
         </state>
       </provider>
