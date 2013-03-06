@@ -33,10 +33,9 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
-                  $('.hidden').removeClass('hidden');
-                  $('.prelike').addClass('hidden');
+                  $('.prelike').removeClass('hidden');
                 } else {
-                  console.log('not liked');
+                  $('.postlike').addClass('hidden');
                 }
               }
             );
@@ -65,12 +64,12 @@
               = image_tag('facebook_logo.png')
               = image_tag('facebook_purmoments_logo.png')
         .span6
-          #prelike_ribbon.prelike
+          #prelike_ribbon.prelike.hidden
             #like_us_copy
               = simple_format I18n.t('facebook.prelike.like_us_copy')
             .prelike_ribbon
               = image_tag('prelike_ribbon.png')
-          #postlike_ribbon.hidden
+          #postlike_ribbon.postlike.hidden
             = simple_format I18n.t('facebook.postlike.ribbon')
 
       .row-fluid

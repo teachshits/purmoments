@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-2f67416e9d8655079a8de7f3f1bf8130.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-2f67416e9d8655079a8de7f3f1bf8130.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css" afterPath="$PROJECT_DIR$/public/assets/facebook.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/index.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -24,12 +24,12 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362552886908" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362553544431" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362553979773" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
     <file path="/prizes.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362375883219" ignored="false" />
-    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362553664144" ignored="false" />
+    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362554212898" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/views/layouts/page_templates/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988726092" ignored="false" />
     <file path="/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988508049" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/assets/stylesheets/main.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361993232526" ignored="false" />
@@ -110,7 +110,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362538871707" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362553204332" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362554246046" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -158,19 +158,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="101" selection-start="290" selection-end="290" vertical-scroll-proportion="0.44378698">
+                <state line="17" column="35" selection-start="601" selection-end="601" vertical-scroll-proportion="0.75443786">
                   <folding>
                     <element signature="n#I18n.t('facebook.prelike.tagline')#0;n#!!top" expanded="true" />
                     <element signature="e#172#205#1" expanded="true" />
                     <element signature="n#I18n.t('facebook.prelike.sub_tagline')#0;n#!!top" expanded="true" />
                     <element signature="n#I18n.t('facebook.postlike.sub_tagline')#0;n#!!top" expanded="true" />
-                    <element signature="e#510#549#1" expanded="true" />
+                    <element signature="e#526#565#1" expanded="true" />
                     <element signature="n#I18n.t('facebook.postlike.get_started')#0;n#!!top" expanded="true" />
-                    <element signature="e#689#719#1" expanded="true" />
-                    <element signature="e#744#774#1" expanded="true" />
+                    <element signature="e#714#744#1" expanded="true" />
+                    <element signature="e#769#799#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -218,27 +218,27 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="146" column="32" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.22547331">
+                    <state line="146" column="32" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="80" column="15" selection-start="2419" selection-end="2419" vertical-scroll-proportion="-20.083334">
+                    <state line="71" column="36" selection-start="2203" selection-end="2203" vertical-scroll-proportion="1.9120287">
                       <folding>
-                        <element signature="e#2086#2125#1" expanded="true" />
-                        <element signature="e#2264#2298#1" expanded="true" />
-                        <element signature="e#2520#2560#0" expanded="true" />
-                        <element signature="e#2618#2651#0" expanded="true" />
-                        <element signature="e#2708#2750#0" expanded="true" />
-                        <element signature="e#2885#2920#0" expanded="true" />
-                        <element signature="e#2983#3017#1" expanded="true" />
+                        <element signature="e#2051#2090#1" expanded="true" />
+                        <element signature="e#2238#2272#1" expanded="true" />
+                        <element signature="e#2494#2534#0" expanded="true" />
+                        <element signature="e#2592#2625#0" expanded="true" />
+                        <element signature="e#2682#2724#0" expanded="true" />
+                        <element signature="e#2859#2894#0" expanded="true" />
+                        <element signature="e#2957#2991#1" expanded="true" />
                         <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -296,9 +296,9 @@
         <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
         <option value="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
       </list>
     </option>
   </component>
@@ -1321,7 +1321,11 @@
       <created>1362553547378</created>
       <updated>1362553547378</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="prelike gate">
+      <created>1362553982282</created>
+      <updated>1362553982282</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1415,7 +1419,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml</url>
-          <line>61</line>
+          <line>60</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -1509,41 +1513,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="15" selection-start="2419" selection-end="2419" vertical-scroll-proportion="-20.083334">
-          <folding>
-            <element signature="e#2086#2125#1" expanded="true" />
-            <element signature="e#2264#2298#1" expanded="true" />
-            <element signature="e#2520#2560#0" expanded="true" />
-            <element signature="e#2618#2651#0" expanded="true" />
-            <element signature="e#2708#2750#0" expanded="true" />
-            <element signature="e#2885#2920#0" expanded="true" />
-            <element signature="e#2983#3017#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="32" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.22547331">
+        <state line="146" column="32" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="101" selection-start="290" selection-end="290" vertical-scroll-proportion="0.44378698">
+        <state line="17" column="35" selection-start="601" selection-end="601" vertical-scroll-proportion="0.75443786">
           <folding>
             <element signature="n#I18n.t('facebook.prelike.tagline')#0;n#!!top" expanded="true" />
             <element signature="e#172#205#1" expanded="true" />
             <element signature="n#I18n.t('facebook.prelike.sub_tagline')#0;n#!!top" expanded="true" />
             <element signature="n#I18n.t('facebook.postlike.sub_tagline')#0;n#!!top" expanded="true" />
-            <element signature="e#510#549#1" expanded="true" />
+            <element signature="e#526#565#1" expanded="true" />
             <element signature="n#I18n.t('facebook.postlike.get_started')#0;n#!!top" expanded="true" />
-            <element signature="e#689#719#1" expanded="true" />
-            <element signature="e#744#774#1" expanded="true" />
+            <element signature="e#714#744#1" expanded="true" />
+            <element signature="e#769#799#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="36" selection-start="2203" selection-end="2203" vertical-scroll-proportion="1.9120287">
+          <folding>
+            <element signature="e#2051#2090#1" expanded="true" />
+            <element signature="e#2238#2272#1" expanded="true" />
+            <element signature="e#2494#2534#0" expanded="true" />
+            <element signature="e#2592#2625#0" expanded="true" />
+            <element signature="e#2682#2724#0" expanded="true" />
+            <element signature="e#2859#2894#0" expanded="true" />
+            <element signature="e#2957#2991#1" expanded="true" />
+            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

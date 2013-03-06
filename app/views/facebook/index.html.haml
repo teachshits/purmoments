@@ -9,13 +9,13 @@
       = image_tag('milk_carton.png')
   .row-fluid
     .span15
-      #prelike_subtagline.prelike
+      #prelike_subtagline.prelike.hidden
         = I18n.t('facebook.prelike.sub_tagline')
-      #postlike_subtagline.hidden
+      #postlike_subtagline.postlike.hidden
         = I18n.t('facebook.postlike.sub_tagline')
       #prelike_contest_copy
         = simple_format I18n.t('facebook.prelike.contest_copy')
-      #get_started_button.hidden
+      #get_started_button.postlike.hidden
         = I18n.t('facebook.postlike.get_started')
     .span5
       #prelike_notes
