@@ -6,6 +6,41 @@
     = javascript_include_tag "facebook"
     = csrf_meta_tags
   %body
+    #fb-root
+    :script
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId     : '465089766897235'
+          channel   : '//purmoments.herokuapp.com/facebook/channel.html',
+          status    : true,
+          cookie    : true,
+          xfbml     : true
+        });
+      };
+
+      (function(d) {
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0]
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+      }(document));
+
+      FB.getLoginStatus(function(response) {
+        if (response.status === 'connected') {
+          testAPI();
+        } else if (response.status === 'not_authorized') {
+          login();
+        } else {
+          login();
+      });
+
+      function testAPI() {
+          console.log('Welcome!  Fetching your information.... ');
+          FB.api('/me', function(response) {
+              console.log('Good to see you, ' + response.name + '.');
+          });
+      }
     .container.facebook_container
       .row
         %ul#header

@@ -11,7 +11,6 @@ gem 'ajo_contact', :git => 'git://github.com/andrewajo/AjoContact.git'
 gem 'ajo_register', :git => 'git://github.com/andrewajo/AjoRegister.git'
 
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
