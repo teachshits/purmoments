@@ -33,9 +33,9 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
-                  $('.prelike').removeClass('hidden');
-                } else {
                   $('.postlike').removeClass('hidden');
+                } else {
+                  $('.prelike').removeClass('hidden');
                 }
               }
             );
