@@ -10,10 +10,14 @@ $gridGutterWidth: 0px
 @import '../bootstrap/grid'
 @import '../bootstrap/layouts'
 
+body
+  width: 760px
+  margin: auto
+
 .facebook_container
-  width: 810px
-  height: 800px
-  background:  URL('fb_background.jpg') no-repeat
+  width: 760px
+  min-height: 800px
+  background:  URL('../fb_background.jpg') no-repeat
 
 //FONTS
 @font-face
@@ -99,9 +103,10 @@ body, a
   padding-left: 20px
 
 #facebook_app_container
-  background:  URL('facebook_app_container.png')
-  margin-left: 5px
-  width: 804px
+  background:  URL('../facebook_app_container.png')
+  background-size:  730px
+  margin-left: 15px
+  width: 730px
   height: 570px
 
   #inner_content
