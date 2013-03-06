@@ -2,169 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/facebook/application.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/facebook-application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/facebook-application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/facebook.js.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-758188fa87cddcf0c08e8d2f145e53f1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-758188fa87cddcf0c08e8d2f145e53f1.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/back_to_home_button-bd1aba09a682e849fc6ab015206feaed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/back_to_home_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/background-78f3265fdc28cc1665845ec871c7fedf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bay_card-7bedc42600d32e406e5d2d7282cfc91c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bay_card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_five-f9e656e290eb4f2d2fe31bbf8545a101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_five.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_four-9297a9ee4fe42724ab167adfdaf908cb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_four.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_index-0aab96dc8f2a820c023fbf82cfb64538.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_one-0fafa6b1b14a1ae1e7a323697866c6ed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_six-6d6dbc3b04bc4d85fb9303ec7ba8bc1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_six.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_start_button-551e3a09599933b17c2b5d79a23e0a89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_start_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_three-8fa34835266d1c878113a288aa4b76d7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_two-2d20ce4dc1e0f6e385a964cecea0760f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_two.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/click_to_get_started_button-3f5609e57e985175ad33d843b798fab7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/click_to_get_started_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/enter_for_your_chance-d306a4e225b4e481174ac037de53f7d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/enter_for_your_chance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/galaxy_tab-facc1442ab870c40e201e9c16ed0a95a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/galaxy_tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started-96ef35f2139597151caa2072cbcd8c99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-4fcb00e25bd68b1ee6101df33d284f11.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-5ce548c6677ba4710f9e5abb446b49ae.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-7e6c030f2cae7e3e7d3b163c5fadc4a8.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-bb1b33827a2151dd45c268ad4ae761de.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-3f9f0b5bf9ad1fbf00a25f5e0fa78372.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-79b085c0a75f76e40cc3344441aa4828.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-84f5bf9d5c42dd77388c95bf7649f5ca.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-9723641c77d3092fa9bb1482a2e2dfef.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-0358e63b44cf993be78340d7e3e96dba.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-2fa70e59c5e7d3b3961f6b1979bd45f5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-67e62259037e6340c6de1ed1d1031680.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-c11340fb4039fff8d0079f933ddcfb7b.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-3501b49dafb13737ac6b73575fecaa38.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-5176cdbd7f87b71489f96239d085df8d.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-dc977e81ace28a6d0ac53841ca48031e.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-f759ced0e081e921fa5f635b2003ac20.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-067d80c4262c88ed01e60f2fd0c6ad28.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-3f2c855e7f10315dca426b87905297e5.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-a20f5d29214bfd23fa74b689598d5dfd.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-f21562013595274d775e5e093943b93f.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-4c7581a6df22a9cd8813db1057a28874.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-60f3327bd085f606480ed69bcb4c1d58.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-9a6a874bb2223bb29309ef9bb8b24f82.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-a57eb8cd66fad2bbb5be1bc2aaa1f107.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ipad-94df03f85ed2c3c362c08fb1e141d630.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/lactantia_logo-8ed8cba7a57db5b9bfed83aaee11130b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/lactantia_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_enter_today-708f9e8968481ec18d36d01939d8b9e5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_enter_today.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_prize_social_share-5cdf8bbfe9377a57950a436fa9fccbb6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_prize_social_share.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_narrow-88230b0117b416e2139d011a38270791.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_narrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_wide-b0842ee8b9afa01de4eebcf355d74715.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_wide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_bags-8f2aeec78dd9194c73ace164fbfc7f12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_bags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_carton-03c0dcb67ac7a9150d034ea9638bd0f8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_carton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/parmalat_logo-ee621b707aac8d4013e8bb4da0341366.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/parmalat_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/password_reset_button-af340e7524e15bb048320ddade9dab23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/password_reset_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/proceed_button-4f65966f1825deefe55a80481ab1291f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/proceed_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/purmoments_header-e123caa7ffe04fc16e73324b6b61da44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/purmoments_header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-a3386665c05a2d82f711a4aaa72d247c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_audio-28cf940e697cd11730b4bc26a1e47e0f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_audio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_help-79994654f907c78f10990ab8ce04c4fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_refresh-03c5e9d60156c897eb0569c8747e3d42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon-1663d1e72cbdf7bae7dde17a55d86707.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon_reset-d8bd918143877a9c6a18d09d002c4858.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon_reset.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/select_arrow-eefb26cb40a68b6e517015c4ee112d67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/select_arrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_active-21272ad74df71a8a3d98e7521b1d9dd6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_completed-b816a67497d0833933556ff3388b20f0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_completed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_inactive-78dfc57b03f8cd809258d87a058cf98a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sign_up_button-eaf01cc688e0262f510517a67b0164c0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sign_up_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/steps_background-ad8942f2ded1991c7caeb1ef61c8f1f1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/steps_background.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/index.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/back_to_home_button-bd1aba09a682e849fc6ab015206feaed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/back_to_home_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/background-78f3265fdc28cc1665845ec871c7fedf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card-7bedc42600d32e406e5d2d7282cfc91c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_five-f9e656e290eb4f2d2fe31bbf8545a101.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_five.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_four-9297a9ee4fe42724ab167adfdaf908cb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_four.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_index-0aab96dc8f2a820c023fbf82cfb64538.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_one-0fafa6b1b14a1ae1e7a323697866c6ed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_six-6d6dbc3b04bc4d85fb9303ec7ba8bc1c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_six.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_start_button-551e3a09599933b17c2b5d79a23e0a89.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_start_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_three-8fa34835266d1c878113a288aa4b76d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_two-2d20ce4dc1e0f6e385a964cecea0760f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/click_to_get_started_button-3f5609e57e985175ad33d843b798fab7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/click_to_get_started_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/enter_for_your_chance-d306a4e225b4e481174ac037de53f7d6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/enter_for_your_chance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application-c732971a1bde21bd15f37d1e4f669954.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_logo-a649a64baed24d6c90d171edeb579c9e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo-eeb27d6d240694eaba6d17209c051731.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/galaxy_tab-facc1442ab870c40e201e9c16ed0a95a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/galaxy_tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started-96ef35f2139597151caa2072cbcd8c99.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-4fcb00e25bd68b1ee6101df33d284f11.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-5ce548c6677ba4710f9e5abb446b49ae.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-bb1b33827a2151dd45c268ad4ae761de.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-3f9f0b5bf9ad1fbf00a25f5e0fa78372.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-79b085c0a75f76e40cc3344441aa4828.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-9723641c77d3092fa9bb1482a2e2dfef.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-0358e63b44cf993be78340d7e3e96dba.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-67e62259037e6340c6de1ed1d1031680.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-c11340fb4039fff8d0079f933ddcfb7b.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-5176cdbd7f87b71489f96239d085df8d.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-dc977e81ace28a6d0ac53841ca48031e.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-f759ced0e081e921fa5f635b2003ac20.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-3f2c855e7f10315dca426b87905297e5.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-a20f5d29214bfd23fa74b689598d5dfd.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-f21562013595274d775e5e093943b93f.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-4c7581a6df22a9cd8813db1057a28874.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-60f3327bd085f606480ed69bcb4c1d58.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-a57eb8cd66fad2bbb5be1bc2aaa1f107.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ipad-94df03f85ed2c3c362c08fb1e141d630.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/lactantia_logo-8ed8cba7a57db5b9bfed83aaee11130b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/lactantia_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_enter_today-708f9e8968481ec18d36d01939d8b9e5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_enter_today.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_prize_social_share-5cdf8bbfe9377a57950a436fa9fccbb6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_prize_social_share.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_narrow-88230b0117b416e2139d011a38270791.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_narrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_wide-b0842ee8b9afa01de4eebcf355d74715.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_wide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_bags-8f2aeec78dd9194c73ace164fbfc7f12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_bags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_carton-03c0dcb67ac7a9150d034ea9638bd0f8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_carton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/parmalat_logo-ee621b707aac8d4013e8bb4da0341366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/parmalat_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/password_reset_button-af340e7524e15bb048320ddade9dab23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/password_reset_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/proceed_button-4f65966f1825deefe55a80481ab1291f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/proceed_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/purmoments_header-e123caa7ffe04fc16e73324b6b61da44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/purmoments_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails-a3386665c05a2d82f711a4aaa72d247c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_audio-28cf940e697cd11730b4bc26a1e47e0f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_audio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_help-79994654f907c78f10990ab8ce04c4fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_refresh-03c5e9d60156c897eb0569c8747e3d42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon-1663d1e72cbdf7bae7dde17a55d86707.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon_reset-d8bd918143877a9c6a18d09d002c4858.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon_reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select_arrow-eefb26cb40a68b6e517015c4ee112d67.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select_arrow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_active-21272ad74df71a8a3d98e7521b1d9dd6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_completed-b816a67497d0833933556ff3388b20f0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_completed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_inactive-78dfc57b03f8cd809258d87a058cf98a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sign_up_button-eaf01cc688e0262f510517a67b0164c0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sign_up_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/steps_background-ad8942f2ded1991c7caeb1ef61c8f1f1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/steps_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application-9a717ea62eac3463d689b2ba0a4e85b4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application-c732971a1bde21bd15f37d1e4f669954.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-7e6c030f2cae7e3e7d3b163c5fadc4a8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-84f5bf9d5c42dd77388c95bf7649f5ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-2fa70e59c5e7d3b3961f6b1979bd45f5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-3501b49dafb13737ac6b73575fecaa38.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-067d80c4262c88ed01e60f2fd0c6ad28.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-9a6a874bb2223bb29309ef9bb8b24f82.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -179,7 +165,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362477130466" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362528110988" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362529950797" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -291,10 +277,10 @@
     <splitter split-orientation="vertical" split-proportion="0.45917386">
       <split-first>
         <leaf>
-          <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="66" selection-start="325" selection-end="325" vertical-scroll-proportion="0.3882353">
+                <state line="6" column="42" selection-start="186" selection-end="186" vertical-scroll-proportion="0.21176471">
                   <folding />
                 </state>
               </provider>
@@ -358,10 +344,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="98" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8223062">
+                <state line="13" column="25" selection-start="611" selection-end="611" vertical-scroll-proportion="0.36862004">
                   <folding />
                 </state>
               </provider>
@@ -496,6 +482,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -998,7 +1002,7 @@
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: purmoments">
+  <component name="RunManager" selected="Rake.assets:precompile">
     <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1447,8 +1451,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.assets:clean" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:clean" />
         <item index="2" class="java.lang.String" itemvalue="Rake.routes" />
         <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
         <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
@@ -1516,13 +1520,22 @@
       <created>1362515035477</created>
       <updated>1362515035478</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add facebook layout links">
+      <created>1362529144845</created>
+      <updated>1362529144845</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add facebook layout links">
+      <created>1362529953598</created>
+      <updated>1362529953598</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1139" y="22" width="1414" height="1361" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1537,7 +1550,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1581,7 +1593,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add facebook controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add facebook layout links" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1598,6 +1610,7 @@
     <MESSAGE value="Initial deploy" />
     <MESSAGE value="Update actions" />
     <MESSAGE value="Add facebook controller" />
+    <MESSAGE value="Add facebook layout links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1685,16 +1698,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="98" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8223062">
+        <state line="6" column="42" selection-start="186" selection-end="186" vertical-scroll-proportion="0.21176471">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="325" selection-end="325" vertical-scroll-proportion="0.3882353">
+        <state line="13" column="25" selection-start="611" selection-end="611" vertical-scroll-proportion="0.36862004">
           <folding />
         </state>
       </provider>
