@@ -414,3 +414,39 @@ en:
       THANK YOU! We have received your message and will get back to you as soon as possible.
       For additional information, visit us at Lactancia.ca
     go_to_home: 'GO TO HOME PAGE'
+
+  facebook:
+    prelike:
+      like_us_copy: |
+        LIKE US
+        TO GET
+        STARTED!
+      tagline: 'CLICK LIKE AND TAKE THE CHALLENGE'
+      header: |
+        You could win
+        a Samsung
+        Galaxy Tab 2!*
+      sub_tagline: 'SOLVE THE WORD OF THE DAY AND ENTER TO WIN'
+      contest_copy: |
+        Take the Lactantia PurMoments Facebook Challenge for your chance to win
+        one of 24 Samsung Galaxy Tab 2TM* 10.1" 16GB. Every day there will be a new
+        word to solve and another opportunity to win. Click LIKE to begin.
+      note_one: |
+        †&nbsp&nbsp&nbspPurer and creamier than
+        &nbsp&nbsp&nbsp&nbspregular pasteurized milk
+      note_two: |
+        *&nbsp&nbsp&nbspGalaxy Tab 2 a is registered
+        &nbsp&nbsp&nbsptrademark of Samsung
+        &nbsp&nbsp&nbspElectronics Canada Inc.
+        &nbsp&nbsp&nbspSamsung is not a sponsor
+        &nbsp&nbsp&nbspof, nor participant in, this
+        &nbsp&nbsp&nbsppromotion.
+    postlike:
+     ribbon: |
+      Remember to visit
+      lactantiapurmoments.ca
+      and enter for a chance to
+      <b>Win milk for life!</b>
+      Or amazing weekly prizes!
+     get_started: 'CLICK HERE TO GET STARTED'
+     sub_tagline: 'TAKE THE CHALLENGE NOW!'

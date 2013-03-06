@@ -20,6 +20,7 @@ Purmoments::Application.routes.draw do
   match '/challenge/:id/play' => 'challenges#play', :as => 'play_challenge'
   match '/challenges_completed' => 'challenges#completed', :as => 'challenge_completed'
 
+  #FACEBOOK ROUTES
   match '/facebook' => 'facebook#index', :as => 'facebook_root'
   match '/facebook/prizes' => 'facebook#prizes', :as => 'facebook_prizes'
   match '/facebook/how_to_play' => 'facebook#how_to_play', :as => 'facebook_how_to_play'

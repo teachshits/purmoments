@@ -1,1 +1,23 @@
-Testing 123
+#inner_content.prelike
+  .row-fluid
+    .span14
+      #prelike_tagline
+        = I18n.t('facebook.prelike.tagline')
+      #prelike_header
+        = simple_format I18n.t('facebook.prelike.header')
+    #milk_carton.span6
+      = image_tag('milk_carton.png')
+  .row-fluid
+    .span15
+      #prelike_subtagline.prelike
+        = I18n.t('facebook.prelike.sub_tagline')
+      #postlike_subtagline.hidden
+        = I18n.t('facebook.postlike.sub_tagline')
+      #prelike_contest_copy
+        = simple_format I18n.t('facebook.prelike.contest_copy')
+      #get_started_button.hidden
+        = I18n.t('facebook.postlike.get_started')
+    .span5
+      #prelike_notes
+        = simple_format t('facebook.prelike.note_one')
+        = simple_format t('facebook.prelike.note_two')

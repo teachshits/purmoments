@@ -33,7 +33,8 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
-                  console.log('liked');
+                  $('.hidden').removeClass('hidden');
+                  $('.prelike').addClass('hidden');
                 } else {
                   console.log('not liked');
                 }
@@ -52,20 +53,30 @@
 
 
     .container.facebook_container
-      .row
-        %ul#header
-          %li.left= link_to 'CONTEST PRIZES', facebook_prizes_path
-          %li= link_to 'HOW TO PLAY'
-          %li= link_to 'FRANCAIS'
-      .row
-        #banner
-          = image_tag('facebook_logo.png')
-          = image_tag('facebook_purmoments_logo.png')
+      .row-fluid
+        .span14
+          .row
+            %ul#header
+              %li.left= link_to 'CONTEST PRIZES', facebook_prizes_path
+              %li= link_to 'HOW TO PLAY'
+              %li= link_to 'FRANCAIS'
+          .row
+            #banner
+              = image_tag('facebook_logo.png')
+              = image_tag('facebook_purmoments_logo.png')
+        .span6
+          #prelike_ribbon.prelike
+            #like_us_copy
+              = simple_format I18n.t('facebook.prelike.like_us_copy')
+            .prelike_ribbon
+              = image_tag('prelike_ribbon.png')
+          #postlike_ribbon.hidden
+            = simple_format I18n.t('facebook.postlike.ribbon')
+
       .row-fluid
         .span20
           #facebook_app_container
-            #inner_content
-              = yield
+            = yield
       .row-fluid
         .span20
           .row-fluid
