@@ -32,7 +32,7 @@
               method: 'fql.query',
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()',
               function (response) {
-                if response.length == 1) {
+                if (response.length == 1) {
                   console.log('liked');
                 } else {
                   console.log('not liked');
