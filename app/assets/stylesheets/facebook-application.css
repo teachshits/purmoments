@@ -1,0 +1,6 @@
+/**
+ * facebook-application.css
+ *
+ *= require_self
+ *= require ./facebook/application
+ */

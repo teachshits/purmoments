@@ -21,6 +21,13 @@ Purmoments::Application.routes.draw do
   match '/challenges_completed' => 'challenges#completed', :as => 'challenge_completed'
 
   match '/facebook' => 'facebook#index', :as => 'facebook_root'
+  match '/facebook/prizes' => 'facebook#prizes', :as => 'facebook_prizes'
+  match '/facebook/how_to_play' => 'facebook#how_to_play', :as => 'facebook_how_to_play'
+  match '/facebook/contact' => 'facebook#contact', :as => 'facebook_contact'
+  match '/facebook/contact_thank_you' => 'facebook#contact_thank_you', :as => 'facebook_contact_thank_you'
+  match '/facebook/word_of_the_day' => 'facebook#word_of_the_day', :as => 'facebook_word_of_the_day'
+  match '/facebook/share' => 'facebook#share', :as => 'facebook_share'
+  match'/facebook/share_thank_you' => 'facebook#share_thank_you', :as => 'facebook_share_thank_you'
 
   mount AjoContact::Engine => '/contact'
   mount AjoRegister::Engine => '/'

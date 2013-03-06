@@ -1,0 +1,139 @@
+$gridColumns: 27
+$gridColumnWidth: 30px
+$gridGutterWidth: 0px
+
+
+@import '../bootstrap/variables'
+@import '../bootstrap/mixins'
+@import '../bootstrap/reset'
+@import '../bootstrap/scaffolding'
+@import '../bootstrap/grid'
+@import '../bootstrap/layouts'
+
+.facebook_container
+  width: 810px
+  height: 800px
+  background:  URL('../facebook/fb_background.jpg') no-repeat
+
+//FONTS
+@font-face
+  font-family: 'Gotham-Book'
+  src: url('gothambook.eot')
+  src: url('gothambook.eot?#iefix') format('embedded-opentype'), url('../gothambook.woff') format('woff'), url('../gothambook.ttf') format('truetype'), url('../gothambook.svg#gothambook') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Gotham-BookItalic'
+  src: url('gothambookitalic.eot')
+  src: url('gothambookitalic.eot?#iefix') format('embedded-opentype'), url('../gothambookitalic.woff') format('woff'), url('../gothambookitalic.ttf') format('truetype'), url('../gothambookitalic.svg#gothambookitalic') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Gotham-Medium'
+  src: url('gothammedium.eot')
+  src: url('gothammedium.eot?#iefix') format('embedded-opentype'), url('../gothammedium.woff') format('woff'), url('../gothammedium.ttf') format('truetype'), url('../gothammedium.svg#gothammedium') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Gotham-Bold'
+  src: url('gothambold.eot')
+  src: url('gothambold.eot?#iefix') format('embedded-opentype'), url('../gothambold.woff') format('woff'), url('../gothambold.ttf') format('truetype'), url('../gothambold.svg#gothambold') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Gotham-BoldItalic'
+  src: url('gothambolditalic.eot')
+  src: url('gothambolditalic.eot?#iefix') format('embedded-opentype'), url('../gothambolditalic.woff') format('woff'), url('../gothambolditalic.ttf') format('truetype'), url('../gothambolditalic.svg#gothambolditalic') format('svg')
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'Gibson-SemiBold'
+  src: url('gibsonsemibold.eot')
+  src: url('gibsonsemibold.eot?#iefix') format('embedded-opentype'), url('../gibsonsemibold.woff') format('woff'), url('../gibsonsemibold.ttf') format('truetype'), url('../gibsonsemibold.svg#gibsonsemibold') format('svg')
+  font-weight: normal
+  font-style: normal
+
+//GENERAL
+body
+  font-family: 'Gotham-Book'
+  font-size:  14px
+
+#header
+  font-size: 13px
+
+body, a
+  color:  #666666
+
+#footer li a, #footer_notes
+  color: #CCCCCC
+  font-size: 11px
+
+//HEADER
+#header
+  list-style: none
+  margin: 0px
+  padding:  0px
+  height: 30px
+
+#banner
+  margin-left: 20px
+  margin-top: 20px
+  mrgin-bottom: 20px
+
+#header li
+  float: left
+  margin-left: 0px
+  padding: 0px 24px 0px 24px
+  text-align: center
+  border-right:  1px solid #AAA
+  padding-top: 11px
+  height: 16px
+
+#header li.left
+  padding-left: 20px
+
+#facebook_app_container
+  background:  URL('../facebook/facebook_app_container.png')
+  margin-left: 5px
+  width: 804px
+  height: 570px
+
+  #inner_content
+    width: 790px
+    padding-top: 20px
+    margin-left: 20px
+
+
+//FOOTER
+#footer
+  list-style: none
+  margin:  0px
+  padding:  0px
+#footer li
+  float: left
+  margin-left: 0px
+  padding: 0px 9px 0px 9px
+  border-width: 0px 1px 0px 0px
+  border-color:  #CCCCCC
+  border-style:  solid
+  height: 14px
+  vertical-align: middle
+  line-height: 14px
+
+#footer li.left
+  padding-left: 0px
+#footer li.right
+  border:  0px
+
+ul#footer, #footer_notes
+  display: block
+  float: left
+
+#footer_notes
+  margin-bottom: 20px

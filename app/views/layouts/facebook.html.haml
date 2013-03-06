@@ -1,0 +1,38 @@
+!!! html
+%html
+  %head
+    %title Purmoments
+    = stylesheet_link_tag    "facebook-application", :media => "all"
+    = javascript_include_tag "facebook-application"
+    = csrf_meta_tags
+  %body
+    .container.facebook_container
+      .row
+        %ul#header
+          %li.left= link_to 'CONTEST PRIZES', facebook_prizes_path
+          %li= link_to 'HOW TO PLAY'
+          %li= link_to 'FRANCAIS'
+      .row
+        #banner
+          = image_tag('facebook_logo.png')
+          = image_tag('facebook_purmoments_logo.png')
+      .row-fluid
+        .span27
+          #facebook_app_container
+            #inner_content
+              = yield
+      .row-fluid
+        .span27
+          .row-fluid
+            .span51
+              %ul#footer
+                %li.left= link_to I18n.t('navigation.footer.terms_of_use'), main_app.terms_of_use_path
+                %li= link_to I18n.t('navigation.footer.rules'), main_app.how_to_play_path
+                %li= link_to I18n.t('navigation.footer.privacy_policy'), main_app.privacy_policy_path
+                %li= link_to "www.lactantia.ca", 'http://www.lactantia.ca'
+                %li= link_to I18n.t('navigation.footer.contact'), main_app.ajo_contact_path
+                %li.right= link_to I18n.t('navigation.footer.french')
+              #footer_notes
+                = t('navigation.footer.trademarks')
+        .span6
+          #logo= image_tag('parmalat_logo.png')
