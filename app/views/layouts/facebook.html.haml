@@ -30,7 +30,7 @@
         function testAPI() {
             FB.api({
               method: 'fql.query',
-              query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()',
+              query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
                   console.log('liked');

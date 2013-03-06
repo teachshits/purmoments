@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362477130466" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362545130622" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362545241240" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -136,13 +136,13 @@
           <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="20" selection-start="977" selection-end="977" vertical-scroll-proportion="0.5423729">
+                <state line="32" column="95" selection-start="920" selection-end="920" vertical-scroll-proportion="0.5084746">
                   <folding>
-                    <element signature="e#2095#2135#0" expanded="true" />
-                    <element signature="e#2193#2226#0" expanded="true" />
-                    <element signature="e#2283#2325#0" expanded="true" />
-                    <element signature="e#2460#2495#0" expanded="true" />
-                    <element signature="e#2558#2592#1" expanded="true" />
+                    <element signature="e#2096#2136#0" expanded="true" />
+                    <element signature="e#2194#2227#0" expanded="true" />
+                    <element signature="e#2284#2326#0" expanded="true" />
+                    <element signature="e#2461#2496#0" expanded="true" />
+                    <element signature="e#2559#2593#1" expanded="true" />
                     <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -1235,7 +1235,11 @@
       <created>1362545133616</created>
       <updated>1362545133616</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fix js init">
+      <created>1362545242675</created>
+      <updated>1362545242675</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1427,13 +1431,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="977" selection-end="977" vertical-scroll-proportion="0.5423729">
+        <state line="32" column="95" selection-start="920" selection-end="920" vertical-scroll-proportion="0.5084746">
           <folding>
-            <element signature="e#2095#2135#0" expanded="true" />
-            <element signature="e#2193#2226#0" expanded="true" />
-            <element signature="e#2283#2325#0" expanded="true" />
-            <element signature="e#2460#2495#0" expanded="true" />
-            <element signature="e#2558#2592#1" expanded="true" />
+            <element signature="e#2096#2136#0" expanded="true" />
+            <element signature="e#2194#2227#0" expanded="true" />
+            <element signature="e#2284#2326#0" expanded="true" />
+            <element signature="e#2461#2496#0" expanded="true" />
+            <element signature="e#2559#2593#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
         </state>
