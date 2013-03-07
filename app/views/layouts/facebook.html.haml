@@ -25,6 +25,9 @@
 
         FB.getLoginStatus(function(response) {
           if (response.status === 'connected') {
+            $(document).ready(function(){
+               getUser();
+            });
             getUser();
           } else if (response.status === 'not_authorized') {
             loginUser();
@@ -40,14 +43,12 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
-                  //console.log('postliked');
-                  //$('.postlike').removeClass('hidden');
+                  $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
                   })
                 } else {
-                  //console.log('preliked');
-                  //$('.prelike').removeClass('hidden');
+                  $('.prelike').removeClass('hidden');
                 }
               }
             );

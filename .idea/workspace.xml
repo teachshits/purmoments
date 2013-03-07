@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650067249" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650383000" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -103,7 +103,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362645286635" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650378329" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650679779" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -207,10 +207,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="66" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3565365">
+                    <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.58573854">
                       <folding />
                     </state>
                   </provider>
@@ -318,18 +318,18 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="43" column="20" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.29821074">
+                    <state line="50" column="18" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8946322">
                       <folding>
-                        <element signature="e#2450#2489#1" expanded="true" />
-                        <element signature="e#2637#2671#1" expanded="true" />
-                        <element signature="e#2893#2933#0" expanded="true" />
-                        <element signature="e#2991#3024#0" expanded="true" />
-                        <element signature="e#3081#3123#0" expanded="true" />
-                        <element signature="e#3258#3293#0" expanded="true" />
-                        <element signature="e#3352#3386#1" expanded="true" />
+                        <element signature="e#2439#2478#1" expanded="true" />
+                        <element signature="e#2626#2660#1" expanded="true" />
+                        <element signature="e#2882#2922#0" expanded="true" />
+                        <element signature="e#2980#3013#0" expanded="true" />
+                        <element signature="e#3070#3112#0" expanded="true" />
+                        <element signature="e#3247#3282#0" expanded="true" />
+                        <element signature="e#3341#3375#1" expanded="true" />
                         <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -1509,7 +1509,11 @@
       <created>1362650071226</created>
       <updated>1362650071226</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add auth">
+      <created>1362650385441</created>
+      <updated>1362650385441</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1605,7 +1609,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml</url>
-          <line>72</line>
+          <line>73</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -1719,13 +1723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3565365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="86" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0">
@@ -1735,17 +1732,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="20" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.29821074">
+        <state line="50" column="18" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8946322">
           <folding>
-            <element signature="e#2450#2489#1" expanded="true" />
-            <element signature="e#2637#2671#1" expanded="true" />
-            <element signature="e#2893#2933#0" expanded="true" />
-            <element signature="e#2991#3024#0" expanded="true" />
-            <element signature="e#3081#3123#0" expanded="true" />
-            <element signature="e#3258#3293#0" expanded="true" />
-            <element signature="e#3352#3386#1" expanded="true" />
+            <element signature="e#2439#2478#1" expanded="true" />
+            <element signature="e#2626#2660#1" expanded="true" />
+            <element signature="e#2882#2922#0" expanded="true" />
+            <element signature="e#2980#3013#0" expanded="true" />
+            <element signature="e#3070#3112#0" expanded="true" />
+            <element signature="e#3247#3282#0" expanded="true" />
+            <element signature="e#3341#3375#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.58573854">
+          <folding />
         </state>
       </provider>
     </entry>
