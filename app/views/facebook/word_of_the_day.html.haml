@@ -22,8 +22,9 @@
            url: "#{facebook_create_entry_path}",
            data: {
               entry: {
-                first_name: 'Andrew',
-                last_name: 'Joe'
+                first_name: $user.first_name,
+                last_name: $user.last_name,
+                email: $user.email
               }
            },
            success: function () {
