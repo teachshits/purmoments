@@ -40,14 +40,10 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
-                  $('.postlike').removeClass('hidden');
-                  console.log($('.postlike'));
                   FB.api('/me', function(user){
                     $user = user;
                   })
                 } else {
-                  $('.prelike').removeClass('hidden');
-                  console.log($('.prelike'));
                 }
               }
             );
