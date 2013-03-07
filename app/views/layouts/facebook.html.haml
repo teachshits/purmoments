@@ -25,9 +25,6 @@
 
         FB.getLoginStatus(function(response) {
           if (response.status === 'connected') {
-            $(document).ready(function(){
-               getUser();
-            });
             getUser();
           } else if (response.status === 'not_authorized') {
             loginUser();
@@ -44,11 +41,13 @@
               function (response) {
                 if (response.length == 1) {
                   $('.postlike').removeClass('hidden');
+                  console.log($('.postlike'));
                   FB.api('/me', function(user){
                     $user = user;
                   })
                 } else {
                   $('.prelike').removeClass('hidden');
+                  console.log($('.prelike'));
                 }
               }
             );

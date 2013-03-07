@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650383000" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650724336" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -103,7 +103,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362645286635" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650679779" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650865962" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -210,7 +210,7 @@
               <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.58573854">
+                    <state line="9" column="92" selection-start="278" selection-end="278" vertical-scroll-proportion="0.22920203">
                       <folding />
                     </state>
                   </provider>
@@ -321,15 +321,15 @@
               <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="50" column="18" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8946322">
+                    <state line="49" column="37" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8946322">
                       <folding>
-                        <element signature="e#2439#2478#1" expanded="true" />
-                        <element signature="e#2626#2660#1" expanded="true" />
-                        <element signature="e#2882#2922#0" expanded="true" />
-                        <element signature="e#2980#3013#0" expanded="true" />
-                        <element signature="e#3070#3112#0" expanded="true" />
-                        <element signature="e#3247#3282#0" expanded="true" />
-                        <element signature="e#3341#3375#1" expanded="true" />
+                        <element signature="e#2448#2487#1" expanded="true" />
+                        <element signature="e#2635#2669#1" expanded="true" />
+                        <element signature="e#2891#2931#0" expanded="true" />
+                        <element signature="e#2989#3022#0" expanded="true" />
+                        <element signature="e#3079#3121#0" expanded="true" />
+                        <element signature="e#3256#3291#0" expanded="true" />
+                        <element signature="e#3350#3384#1" expanded="true" />
                         <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -1513,7 +1513,11 @@
       <created>1362650385441</created>
       <updated>1362650385441</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="add auth">
+      <created>1362650727492</created>
+      <updated>1362650727493</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1609,7 +1613,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml</url>
-          <line>73</line>
+          <line>72</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -1732,15 +1736,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8946322">
+        <state line="49" column="37" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8946322">
           <folding>
-            <element signature="e#2439#2478#1" expanded="true" />
-            <element signature="e#2626#2660#1" expanded="true" />
-            <element signature="e#2882#2922#0" expanded="true" />
-            <element signature="e#2980#3013#0" expanded="true" />
-            <element signature="e#3070#3112#0" expanded="true" />
-            <element signature="e#3247#3282#0" expanded="true" />
-            <element signature="e#3341#3375#1" expanded="true" />
+            <element signature="e#2448#2487#1" expanded="true" />
+            <element signature="e#2635#2669#1" expanded="true" />
+            <element signature="e#2891#2931#0" expanded="true" />
+            <element signature="e#2989#3022#0" expanded="true" />
+            <element signature="e#3079#3121#0" expanded="true" />
+            <element signature="e#3256#3291#0" expanded="true" />
+            <element signature="e#3350#3384#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1748,7 +1752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.58573854">
+        <state line="9" column="92" selection-start="278" selection-end="278" vertical-scroll-proportion="0.22920203">
           <folding />
         </state>
       </provider>
