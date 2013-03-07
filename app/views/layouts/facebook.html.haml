@@ -8,6 +8,7 @@
   %body
     #fb-root
     :javascript
+      $('.postlike').removeClass('hidden')
       window.fbAsyncInit = function() {
         FB.init({
           appId     : '465089766897235',
@@ -19,7 +20,7 @@
 
         FB.getLoginStatus(function(response) {
           if (response.status === 'connected') {
-            testAPI();
+            getUser();
           } else if (response.status === 'not_authorized') {
             login();
           } else {
@@ -27,13 +28,16 @@
           }
         });
 
-        function testAPI() {
+        function getUser() {
             FB.api({
               method: 'fql.query',
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
                   $('.postlike').removeClass('hidden');
+                  FB.api('/m', function(user){
+                    console.log(JSON.stringify(user.name));
+                  })
                 } else {
                   $('.prelike').removeClass('hidden');
                 }
@@ -57,7 +61,7 @@
           .row
             %ul#header
               %li.left= link_to 'CONTEST PRIZES', facebook_prizes_path
-              %li= link_to 'HOW TO PLAY'
+              %li= link_to 'HOW TO PLAY', facebook_how_to_play_path
               %li= link_to 'FRANCAIS'
           .row
             #banner
@@ -77,7 +81,7 @@
           #facebook_app_container
             = yield
       .row-fluid
-        .span14
+        .span17
           .row-fluid
             .span20
               %ul#footer
@@ -85,9 +89,11 @@
                 %li= link_to I18n.t('navigation.footer.rules'), main_app.how_to_play_path
                 %li= link_to I18n.t('navigation.footer.privacy_policy'), main_app.privacy_policy_path
                 %li= link_to "www.lactantia.ca", 'http://www.lactantia.ca'
-                %li= link_to I18n.t('navigation.footer.contact'), main_app.ajo_contact_path
+                %li= link_to I18n.t('navigation.footer.contact'), facebook_contact_path
                 %li.right= link_to I18n.t('navigation.footer.french')
               #footer_notes
                 = t('navigation.footer.trademarks')
-        .span6
+        .span3
           #logo= image_tag('parmalat_logo.png')
+    :javascript
+      $('.postlike').removeClass('hidden')

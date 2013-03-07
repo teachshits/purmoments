@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130305041225) do
+ActiveRecord::Schema.define(:version => 20130307061752) do
 
   create_table "ajo_contact_messages", :force => true do |t|
     t.string   "first_name"
@@ -60,6 +60,23 @@ ActiveRecord::Schema.define(:version => 20130305041225) do
     t.integer  "user_id"
     t.integer  "challenge_id"
     t.string   "entry_code"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "facts", :force => true do |t|
+    t.text     "english_fact"
+    t.text     "french_fact"
+    t.string   "sources"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "words", :force => true do |t|
+    t.date     "date"
+    t.string   "english_word"
+    t.string   "french_word"
+    t.string   "image_url"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
   end

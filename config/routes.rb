@@ -25,10 +25,13 @@ Purmoments::Application.routes.draw do
   match '/facebook/prizes' => 'facebook#prizes', :as => 'facebook_prizes'
   match '/facebook/how_to_play' => 'facebook#how_to_play', :as => 'facebook_how_to_play'
   match '/facebook/contact' => 'facebook#contact', :as => 'facebook_contact'
+  match '/facebook/contact_create' => 'facebook#create_message', :as => 'create_facebook_message'
   match '/facebook/contact_thank_you' => 'facebook#contact_thank_you', :as => 'facebook_contact_thank_you'
   match '/facebook/word_of_the_day' => 'facebook#word_of_the_day', :as => 'facebook_word_of_the_day'
+  match '/facebook/word_of_the_day_thank_you' => 'facebook#word_of_the_day_thank_you', :as => 'facebook_word_of_the_day_thank_you'
   match '/facebook/share' => 'facebook#share', :as => 'facebook_share'
-  match'/facebook/share_thank_you' => 'facebook#share_thank_you', :as => 'facebook_share_thank_you'
+  match '/facebook/share_thank_you' => 'facebook#share_thank_you', :as => 'facebook_share_thank_you'
+  match '/facebook/new_entry' => 'facebook#new_entry', :as => 'facebook_new_entry_path'
 
   match '/facebook/channel.html' => 'facebook#channel', :as => 'facebook_channel'
 

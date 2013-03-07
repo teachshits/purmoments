@@ -17,7 +17,7 @@ body
 .facebook_container
   width: 810px
   min-height: 800px
-  background:  URL('fb_background.jpg') no-repeat
+  background:  URL('../fb_background.jpg') no-repeat
 
 //FONTS
 @font-face
@@ -103,7 +103,7 @@ body, a
   padding-left: 20px
 
 #facebook_app_container
-  background:  URL('facebook_app_container.png') no-repeat
+  background:  URL('../facebook_app_container.png') no-repeat
   margin-left: 5px
   width: 800px
   height: 570px
@@ -145,7 +145,7 @@ ul#footer, #footer_notes
 //PRELIKE
 
 #inner_content.prelike_container
-  background: URL('prelike_container_background.jpg') no-repeat 8px 31px
+  background: URL('../prelike_container_background.jpg') no-repeat 8px 31px
   height: 420px
 
 #milk_carton img
@@ -223,14 +223,14 @@ ul#footer, #footer_notes
       line-height: 32px
       font-size: 18px
       font-family: ('Gotham-Bold')
-  background: URL('facebook_ribbon.png') no-repeat 10px
+  background: URL('../facebook_ribbon.png') no-repeat 10px
   height: 150px
   position:  absolute
   width: 230px
   margin-top: 0px
 
 #get_started_button
-  background: URL('get_started_button.png')
+  background: URL('../get_started_button.png')
   width: 281px
   height: 28px
   margin-top: 5px
@@ -239,3 +239,327 @@ ul#footer, #footer_notes
   text-align: center
   line-height: 28px
   font-family: 'Gotham-Bold'
+
+//PRIZES
+#fb_header
+  font-family: 'Gotham-Medium'
+  color: #e51937
+  font-size: 20px
+  margin-top: 10px
+  margin-left: 5px
+
+#fb_prize_subheader
+  font-family: 'Gotham-Medium'
+  color:   #e51937
+  font-size:  20px
+  margin-top: 27px
+  margin-left: 15px
+
+#fb_prize_copy
+  margin-left: 15px
+  font-size: 12px
+  line-height: 16px
+  p
+    margin-top: 5px
+
+#play_now_button
+  margin-top: 180px
+  margin-left: 15px
+  background: URL('../play_now_button.png') no-repeat
+  height:  24px
+  width:  169px
+  color:  #FFF
+  font-family: 'Gotham-Bold'
+  line-height: 25px
+  text-align:  center
+
+#play_now_button:hover
+  background: URL('../play_now_button.png') no-repeat 0px -25px
+  line-height: 24px
+
+#inner_content.prizes_container
+  background: URL('../fb_prizes_background.jpg') no-repeat 8px 55px
+  height: 560px
+
+#galaxy_tab_disclaimer
+  margin-top: 100px
+  margin-left: 15px
+  font-size:  11px
+  line-height: 13px
+
+//HOW TO PLAY
+.play_container
+  background: URL('../fb_play_background.jpg') no-repeat 8px 55px
+  height: 560px
+
+#fb_play_subheader
+  font-family: 'Gotham-Medium'
+  color: #e51937
+  font-size: 20px
+  margin-top: 130px
+  margin-left: 15px
+  p
+    margin-bottom: 0px
+
+#fb_play_copy
+  margin-left: 15px
+  font-size: 14px
+  line-height: 18px
+  p
+    margin-top: 0px
+
+#play_now_button.play
+  margin-top: 20px
+
+//CONTACT
+#fb_contact_copy
+  margin-top: 20px
+#fb_contact_copy p
+  margin-top:  20px
+  margin-left: 15px
+  line-height: 19px
+  font-size: 13px
+  line-height: 16px
+
+#facebook_message_form
+  margin-left: 15px
+
+#inner_content.fb_contact_container
+  background:  URL('../fb_contact_background.jpg') no-repeat 8px 55px
+  height: 560px
+  a
+    text-decoration: none
+
+#facebook_message_form
+  textarea
+    height: 30px
+    width: 310px
+    +border-radius(4px)
+    border:  2px solid #d8d7d7
+    padding: 8px
+  label
+    font-size: 12px
+    margin-bottom: 0px
+  select
+    -webkit-appearance: none
+    border:  2px solid #d8d7d7
+    padding: 7px
+    +border-radius(3px)
+    width: 330px
+    background: #FFF URL('select_arrow.jpg') no-repeat 618px
+    font-size: 11px
+    color: #999999
+  input[type=text]
+    padding:  7px
+    width: 310px
+    +border-radius(3px)
+    font-family: 'Gotham-Medium'
+    font-size: 11px
+    border: 2px solid #d8d7d7
+    margin-bottom: 5px
+
+#recaptcha_widget.facebook
+  width:  326px
+  margin-top: 15px
+  #recaptcha_head
+    width: 190px
+    background:  #FFFFFF
+    +border-radius(3px)
+    border: 2px solid #d8d7d7
+  #recaptcha_image_wrapper
+    height: 45px
+  #recaptcha_image img
+    margin-top: 10px
+    width:  160px
+    height: 32px
+  #recaptcha_widgets
+    margin-top: 5px
+    .recaptcha_only_if_image, .recaptcha_only_if_audio, #recaptcha_question, #recaptcha_refresh
+      height: 13px
+      img
+        width: 18px
+  #recaptcha_label
+    margin-top: 8px
+  #recaptcha_response_field
+    padding:  7px
+    width: 100px
+    +border-radius(3px)
+    font-family: 'Gotham-Medium'
+    font-size: 11px
+    border: 2px solid #d8d7d7
+    margin-bottom: 5px
+
+#facebook_submit_button
+  margin-left: 80px
+  margin-top: 20px
+  background:  URL('../facebook_send_button.png') no-repeat
+  -webkit-appearance: none
+  border:  none
+  width:  180px
+  height:  27px
+  color: #FFFFFF
+  font-family: 'Gotham-Bold'
+  font-size: 13px
+  line-height: 25px
+
+#facebook_submit_button:hover
+  background: URL('../facebook_send_button.png') no-repeat 0px -27px
+  line-height: 27px
+
+
+//CONTACT THANK YOU
+#fb_contact_thank_you
+  font-family: 'Gotham-Medium'
+  font-size: 20px
+  color: #e51937
+  margin-left: 15px
+  margin-top: 32px
+
+#fb_contact_copy
+  font-size: 14px
+  p
+    margin-top: 5px
+
+#fb_back_to_home_button
+  background: URL('../fb_back_to_home_button.png') no-repeat
+  width: 169px
+  height:  25px
+  color: #FFFFFF
+  text-align:  center
+  font-family: 'Gotham-Bold'
+  font-size: 12px
+  line-height: 24px
+  margin-left: 15px
+
+
+//WORD OF THE DAY
+#word_of_the_day_header
+  color: #e51937
+  font-family: 'Gotham-Bold'
+  margin-top: 40px
+  text-align: center
+
+#word_of_the_day_instructions
+  color: #e51937
+  font-family: 'Gotham-Bold'
+  margin-top: 20px
+  text-align: center
+
+#chances_left_copy
+  color: #e51937
+  font-family: 'Gotham-Bold'
+  margin-top: 20px
+  text-align: center
+
+#row1
+  margin-left: 45px
+  margin-bottom: 10px
+#row2
+  margin-left: 26px
+  margin-bottom: 10px
+#row3
+  margin-left: 26px
+  margin-bottom: 30px
+
+.letter_button, .empty_letter_button
+  background: URL('../letter_button.png') no-repeat
+  width: 32px
+  height: 32px
+  display: inline-block
+  line-height: 32px
+  text-align:  center
+  color:  #000000
+  font-family: 'Gotham-Medium'
+
+.empty_letter_button
+  float: left
+
+.letter_button:hover
+  cursor: pointer
+
+#word_of_the_day_guess
+  display: table
+  margin: 0 auto
+  .empty_letter_button
+    margin-left: 2px
+    margin-right: 2px
+
+//WORD OF THE DAY THANK YOU
+#fb_thankyou_subheader, #fb_thankyou_elegible, #fb_thankyou_website
+  margin-left: 15px
+
+#fb_thankyou_subheader
+  font-family: 'Gotham-Medium'
+  font-size: 20px
+  margin-top: 30px
+  margin-bottom: 5px
+  color: #e51937
+
+#inner_content.fb_thankyou_container
+  background:  URL('../fb_thank_you_background.jpg') no-repeat 8px 55px
+  height: 560px
+  a
+    text-decoration: none
+
+#fb_galaxy_tab
+  margin-left: 15px
+  img
+    width: 180px
+
+#fb_thankyou_fact
+  margin-left: 15px
+  width: 340px
+  font-size: 13px
+  line-height: 18px
+  margin-bottom: 20px
+  min-height: 35px
+
+#fb_thankyou_elegible, #fb_thankyou_website
+  font-size: 13px
+  line-height: 15px
+
+#fb_thankyou_share_button, #fb_thankyou_website_button
+  background:  URL('../play_now_button.png')
+  height:  24px
+  width:  169px
+  line-height: 25px
+  text-align: center
+  color: #FFFFFF
+  font-family: 'Gotham-Bold'
+  font-size: 12px
+  float: left
+
+#fb_thankyou_share_button:hover, #fb_thankyou_website_button:hover
+  background: URL('../play_now_button.png') no-repeat 0px -24px
+  line-height: 24px
+
+#thank_you_links
+  margin-left: 10px
+
+#fb_thankyou_share_button
+  margin-right: 5px
+
+#fb_fact
+  height: 240px
+
+#word_of_the_day_chances_left
+  margin-left: 89px
+  margin-top: 8px
+
+.chances_left
+  display: inline-block
+  background: URL('../free_chance.png')
+  height: 30px
+  width:  30px
+  line-height: 30px
+  text-align: center
+  margin-right: 10px
+  font-size: 10px
+
+.chances_left.checked
+  background: URL('../used_chance.png')
+  color: #FFF
+
+#fb_right_side
+  background: URL('../fb_right_side.jpg') no-repeat
+  height:  453px

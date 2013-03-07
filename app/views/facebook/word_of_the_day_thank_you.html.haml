@@ -1,0 +1,23 @@
+#inner_content.fb_thankyou_container
+  .row-fluid
+    #fb_header
+      = I18n.t('facebook.word_of_the_day.thank_you_header')
+  .row-fluid
+    .span10
+    .span10
+      #fb_fact
+        #fb_thankyou_subheader= I18n.t('facebook.word_of_the_day.thank_you_subheader')
+        #fb_thankyou_fact= @fact
+        #fb_galaxy_tab= image_tag('galaxy_tab.png')
+      #fb_thankyou_elegible
+        = simple_format t('facebook.word_of_the_day.thank_you_elegible')
+      #fb_thankyou_website
+        = simple_format t('facebook.word_of_the_day.thank_you_website')
+      #thank_you_links
+        = link_to facebook_share_path do
+          #fb_thankyou_share_button
+            = I18n.t('facebook.word_of_the_day.thank_you_share_button')
+        = link_to 'http://www.lactantia.ca' do
+          #fb_thankyou_website_button
+            = I18n.t('facebook.word_of_the_day.thank_you_website_button')
+

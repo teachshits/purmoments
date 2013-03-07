@@ -1,0 +1,73 @@
+:javascript
+  $(document).ready(function() {
+    $index = 0;
+    $chances = 5;
+    $word = "#{@word.english_word}";
+    $remaining = $word.length
+    $('.letter_button').click(function(e) {
+      letter = $(e.currentTarget).data('letter');
+      if ($('.quiz_' + letter).length == 0) {
+        $chances -= 1;
+        console.log($chances);
+        $('.checked').removeClass('checked');
+        $('.chance_' + $chances).addClass('checked');
+      } else {
+        $('.quiz_'+letter).html(letter);
+         $remaining -= $('.quiz_'+letter).length;
+         console.log('testers');
+         //if ($remaining == 0) {
+         //  $.ajax({
+         //    type: "POST"
+         //    url: "#{facebook_new_entry_path}",
+         //
+         //
+         //
+         //  })
+         //}
+      }
+    })
+  })
+
+
+#inner_content.fb_word_of_the_day_container
+  .row-fluid
+    #fb_header
+      = I18n.t('facebook.word_of_the_day.header')
+  .row-fluid
+    .span10
+      = image_tag @filename
+    #fb_right_side.span10
+      #word_of_the_day_header
+        = I18n.t('facebook.word_of_the_day.subheader')
+      #word_of_the_day_guess
+        - @word_of_the_day.chars.each_with_index do |c|
+          .empty_letter_button{:class => "quiz_#{c}"}
+      #word_of_the_day_instructions
+        = simple_format I18n.t('facebook.word_of_the_day.instructions')
+      #keyboard
+        #row1
+          - ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'].each do |l|
+            .letter_button{'data-letter' => "#{l}"}
+              = l
+        #row2
+          - ['I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q'].each do |l|
+            .letter_button{'data-letter' => "#{l}"}
+              = l
+        #row3
+          - ['R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'].each do |l|
+            .letter_button{'data-letter' => "#{l}"}
+              = l
+      #chances_left_copy
+        = I18n.t('facebook.word_of_the_day.chances_header')
+
+      #word_of_the_day_chances_left
+        .chances_left.chance_5.checked
+          5
+        .chances_left.chance_4
+          4
+        .chances_left.chance_3
+          3
+        .chances_left.chance_2
+          2
+        .chances_left.chance_1
+          1

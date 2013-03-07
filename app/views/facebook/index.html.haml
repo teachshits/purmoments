@@ -15,8 +15,9 @@
         = I18n.t('facebook.postlike.sub_tagline')
       #prelike_contest_copy
         = simple_format I18n.t('facebook.prelike.contest_copy')
-      #get_started_button.postlike.hidden
-        = I18n.t('facebook.postlike.get_started')
+      = link_to facebook_word_of_the_day_path do
+        #get_started_button.postlike.hidden
+          = I18n.t('facebook.postlike.get_started')
     .span5
       #prelike_notes
         = simple_format t('facebook.prelike.note_one')

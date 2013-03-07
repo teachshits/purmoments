@@ -1,0 +1,12 @@
+#inner_content.fb_contact_container
+  .row-fluid
+    #fb_header
+      = I18n.t('facebook.contact.header')
+  .row-fluid
+    .span10
+    .span10
+      #fb_contact_thank_you= I18n.t('facebook.contact.thank_you_header')
+      #fb_contact_copy= simple_format I18n.t('facebook.contact.thank_you_copy')
+      = link_to facebook_root_path do
+        #fb_back_to_home_button
+          = t('facebook.contact.back_to_home')

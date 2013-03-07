@@ -1,0 +1,14 @@
+#inner_content.play_container
+  .row-fluid
+    #fb_header
+      = I18n.t('facebook.how_to_play.header')
+  .row-fluid
+    .span10
+    .span10
+      #fb_play_subheader= simple_format I18n.t('facebook.how_to_play.subheader')
+      #fb_play_copy= simple_format I18n.t('facebook.how_to_play.copy')
+      = link_to facebook_word_of_the_day_path do
+        #play_now_button.play
+          = I18n.t('facebook.prizes.play_now_button')
+      #galaxy_tab_disclaimer
+        = simple_format I18n.t('facebook.prizes.note')

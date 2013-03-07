@@ -1,0 +1,34 @@
+#inner_content.fb_contact_container
+  .row-fluid
+    #fb_header
+      = I18n.t('facebook.contact.header')
+  .row-fluid
+    .span10
+    .span10
+      #fb_contact_copy= simple_format I18n.t('facebook.contact.copy')
+      #facebook_message_form
+        = form_for @message, :url => create_facebook_message_path do |f|
+          .field
+            = f.label I18n.t('contact.form.first_name')
+            %br
+            = f.text_field :first_name, :placeholder => I18n.t('contact.form.prompt.first_name')
+          .field
+            = f.label I18n.t('contact.form.last_name')
+            %br
+            = f.text_field :last_name, :placeholder => I18n.t('contact.form.prompt.last_name')
+          .field
+            = f.label I18n.t('contact.form.email_address')
+            %br
+            = f.text_field :email_address, :placeholder => I18n.t('contact.form.prompt.email_address')
+          .field
+            = f.label I18n.t('contact.form.subject')
+            %br
+            = f.select :subject, I18n.t('contact.form.subject_options').map{|key, value| [value[:option], value[:value]]}
+          .field
+            = f.label I18n.t('contact.form.message')
+            = f.text_area :message
+          .field
+            = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
+            = render 'shared/recaptcha_facebook'
+          .field
+            = f.submit I18n.t('contact.form.submit'), :id => 'facebook_submit_button'

@@ -1,0 +1,33 @@
+#recaptcha_widget.facebook{:style => "display:none"}
+  .row-fluid
+    .span13
+      #recaptcha_head
+        .row-fluid
+          .span17
+            #recaptcha_image_wrapper
+              #recaptcha_image
+          .span3
+            #recaptcha_widgets
+              #recaptcha_refresh
+                %a{:href => "javascript:Recaptcha.reload()"}= image_tag('recaptcha_refresh.png')
+              .recaptcha_only_if_image
+                %a{:href => "javascript:Recaptcha.switch_type('audio')"}= image_tag('recaptcha_audio.png')
+              .recaptcha_only_if_audio
+                %a{:href => "javascript:Recaptcha.switch_type('image')"} Get an image CAPTCHA
+              %div#recaptcha_question
+                %a{:href => "javascript:Recaptcha.showhelp()"}= image_tag('recaptcha_help.png')
+            %span.recaptcha_only_if_image
+            %span.recaptcha_only_if_audio Enter the numbers you hear:
+    .span7
+      #recaptcha_label.field
+        %label= I18n.t('contact.form.security_code')
+      %input#recaptcha_response_field{:name => "recaptcha_response_field", :placeholder => I18n.t('register.form.prompt.recaptcha')}
+
+
+%script{:src => "http://www.google.com/recaptcha/api/challenge?k=6Lcjpt0SAAAAAHdTGNGkn9XDewW7GdLXXtIi4u2s", :type => "text/javascript"}
+%noscript
+  %iframe{:frameborder => "0", :height => "300", :src => "http://www.google.com/recaptcha/api/noscript?k6Lcjpt0SAAAAAHdTGNGkn9XDewW7GdLXXtIi4u2s", :width => "50"}
+  %br/
+  %textarea{:cols => "40", :name => "recaptcha_challenge_field", :rows => "3"}
+    :preserve
+      %input{:name => "recaptcha_response_field", :type => "hidden", :value => "manual_challenge"}/
