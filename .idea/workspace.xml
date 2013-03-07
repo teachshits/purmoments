@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362653003501" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654112176" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -114,7 +114,7 @@
     <file path="/_recaptcha_facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362596196933" ignored="false" />
     <file path="/a.rxml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362603870802" ignored="false" />
     <file path="/contact_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362618049139" ignored="false" />
-    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362653838281" ignored="false" />
+    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654106166" ignored="false" />
     <file path="/20130307013149_create_words.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362619958419" ignored="false" />
     <file path="/words.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362620162827" ignored="false" />
     <file path="/word_importer.rake" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362622324079" ignored="false" />
@@ -156,11 +156,11 @@
               <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="16" column="81" selection-start="628" selection-end="628" vertical-scroll-proportion="0.42179263">
+                    <state line="25" column="79" selection-start="714" selection-end="714" vertical-scroll-proportion="0.65905094">
                       <folding>
                         <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-                        <element signature="e#1147#1194#1" expanded="true" />
+                        <element signature="e#1143#1190#1" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -310,7 +310,7 @@
               <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.2905028">
+                    <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.0391061">
                       <folding>
                         <element signature="e#2371#2410#1" expanded="true" />
                         <element signature="e#2814#2854#0" expanded="true" />
@@ -1578,7 +1578,15 @@
       <created>1362653006017</created>
       <updated>1362653006018</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="add fonts">
+      <created>1362653854609</created>
+      <updated>1362653854609</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add fonts">
+      <created>1362654114800</created>
+      <updated>1362654114801</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1793,7 +1801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.2905028">
+        <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.0391061">
           <folding>
             <element signature="e#2371#2410#1" expanded="true" />
             <element signature="e#2814#2854#0" expanded="true" />
@@ -1808,11 +1816,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="81" selection-start="628" selection-end="628" vertical-scroll-proportion="0.42179263">
+        <state line="25" column="79" selection-start="714" selection-end="714" vertical-scroll-proportion="0.65905094">
           <folding>
             <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-            <element signature="e#1147#1194#1" expanded="true" />
+            <element signature="e#1143#1190#1" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
           </folding>
         </state>

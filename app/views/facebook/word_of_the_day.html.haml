@@ -10,12 +10,13 @@
         $chances -= 1;
         $('.checked').removeClass('checked');
         $('.chance_' + $chances).addClass('checked');
+        if ($chances == 0) {
+          window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
+        }
       } else {
         $('.quiz_'+letter).html(letter);
          $remaining -= $('.quiz_'+letter).length;
-         if ($chances == 0) {
-           window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
-         }
+
       }
     })
   })
