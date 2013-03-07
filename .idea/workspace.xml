@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/entry.rb" afterPath="$PROJECT_DIR$/app/models/entry.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" afterPath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,7 +19,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655443004" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362656556688" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -89,7 +89,7 @@
     <file path="/opt_in_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362437680237" ignored="false" />
     <file path="/opt_out_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362437985715" ignored="false" />
     <file path="/login.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473238186" ignored="false" />
-    <file path="/20130305041225_create_entries.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646821318" ignored="false" />
+    <file path="/20130305041225_create_entries.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362657289409" ignored="false" />
     <file path="/entry.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362656177150" ignored="false" />
     <file path="/schema.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362457363739" ignored="false" />
     <file path="/intro.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362465317658" ignored="false" />
@@ -116,7 +116,7 @@
     <file path="/_recaptcha_facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362596196933" ignored="false" />
     <file path="/a.rxml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362603870802" ignored="false" />
     <file path="/contact_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362618049139" ignored="false" />
-    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362656310739" ignored="false" />
+    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362657496288" ignored="false" />
     <file path="/20130307013149_create_words.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362619958419" ignored="false" />
     <file path="/words.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362620162827" ignored="false" />
     <file path="/word_importer.rake" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362622324079" ignored="false" />
@@ -155,14 +155,14 @@
         <splitter split-orientation="horizontal" split-proportion="0.596463">
           <split-first>
             <leaf>
-              <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="13" column="103" selection-start="518" selection-end="518" vertical-scroll-proportion="-8.125">
+                    <state line="30" column="34" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.6923077">
                       <folding>
                         <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-                        <element signature="e#1616#1663#1" expanded="true" />
+                        <element signature="e#1772#1819#1" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -201,16 +201,16 @@
               <file leaf-file-name="20130305041225_create_entries.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="15" column="51" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+                    <state line="17" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="fact_importer.rake" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="fact_importer.rake" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/lib/tasks/fact_importer.rake">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="11" column="29" selection-start="310" selection-end="310" vertical-scroll-proportion="0.34446764">
+                    <state line="11" column="35" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -241,7 +241,7 @@
               <file leaf-file-name="word_importer.rake" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="12" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
+                    <state line="12" column="30" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
                       <folding />
                     </state>
                   </provider>
@@ -282,10 +282,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/db/schema.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="69" column="71" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0">
+                    <state line="62" column="72" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.60544217">
                       <folding />
                     </state>
                   </provider>
@@ -309,10 +309,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="35" column="10" selection-start="910" selection-end="910" vertical-scroll-proportion="0.4074074">
+                    <state line="52" column="55" selection-start="1480" selection-end="1480" vertical-scroll-proportion="-9.795918">
                       <folding>
                         <element signature="e#2371#2410#1" expanded="true" />
                         <element signature="e#2558#2592#1" expanded="true" />
@@ -400,7 +400,6 @@
         <option value="$PROJECT_DIR$/lib/tasks/fact_importer.rake" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day_thank_you.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -408,6 +407,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/entry.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
       </list>
     </option>
@@ -1229,10 +1229,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.assets:clean" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:rollback" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.assets:clean" />
       </list>
     </recent_temporary>
   </component>
@@ -1601,7 +1601,11 @@
       <created>1362655445665</created>
       <updated>1362655445666</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="add controller actions">
+      <created>1362656559148</created>
+      <updated>1362656559148</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1713,30 +1717,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="74" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
           <folding />
         </state>
       </provider>
@@ -1750,39 +1733,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.125">
-          <folding>
-            <element signature="e#384#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="19" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="98" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="71" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1801,28 +1754,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/fact_importer.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="103" selection-start="518" selection-end="518" vertical-scroll-proportion="-8.125">
-          <folding>
-            <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
-            <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-            <element signature="e#1616#1663#1" expanded="true" />
-            <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="11" column="35" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/fact_importer.rake">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="310" selection-end="310" vertical-scroll-proportion="0.34446764">
+        <state line="41" column="74" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="98" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="78" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="910" selection-end="910" vertical-scroll-proportion="0.4074074">
+        <state line="52" column="55" selection-start="1480" selection-end="1480" vertical-scroll-proportion="-9.795918">
           <folding>
             <element signature="e#2371#2410#1" expanded="true" />
             <element signature="e#2558#2592#1" expanded="true" />
@@ -1832,6 +1801,41 @@
             <element signature="e#3179#3214#0" expanded="true" />
             <element signature="e#3273#3307#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.125">
+          <folding>
+            <element signature="e#384#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="72" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.60544217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.6923077">
+          <folding>
+            <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
+            <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
+            <element signature="e#1772#1819#1" expanded="true" />
+            <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

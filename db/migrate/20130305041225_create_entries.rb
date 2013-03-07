@@ -5,10 +5,12 @@ class CreateEntries < ActiveRecord::Migration
       t.integer :facebook_id
       t.string :first_name
       t.string :last_name
+      t.string :email
       t.string :gender
       t.string :location
       t.integer :challenge_id
       t.string :entry_code
+      t.string :source
       t.timestamps
     end
   end
