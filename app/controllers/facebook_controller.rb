@@ -12,6 +12,7 @@ class FacebookController < ApplicationController
 
   def word_of_the_day
     @word = Word.find_by_date(Date.today+23)
+    Rails.logger.info(Date.today+23)
     if I18n.locale = 'en'
       @word_of_the_day = @word.english_word
     elsif I18n.locale = 'fr'
