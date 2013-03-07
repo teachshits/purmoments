@@ -13,7 +13,7 @@
       } else {
         $('.quiz_'+letter).html(letter);
          $remaining -= $('.quiz_'+letter).length;
-         if ($remaining == 0) {
+         if ($chances == 0) {
            window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
          }
       }
