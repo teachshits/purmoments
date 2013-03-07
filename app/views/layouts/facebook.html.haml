@@ -40,10 +40,12 @@
               query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
+                  $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
                   })
                 } else {
+                  $('.prelike').removeClass('hidden');
                 }
               }
             );
@@ -99,5 +101,3 @@
                 = t('navigation.footer.trademarks')
         .span3
           #logo= image_tag('parmalat_logo.png')
-    :javascript
-      $('.postlike').removeClass('hidden')
