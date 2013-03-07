@@ -12,6 +12,19 @@
         $('.chance_' + $chances).addClass('checked');
         if ($chances == 0) {
           window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
+          $.ajax({
+           type: "POST",
+           url: "#{facebook_create_entry_path}",
+           data: {
+              entry: {
+                first_name: 'Andrew',
+                last_name: 'Joe'
+              }
+           },
+           success: function () {
+             window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
+           }
+          })
         }
       } else {
         $('.quiz_'+letter).html(letter);

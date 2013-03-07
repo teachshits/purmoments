@@ -38,6 +38,13 @@ class FacebookController < ApplicationController
   def contact_thank_you
   end
 
+  def create_entry
+    @entry = Entry.new(params[:entry])
+    if @entry.save
+      render :json => { :status => :ok }
+    end
+  end
+
   def create_message
     @message = AjoContact::Message.new(params[:message])
     @email = AjoContact::ContactMailer.contact_email(params[:email_address], params[:subject], params[:message][:message]).deliver

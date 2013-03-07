@@ -31,7 +31,7 @@ Purmoments::Application.routes.draw do
   match '/facebook/word_of_the_day_thank_you' => 'facebook#word_of_the_day_thank_you', :as => 'facebook_word_of_the_day_thank_you'
   match '/facebook/share' => 'facebook#share', :as => 'facebook_share'
   match '/facebook/share_thank_you' => 'facebook#share_thank_you', :as => 'facebook_share_thank_you'
-  match '/facebook/new_entry' => 'facebook#new_entry', :as => 'facebook_new_entry_path'
+  match '/facebook/create_entry' => 'facebook#create_entry', :as => 'facebook_create_entry'
 
   match '/facebook/channel.html' => 'facebook#channel', :as => 'facebook_channel'
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="add controller actions">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -9,7 +11,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362623397742" ignored="false" />
     <file path="/Gemfile" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362536963195" ignored="false" />
-    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362649319918" ignored="false" />
+    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654781441" ignored="false" />
     <file path="/main_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471700389" ignored="false" />
     <file path="/application.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362419277307" ignored="false" />
     <file path="/application.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362642014856" ignored="false" />
@@ -17,7 +19,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654112176" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655128658" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -102,7 +104,7 @@
     <file path="$PROJECT_DIR$/../lit-chamber-2375/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513348103" ignored="false" />
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
-    <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362645286635" ignored="false" />
+    <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655101716" ignored="false" />
     <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362651595753" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
@@ -114,7 +116,7 @@
     <file path="/_recaptcha_facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362596196933" ignored="false" />
     <file path="/a.rxml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362603870802" ignored="false" />
     <file path="/contact_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362618049139" ignored="false" />
-    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654106166" ignored="false" />
+    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655178260" ignored="false" />
     <file path="/20130307013149_create_words.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362619958419" ignored="false" />
     <file path="/words.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362620162827" ignored="false" />
     <file path="/word_importer.rake" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362622324079" ignored="false" />
@@ -156,11 +158,11 @@
               <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="25" column="79" selection-start="714" selection-end="714" vertical-scroll-proportion="0.65905094">
+                    <state line="10" column="104" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26362038">
                       <folding>
                         <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-                        <element signature="e#1143#1190#1" expanded="true" />
+                        <element signature="e#1523#1570#1" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -271,10 +273,10 @@
         <splitter split-orientation="horizontal" split-proportion="0.6664541">
           <split-first>
             <leaf>
-              <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="22" column="54" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+                    <state line="43" column="39" selection-start="983" selection-end="983" vertical-scroll-proportion="0.63993174">
                       <folding />
                     </state>
                   </provider>
@@ -292,7 +294,7 @@
               <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/config/routes.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="33" column="86" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0">
+                    <state line="33" column="19" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -307,12 +309,13 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.0391061">
+                    <state line="16" column="90" selection-start="476" selection-end="476" vertical-scroll-proportion="-4.285714">
                       <folding>
                         <element signature="e#2371#2410#1" expanded="true" />
+                        <element signature="e#2558#2592#1" expanded="true" />
                         <element signature="e#2814#2854#0" expanded="true" />
                         <element signature="e#2912#2945#0" expanded="true" />
                         <element signature="e#3002#3044#0" expanded="true" />
@@ -346,19 +349,19 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/config/routes.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="12" column="31" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
+                    <state line="33" column="90" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.8638743">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-0.027372263">
+                    <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6">
                       <folding />
                     </state>
                   </provider>
@@ -398,13 +401,13 @@
         <option value="$PROJECT_DIR$/lib/tasks/fact_importer.rake" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day_thank_you.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
       </list>
     </option>
@@ -1586,7 +1589,11 @@
       <created>1362654114800</created>
       <updated>1362654114801</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add fonts">
+      <created>1362654388925</created>
+      <updated>1362654388925</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1718,13 +1725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="54" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="50" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
@@ -1735,13 +1735,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="51" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="86" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1762,7 +1755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-0.027372263">
+        <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6">
           <folding />
         </state>
       </provider>
@@ -1799,11 +1792,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="19" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="60" selection-start="2590" selection-end="2590" vertical-scroll-proportion="2.0391061">
+        <state line="16" column="90" selection-start="476" selection-end="476" vertical-scroll-proportion="-4.285714">
           <folding>
             <element signature="e#2371#2410#1" expanded="true" />
+            <element signature="e#2558#2592#1" expanded="true" />
             <element signature="e#2814#2854#0" expanded="true" />
             <element signature="e#2912#2945#0" expanded="true" />
             <element signature="e#3002#3044#0" expanded="true" />
@@ -1814,13 +1815,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="983" selection-end="983" vertical-scroll-proportion="0.63993174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="79" selection-start="714" selection-end="714" vertical-scroll-proportion="0.65905094">
+        <state line="10" column="104" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26362038">
           <folding>
             <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-            <element signature="e#1143#1190#1" expanded="true" />
+            <element signature="e#1523#1570#1" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
           </folding>
         </state>
