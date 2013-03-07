@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" afterPath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -19,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646176133" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646968464" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -200,10 +198,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="20130305041225_create_entries.rb" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="20130305041225_create_entries.rb" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="8" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.22263451">
+                    <state line="11" column="78" selection-start="322" selection-end="322" vertical-scroll-proportion="0.30612245">
                       <folding />
                     </state>
                   </provider>
@@ -311,18 +309,18 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="44" column="44" selection-start="1366" selection-end="1366" vertical-scroll-proportion="1.3852242">
+                    <state line="33" column="32" selection-start="900" selection-end="900" vertical-scroll-proportion="0.39577836">
                       <folding>
-                        <element signature="e#2261#2300#1" expanded="true" />
-                        <element signature="e#2448#2482#1" expanded="true" />
-                        <element signature="e#2704#2744#0" expanded="true" />
-                        <element signature="e#2802#2835#0" expanded="true" />
-                        <element signature="e#2892#2934#0" expanded="true" />
-                        <element signature="e#3069#3104#0" expanded="true" />
-                        <element signature="e#3163#3197#1" expanded="true" />
+                        <element signature="e#2248#2287#1" expanded="true" />
+                        <element signature="e#2435#2469#1" expanded="true" />
+                        <element signature="e#2691#2731#0" expanded="true" />
+                        <element signature="e#2789#2822#0" expanded="true" />
+                        <element signature="e#2879#2921#0" expanded="true" />
+                        <element signature="e#3056#3091#0" expanded="true" />
+                        <element signature="e#3150#3184#1" expanded="true" />
                         <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -1474,7 +1472,11 @@
       <created>1362646180442</created>
       <updated>1362646180443</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add fb game">
+      <created>1362646972132</created>
+      <updated>1362646972132</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1490,7 +1492,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17614534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17614534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1690,26 +1692,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.22263451">
-          <folding />
+        <state line="33" column="32" selection-start="900" selection-end="900" vertical-scroll-proportion="0.39577836">
+          <folding>
+            <element signature="e#2248#2287#1" expanded="true" />
+            <element signature="e#2435#2469#1" expanded="true" />
+            <element signature="e#2691#2731#0" expanded="true" />
+            <element signature="e#2789#2822#0" expanded="true" />
+            <element signature="e#2879#2921#0" expanded="true" />
+            <element signature="e#3056#3091#0" expanded="true" />
+            <element signature="e#3150#3184#1" expanded="true" />
+            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="44" selection-start="1366" selection-end="1366" vertical-scroll-proportion="1.3852242">
-          <folding>
-            <element signature="e#2261#2300#1" expanded="true" />
-            <element signature="e#2448#2482#1" expanded="true" />
-            <element signature="e#2704#2744#0" expanded="true" />
-            <element signature="e#2802#2835#0" expanded="true" />
-            <element signature="e#2892#2934#0" expanded="true" />
-            <element signature="e#3069#3104#0" expanded="true" />
-            <element signature="e#3163#3197#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="11" column="78" selection-start="322" selection-end="322" vertical-scroll-proportion="0.30612245">
+          <folding />
         </state>
       </provider>
     </entry>

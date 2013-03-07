@@ -31,7 +31,7 @@
         function getUser() {
             FB.api({
               method: 'fql.query',
-              query: 'SELECT uid, email, name FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
+              query: 'SELECT uid FROM page_fan WHERE page_id = 282647008533017 AND uid = me()'},
               function (response) {
                 if (response.length == 1) {
                   $('.postlike').removeClass('hidden');
