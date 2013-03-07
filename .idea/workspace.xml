@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-5a3e1550e19e3b3f1c5c269344846fdc.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-5a3e1550e19e3b3f1c5c269344846fdc.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-5a3e1550e19e3b3f1c5c269344846fdc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-5a3e1550e19e3b3f1c5c269344846fdc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application.css" afterPath="$PROJECT_DIR$/public/assets/facebook/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css" afterPath="$PROJECT_DIR$/public/assets/facebook.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" afterPath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -42,7 +19,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646043697" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646176133" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -112,7 +89,7 @@
     <file path="/opt_in_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362437680237" ignored="false" />
     <file path="/opt_out_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362437985715" ignored="false" />
     <file path="/login.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473238186" ignored="false" />
-    <file path="/20130305041225_create_entries.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362457051411" ignored="false" />
+    <file path="/20130305041225_create_entries.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646821318" ignored="false" />
     <file path="/entry.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362470343377" ignored="false" />
     <file path="/schema.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362457363739" ignored="false" />
     <file path="/intro.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362465317658" ignored="false" />
@@ -128,7 +105,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362645286635" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362645615942" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362646941794" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -214,10 +191,19 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="fact.rb" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="fact.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="3" column="49" selection-start="92" selection-end="92" vertical-scroll-proportion="0.067567565">
+                    <state line="3" column="50" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="20130305041225_create_entries.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="8" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.22263451">
                       <folding />
                     </state>
                   </provider>
@@ -257,7 +243,7 @@
               <file leaf-file-name="word_importer.rake" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="12" column="40" selection-start="277" selection-end="277" vertical-scroll-proportion="0.27027026">
+                    <state line="12" column="40" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33395177">
                       <folding />
                     </state>
                   </provider>
@@ -301,7 +287,7 @@
               <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/db/schema.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="31" column="25" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
+                    <state line="1" column="25" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -325,18 +311,18 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="39" column="70" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.38655463">
+                    <state line="44" column="44" selection-start="1366" selection-end="1366" vertical-scroll-proportion="1.3852242">
                       <folding>
-                        <element signature="e#2248#2287#1" expanded="true" />
-                        <element signature="e#2435#2469#1" expanded="true" />
-                        <element signature="e#2691#2731#0" expanded="true" />
-                        <element signature="e#2789#2822#0" expanded="true" />
-                        <element signature="e#2879#2921#0" expanded="true" />
-                        <element signature="e#3056#3091#0" expanded="true" />
-                        <element signature="e#3150#3184#1" expanded="true" />
+                        <element signature="e#2261#2300#1" expanded="true" />
+                        <element signature="e#2448#2482#1" expanded="true" />
+                        <element signature="e#2704#2744#0" expanded="true" />
+                        <element signature="e#2802#2835#0" expanded="true" />
+                        <element signature="e#2892#2934#0" expanded="true" />
+                        <element signature="e#3069#3104#0" expanded="true" />
+                        <element signature="e#3163#3197#1" expanded="true" />
                         <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -359,7 +345,7 @@
               <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="19" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.37894738">
+                    <state line="19" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.47619048">
                       <folding />
                     </state>
                   </provider>
@@ -390,7 +376,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/tasks/word_importer.rake" />
         <option value="$PROJECT_DIR$/app/models/word.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/lib/tasks/words.csv" />
@@ -405,6 +390,7 @@
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
         <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
       </list>
     </option>
@@ -516,6 +502,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,7 +746,7 @@
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.assets:precompile">
+  <component name="RunManager" selected="Rake.db:rollback">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -748,32 +766,6 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:drop:all" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="purmoments" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:drop:all" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -849,6 +841,34 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:precompile" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:rollback" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="purmoments" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:rollback" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -1170,18 +1190,18 @@
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: purmoments" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: purmoments" />
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:drop:all" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:create:all" />
-      <item index="7" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:create:all" />
+      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.db:rollback" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:create:all" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:drop:all" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:rollback" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:create:all" />
       </list>
     </recent_temporary>
   </component>
@@ -1450,7 +1470,11 @@
       <created>1362646046768</created>
       <updated>1362646046769</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="add fb game">
+      <created>1362646180442</created>
+      <updated>1362646180443</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1462,11 +1486,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18431123" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18431123" sideWeight="0.8238547" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17614534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17614534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1552,13 +1576,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="88" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/words.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="54" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.6202144">
@@ -1621,7 +1638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.37894738">
+        <state line="19" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.47619048">
           <folding />
         </state>
       </provider>
@@ -1654,7 +1671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="277" selection-end="277" vertical-scroll-proportion="0.27027026">
+        <state line="12" column="40" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33395177">
           <folding />
         </state>
       </provider>
@@ -1666,26 +1683,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="70" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.38655463">
-          <folding>
-            <element signature="e#2248#2287#1" expanded="true" />
-            <element signature="e#2435#2469#1" expanded="true" />
-            <element signature="e#2691#2731#0" expanded="true" />
-            <element signature="e#2789#2822#0" expanded="true" />
-            <element signature="e#2879#2921#0" expanded="true" />
-            <element signature="e#3056#3091#0" expanded="true" />
-            <element signature="e#3150#3184#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="3" column="50" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="92" selection-end="92" vertical-scroll-proportion="0.067567565">
+        <state line="8" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.22263451">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="44" selection-start="1366" selection-end="1366" vertical-scroll-proportion="1.3852242">
+          <folding>
+            <element signature="e#2261#2300#1" expanded="true" />
+            <element signature="e#2448#2482#1" expanded="true" />
+            <element signature="e#2704#2744#0" expanded="true" />
+            <element signature="e#2802#2835#0" expanded="true" />
+            <element signature="e#2892#2934#0" expanded="true" />
+            <element signature="e#3069#3104#0" expanded="true" />
+            <element signature="e#3163#3197#1" expanded="true" />
+            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
