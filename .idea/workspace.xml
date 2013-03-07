@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="add controller actions">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -19,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655128658" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655196475" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -116,7 +114,7 @@
     <file path="/_recaptcha_facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362596196933" ignored="false" />
     <file path="/a.rxml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362603870802" ignored="false" />
     <file path="/contact_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362618049139" ignored="false" />
-    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655178260" ignored="false" />
+    <file path="/word_of_the_day.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655418651" ignored="false" />
     <file path="/20130307013149_create_words.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362619958419" ignored="false" />
     <file path="/words.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362620162827" ignored="false" />
     <file path="/word_importer.rake" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362622324079" ignored="false" />
@@ -158,11 +156,11 @@
               <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="10" column="104" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26362038">
+                    <state line="32" column="21" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.84358525">
                       <folding>
                         <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-                        <element signature="e#1523#1570#1" expanded="true" />
+                        <element signature="e#1562#1609#1" expanded="true" />
                         <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
                       </folding>
                     </state>
@@ -1593,7 +1591,11 @@
       <created>1362654388925</created>
       <updated>1362654388925</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="add controller actions">
+      <created>1362655199484</created>
+      <updated>1362655199485</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1658,7 +1660,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controller actions" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1684,6 +1686,7 @@
     <MESSAGE value="add fb game" />
     <MESSAGE value="add auth" />
     <MESSAGE value="add fonts" />
+    <MESSAGE value="add controller actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1824,11 +1827,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="104" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26362038">
+        <state line="32" column="21" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.84358525">
           <folding>
             <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-            <element signature="e#1523#1570#1" expanded="true" />
+            <element signature="e#1562#1609#1" expanded="true" />
             <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
           </folding>
         </state>
