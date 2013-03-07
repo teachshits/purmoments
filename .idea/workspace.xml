@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/index.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -17,12 +17,12 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650724336" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362650872156" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
     <file path="/prizes.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362557514362" ignored="false" />
-    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362618364800" ignored="false" />
+    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362651076739" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/views/layouts/page_templates/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988726092" ignored="false" />
     <file path="/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988508049" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/assets/stylesheets/main.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361993232526" ignored="false" />
@@ -210,7 +210,7 @@
               <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="9" column="92" selection-start="278" selection-end="278" vertical-scroll-proportion="0.22920203">
+                    <state line="0" column="40" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -321,7 +321,7 @@
               <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="49" column="37" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8946322">
+                    <state line="43" column="60" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.71570575">
                       <folding>
                         <element signature="e#2448#2487#1" expanded="true" />
                         <element signature="e#2635#2669#1" expanded="true" />
@@ -383,7 +383,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/word.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/lib/tasks/words.csv" />
         <option value="$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml" />
@@ -399,6 +398,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
       </list>
     </option>
   </component>
@@ -1517,7 +1517,11 @@
       <created>1362650727492</created>
       <updated>1362650727493</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add auth">
+      <created>1362650874546</created>
+      <updated>1362650874546</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1736,7 +1740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8946322">
+        <state line="43" column="60" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.71570575">
           <folding>
             <element signature="e#2448#2487#1" expanded="true" />
             <element signature="e#2635#2669#1" expanded="true" />
@@ -1752,7 +1756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="92" selection-start="278" selection-end="278" vertical-scroll-proportion="0.22920203">
+        <state line="0" column="40" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
