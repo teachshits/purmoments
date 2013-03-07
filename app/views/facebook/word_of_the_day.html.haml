@@ -8,13 +8,14 @@
       letter = $(e.currentTarget).data('letter');
       if ($('.quiz_' + letter).length == 0) {
         $chances -= 1;
-        console.log($chances);
         $('.checked').removeClass('checked');
         $('.chance_' + $chances).addClass('checked');
       } else {
         $('.quiz_'+letter).html(letter);
          $remaining -= $('.quiz_'+letter).length;
-         console.log('testers');
+         if ($remaining == 0) {
+           window.location.replace("#{facebook_word_of_the_day_thank_you_path}");
+         }
       }
     })
   })
