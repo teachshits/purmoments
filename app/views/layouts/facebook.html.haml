@@ -35,8 +35,8 @@
               function (response) {
                 if (response.length == 1) {
                   $('.postlike').removeClass('hidden');
-                  FB.api('/m', function(user){
-                    console.log(JSON.stringify(user.name));
+                  FB.api('/me', function(user){
+                    console.log(JSON.stringify(user));
                   })
                 } else {
                   $('.prelike').removeClass('hidden');
