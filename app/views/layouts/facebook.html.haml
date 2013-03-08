@@ -64,7 +64,7 @@
             },
             success: function (data) {
               if (data.length == 1 && $registrationpage != true ) {
-                console.log('ok');
+                $('.fb_word_of_the_day_container').removeClass('hidden');
               } else {
                 window.location.replace("#{facebook_register_path}")
               }
