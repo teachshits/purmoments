@@ -62,9 +62,10 @@
                  email: $user.email
               }
             },
-            success: function (data, response) {
+            success: function (data, response, jqXHR) {
               console.log(data);
               console.log(response);
+              console.log(jqXHR);
             }
           })
         };
