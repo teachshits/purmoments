@@ -43,7 +43,7 @@
                   $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
-                    if ($window.location != "purmoments.herokuapp.com/facebook/register") {
+                    if (window.location.href != "#{facebook_register_path}") {
                       checkRegistration();
                     }
                   })
