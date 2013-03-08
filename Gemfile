@@ -9,7 +9,7 @@ gem 'pg'
 gem 'haml'
 gem 'ajo_contact', :git => 'git://github.com/andrewajo/AjoContact.git'
 gem 'ajo_register', :git => 'git://github.com/andrewajo/AjoRegister.git'
-
+gem "swf_fu", "~> 2.0"
 
 # Gems used only for assets and not required
 # in production environments by default.

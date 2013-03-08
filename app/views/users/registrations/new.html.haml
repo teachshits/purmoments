@@ -26,26 +26,26 @@
               .field
                 = f.label I18n.t('register.form.first_name')
                 %br
-                = f.text_field :first_name, :placeholder => I18n.t('register.form.prompt.first_name')
+                = f.text_field :first_name, :placeholder => resource.errors['first_name'].first || I18n.t('register.form.prompt.first_name')
               .field
                 = f.label I18n.t('register.form.email')
                 %br
-                = f.text_field :email, :placeholder => I18n.t('register.form.prompt.email')
+                = f.text_field :email, :placeholder => resource.errors['email'].first || I18n.t('register.form.prompt.email')
             #right
               .field
                 = f.label I18n.t('register.form.last_name')
                 %br
-                = f.text_field :last_name, :placeholder => I18n.t('register.form.prompt.last_name')
+                = f.text_field :last_name, :placeholder => resource.errors['last_name'].first || I18n.t('register.form.prompt.last_name')
               #mini
                 .field
                   = f.label I18n.t('register.form.gender')
                   %br
                   .radio
-                    = f.radio_button :gender, :value => 'M'
+                    = f.radio_button :gender, 'M'
                   .radio_label
                     = f.label 'Male'
                   .radio
-                    = f.radio_button :gender, :value => 'F'
+                    = f.radio_button :gender, 'F'
                   .radio_label
                     = f.label 'Female'
               #mini
@@ -57,16 +57,16 @@
             .field
               = f.label :mailing_address
               %br
-              = f.text_field :mailing_address, :placeholder => I18n.t('register.form.prompt.mailing_address')
+              = f.text_field :mailing_address, :placeholder => resource.errors['mailing_address'].first || I18n.t('register.form.prompt.mailing_address')
           #left
             .field
               = f.label :city
               %br
-              = f.text_field :city, :placeholder => I18n.t('register.form.prompt.city')
+              = f.text_field :city, :placeholder => resource.errors['city'].first || I18n.t('register.form.prompt.city')
             .field
               = f.label :password
               %br
-              = f.password_field :password, :placeholder => I18n.t('register.form.prompt.password')
+              = f.password_field :password, :placeholder => resource.errors['password'].first || I18n.t('register.form.prompt.password')
           #right
             .field
               = f.label :province
@@ -75,7 +75,7 @@
             .field
               = f.label :password_confirmation
               %br
-              = f.password_field :password_confirmation, :placeholder => I18n.t('register.form.prompt.password_confirmation')
+              = f.password_field :password_confirmation, :placeholder => resource.errors['password_confirmation'].first || I18n.t('register.form.prompt.password_confirmation')
           #left
             .field
               = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
@@ -83,12 +83,31 @@
           #right
             .field
               .checkbox= f.check_box :rules_and_regulations
-              .label= simple_format I18n.t('register.form.rules_and_regulations')
+              .label
+                = simple_format I18n.t('register.form.rules_and_regulations')
+                .errors= resource.errors['rules_and_regulations'].first
               %br
               .checkbox= f.check_box :opt_in
-              .label= simple_format I18n.t('register.form.opt_in')
+              .label
+                = simple_format I18n.t('register.form.opt_in')
+                .errors= resource.errors['opt_in'].first
 
           .field
             = f.submit I18n.t('register.form.submit')
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          %br
+          = resource.errors.to_json
     #main_narrow_right
       = image_tag('milk_carton.png')

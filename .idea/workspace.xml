@@ -1,30 +1,444 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" afterPath="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="add controller actions">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/challenges/_progress_chart.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/custom_failure.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/main/registration_thank_you.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-4df0b39d72c9a43f4a1472a0ae90cb6c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-7d382aa1a99cde38bba3f34a81542d2e.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/back_to_home_button-bd1aba09a682e849fc6ab015206feaed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/back_to_home_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/background-78f3265fdc28cc1665845ec871c7fedf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bay_card-7bedc42600d32e406e5d2d7282cfc91c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bay_card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_five-f9e656e290eb4f2d2fe31bbf8545a101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_five.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_four-9297a9ee4fe42724ab167adfdaf908cb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_four.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_index-0aab96dc8f2a820c023fbf82cfb64538.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_index.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_one-0fafa6b1b14a1ae1e7a323697866c6ed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_six-6d6dbc3b04bc4d85fb9303ec7ba8bc1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_six.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_start_button-551e3a09599933b17c2b5d79a23e0a89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_start_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_three-8fa34835266d1c878113a288aa4b76d7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_three.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_two-2d20ce4dc1e0f6e385a964cecea0760f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/challenge_two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/click_to_get_started_button-3f5609e57e985175ad33d843b798fab7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/click_to_get_started_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/enter_for_your_chance-d306a4e225b4e481174ac037de53f7d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/enter_for_your_chance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_app_container-9812e8a6347f6c57f474edcdb8343c52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_app_container.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_logo-a649a64baed24d6c90d171edeb579c9e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo-eeb27d6d240694eaba6d17209c051731.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_ribbon-11a170a1f05ae6564b06c73a00dcf593.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_send_button-0d0b94d3186b4119f106c7cfbc1f6fc3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_send_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_back_to_home_button-a761dafabc0de5eb17cd4697fff056d5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_back_to_home_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_background-568bc81d8a4cedf28df465620f444002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_contact_background-03b2807738b346a27e7c0acdd7fb2aed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_contact_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_play_background-10c397367041c03db373f797aa4f7344.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_play_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_prizes_background-501d652e16701411b0dcc60696ce5663.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_prizes_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_right_side-b7de956032de7c1197a05b49d563a650.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_right_side.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_thank_you_background-4fd7b853e664c4cb64d07058e3bbdd1d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fb_thank_you_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/free_chance-d2ea344a875429a7482c2753a6ceae44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/free_chance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/galaxy_tab-facc1442ab870c40e201e9c16ed0a95a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/galaxy_tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/AFFECTION_TENDRESSE-02f5ff8e91895a101c121c5da4ef912e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/AFFECTION_TENDRESSE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BAKING_CUISINER-9d873646f8c25d3b1bc7eee3148d81ba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BAKING_CUISINER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BEACH_PLAGE-0ad814734aa100a3a63f0f27b48b7187.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BEACH_PLAGE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BEVERAGE_BREUVAGE-3a4445394d853540b564c8d71a8dbbd6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BEVERAGE_BREUVAGE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BIRTHDAY_FETE-41271a278b5e477b53e5f98a7506f4b4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BIRTHDAY_FETE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BREAKFAST_DEJEUNER-1f4eb8e041c1ccf65d8e9ada10acb4ad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BREAKFAST_DEJEUNER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BUBBLES_BULLES-bf08845c78f47ece2cbddfcc47803a3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/BUBBLES_BULLES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CALCIUM_CALCIUM-06f552b61d0724a6da256368d66c798e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CALCIUM_CALCIUM.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CALM_CALME-bfd675bb5a9bed0dcd2064cd1c9b7ebb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CALM_CALME.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CAMPING_CAMPING-403b82138dc8ccb2252500cfab5552fc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CAMPING_CAMPING.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CAPPUCCINO_CAPPUCCINO-9db49ea142994bc7d71973b13bf9f168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CAPPUCCINO_CAPPUCCINO.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CEREAL_CEREALES-e6315c28953f9181c83c23677b631166.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CEREAL_CEREALES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHATTING_BAVARDER-7e74f9ad976e33dfc3702a723d7bacfc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHATTING_BAVARDER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHEERS_SANTE-e4feea2dc70cf472c9bba1371312477a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHEERS_SANTE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHILDHOOD_ENFANCE-c8dc05c23bbb3b582c22eb0b893447d8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CHILDHOOD_ENFANCE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COLD_FROID-d4a830640e75e5579546594b101cf07e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COLD_FROID.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COMFORT_CONFORT-243ac6e84e6f2f59c4d49f1e0957d802.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COMFORT_CONFORT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COMPANIONS_COMPAGNES-1db80b6333b08b4dea0aefd098c30cdb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COMPANIONS_COMPAGNES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CONTENT_COMBLEE-f96790e503dbfc12706751b855ec3b67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CONTENT_COMBLEE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COOKIE_BISCUIT-7f6ad265ab62f2ec71e96ea7405146c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COOKIE_BISCUIT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COW_VACHE-7f634b498afcb1b56c02225b6b078911.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/COW_VACHE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CUPCAKE_GATEAU-c4d5096c24ae39c3fd6e3032735398b3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CUPCAKE_GATEAU.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CUP_TASSE-0ffc35295e1775aba565a24e6cd1c97e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/CUP_TASSE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DELIGHT_DELICE-b92fbb8b2cba18c9dd5a95db90a09c46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DELIGHT_DELICE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DESSERT_DESSERT-0691edf6226ef5e5d335669f7788d847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DESSERT_DESSERT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DIP_TREMPER-3d78e004316cc0f604a824df12a4d99a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/DIP_TREMPER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/EASTER_PAQUES-9a0cdf3c73bd80485c91e1cebc22f0e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/EASTER_PAQUES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ENERGY_ENERGIE-a78a1ca02ca64c190120516eecbde416.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ENERGY_ENERGIE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ENJOY_SAVOURER-820ef975870a71b19f81b533eb1937e7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ENJOY_SAVOURER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FAMILY_FAMILLE-ef708f13037a791bdd4c4c629acf3d9f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FAMILY_FAMILLE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FARMER_FERMIER-f5c9ed5f5adbb7355ff17ddbb9014782.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FARMER_FERMIER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FARM_FERME-fdc4d9c5cc45ec6bd243fb5f7808f2e8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FARM_FERME.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FITNESS_EXERCICE-834b696463fa2c791afc854588af2548.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FITNESS_EXERCICE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FRIENDSHIP_AMITIE-5b606c2067459a72ebc043f72abe3bbb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FRIENDSHIP_AMITIE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FRIENDS_AMIES-1d9f67a98ba8b8b1a8fcdc49a1e4ef99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FRIENDS_AMIES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FROTH_MOUSSE-82a1047dd59c0fc2d33487bddf5913e9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FROTH_MOUSSE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FUN_PLAISIR-d3dbc3ef277c965c88c585cff7f215bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/FUN_PLAISIR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GENERATION_GENERATION-62fd375ccce2f399a82dbdd16bd7d805.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GENERATION_GENERATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GOODNESS_BIENFAITS-049421d929131b5b02558383117dd139.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GOODNESS_BIENFAITS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GOURMET_GOURMET-ba2ce1504d0766d61ab761041724101e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/GOURMET_GOURMET.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HAPPINESS_BONHEUR-ffac4a99e0a1d369a2ebe66815a7241d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HAPPINESS_BONHEUR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HAPPY_HEUREUSE-3d3bd7c742109554f8d0e89490d97eba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HAPPY_HEUREUSE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HOBBY_LOISIR-97971d27e1a3ab09bfecf48fb1b8447f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HOBBY_LOISIR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HUG_CALIN-09685dd823d2bd0392d60548f96cc7c5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/HUG_CALIN.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ICE CREAM_CREME GLACEE-51d84849ae7b2c7473adaa229e53f826.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/ICE CREAM_CREME GLACEE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/JOY_JOIE-bc2ecdbb58d5f2742182b9714d61965f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/JOY_JOIE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/KITCHEN_CUISINE-694ccacfcbcae1b1adeffd551423a97f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/KITCHEN_CUISINE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LAIT_MILK-b17c471cb9b299d3e8b086cce4ff6a29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LAIT_MILK.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LATTE_LATTE-2dc6f4f92ccbd17dac22eb0546239135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LATTE_LATTE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LAUGHTER_RIRE-e832c8f7e388bbbfb1e8cdfae8beb64c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LAUGHTER_RIRE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LOVE_AMOUR-011c9bb3b8eb06370b4866280bf6449e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/LOVE_AMOUR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MEMORIES_SOUVENIRS-fffb858be8aad774046c0d7a854a73a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MEMORIES_SOUVENIRS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MENTOR_MENTOR-baae4fb9d44f91dc4f9f4a1a516d2f19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MENTOR_MENTOR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MILKSHAKE_FRAPPE-806c74d3331e9d7b63b0124d0ce1eef7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MILKSHAKE_FRAPPE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MISCHIEF_COQUIN-8d94129a925129c4f518192af2eee1bc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/MISCHIEF_COQUIN.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/NATURE_NATURE-eb651eade1e8a72a454de0ed22ac5568.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/NATURE_NATURE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/NUTRITION_NUTRITION-f0bd756f4d482b3012f29c0dd50de85a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/NUTRITION_NUTRITION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/OUTDOORS_PLEIN AIR-22113d9d6bff8c5f5a32208cfd65f43e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/OUTDOORS_PLEIN AIR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PANCAKES_CREPES-4fadc57095e72f6b8aa426db0e5b88a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PANCAKES_CREPES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PARENTHOOD_PATERNITE-5e55c9187cbd32a8b7791a73e5842155.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PARENTHOOD_PATERNITE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PICNIC_PIQUE-NIQUE-6015350f8dffb745185e10f43ed694b1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PICNIC_PIQUE-NIQUE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PLAYFUL_JOUER-f398026011120eb4f397a77594db3260.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PLAYFUL_JOUER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PLAYTIME_RECREATION-464b18f0a43b693ecbb46de529dfcca2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PLAYTIME_RECREATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/POUR_VERSER-fe298cb860558147254d54ed2bbdb09c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/POUR_VERSER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PURMOMENT_PURMOMENT-729483667411e7e35069529b3048c57e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/PURMOMENT_PURMOMENT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/READING_LECTURE-fabb09e302dc4db587699031922c92ba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/READING_LECTURE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/RELAXING_RELAXER-20240701037c35e494e655dba017c9a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/RELAXING_RELAXER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SHARING_PARTAGER-ac004c6c828e4340484c55b5179a3743.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SHARING_PARTAGER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SHINE_ECLAT-006237f8e09cbd54ef9cd74eb0f00427.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SHINE_ECLAT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SIBLINGS_PARENTE-6c8c386d3ca474cf5bdf8bfe5b33f027.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SIBLINGS_PARENTE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SISTERS_SOEURS-8c7fab8b05dd044cce043380b29e8cff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SISTERS_SOEURS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE-1b277c08abf67a4a2bb40f0a793d7453.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE_May22-77b91bbcb88047631925504fd0c7b057.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE_May22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMOOTHIE_SMOOTHIE-f9b6770b950845119fdbb8a0dbaec4bc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SMOOTHIE_SMOOTHIE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SNACK_COLLATION-88a8dbf42299c9be75b03d9b0616157d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SNACK_COLLATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SPLASH_ARROSER-c63c901d32d60229801bb5c13a405900.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SPLASH_ARROSER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SPORTS_SPORT-eb4a0929cfe508de461723ee7eeed290.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SPORTS_SPORT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/STRENGTH_FORCE-ecb9f3234d04b1efd8cfbe7beb278100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/STRENGTH_FORCE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SURPRISE_SURPRISE-57aca3326fb50b3b679c342d1958d961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/SURPRISE_SURPRISE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TASTE_GOUTER-8f8b018fb3338daaac2ac81d922d83b3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TASTE_GOUTER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEACHING_ENSEIGNER-3bd28b681113a30b6fd40b0ae7d31d6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEACHING_ENSEIGNER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEAMWORK_EQUIPE-e3553f383143a48de90a0c8d920ffcff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEAMWORK_EQUIPE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEETH_DENTS-a3766120c6dfdfc5e2aff8c01cc87fbd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TEETH_DENTS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/THIRST_SOIF-3d3e4d50715b49d88265051cc723e7e0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/THIRST_SOIF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TODDLER_BAMBINE-0e723b7f3114c932b5218df64a26d17a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TODDLER_BAMBINE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TOGETHER_ENSEMBLE-14e91f37ee4e110106a6bd3d81ab5c6e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TOGETHER_ENSEMBLE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TRIUMPH_REUSSITE-84cbd213a0f18ec4f94b0718b08728bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/TRIUMPH_REUSSITE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/VACATION_VACANCES-9e8a47fcb821911dfca03e0b44d449b3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/VACATION_VACANCES.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/WARM_CHAUD-7faab6b6afd75605187993f110cf5e09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/WARM_CHAUD.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/WHOLESOME_SAIN-b4547fce7e1fb9603a0c407115fb1256.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/WHOLESOME_SAIN.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/YOGA_YOGA-9c2320ea46cd08328a546daf64d964e9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/YOGA_YOGA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/YUMMY_DELICIEUX-35d5916485f14182cb7989d7316bace2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/game/YUMMY_DELICIEUX.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started-96ef35f2139597151caa2072cbcd8c99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started_button-4cf7a71928d591b2c146c9640a1d374b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/get_started_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-4fcb00e25bd68b1ee6101df33d284f11.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-5ce548c6677ba4710f9e5abb446b49ae.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-7e6c030f2cae7e3e7d3b163c5fadc4a8.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold-bb1b33827a2151dd45c268ad4ae761de.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gibsonsemibold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-3f9f0b5bf9ad1fbf00a25f5e0fa78372.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-79b085c0a75f76e40cc3344441aa4828.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-84f5bf9d5c42dd77388c95bf7649f5ca.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold-9723641c77d3092fa9bb1482a2e2dfef.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-0358e63b44cf993be78340d7e3e96dba.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-2fa70e59c5e7d3b3961f6b1979bd45f5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-67e62259037e6340c6de1ed1d1031680.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic-c11340fb4039fff8d0079f933ddcfb7b.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambolditalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-3501b49dafb13737ac6b73575fecaa38.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-5176cdbd7f87b71489f96239d085df8d.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-dc977e81ace28a6d0ac53841ca48031e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook-f759ced0e081e921fa5f635b2003ac20.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambook.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-067d80c4262c88ed01e60f2fd0c6ad28.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-3f2c855e7f10315dca426b87905297e5.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-a20f5d29214bfd23fa74b689598d5dfd.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic-f21562013595274d775e5e093943b93f.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothambookitalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-4c7581a6df22a9cd8813db1057a28874.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-60f3327bd085f606480ed69bcb4c1d58.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-9a6a874bb2223bb29309ef9bb8b24f82.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium-a57eb8cd66fad2bbb5be1bc2aaa1f107.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/gothammedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ipad-94df03f85ed2c3c362c08fb1e141d630.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/lactantia_logo-8ed8cba7a57db5b9bfed83aaee11130b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/lactantia_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_enter_today-708f9e8968481ec18d36d01939d8b9e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_enter_today.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_prize_social_share-5cdf8bbfe9377a57950a436fa9fccbb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing_prize_social_share.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/letter_button-13d107f24c9fefeb64c2a8ea96017151.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/letter_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_narrow-88230b0117b416e2139d011a38270791.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_narrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_wide-b0842ee8b9afa01de4eebcf355d74715.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/main_wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_bags-8f2aeec78dd9194c73ace164fbfc7f12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_bags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_carton-03c0dcb67ac7a9150d034ea9638bd0f8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/milk_carton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/parmalat_logo-ee621b707aac8d4013e8bb4da0341366.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/parmalat_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/password_reset_button-af340e7524e15bb048320ddade9dab23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/password_reset_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/play_now_button-5179b09cfbc6b74413d37c45b6cfa426.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/play_now_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prelike_container_background-d9879835590372c8f99113e9a393d3dd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prelike_container_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prelike_ribbon-3c2d93c65f7f82bce3782de1f0beff62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prelike_ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/proceed_button-4f65966f1825deefe55a80481ab1291f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/proceed_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/purmoments_header-e123caa7ffe04fc16e73324b6b61da44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/purmoments_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-a3386665c05a2d82f711a4aaa72d247c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_audio-28cf940e697cd11730b4bc26a1e47e0f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_audio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_help-79994654f907c78f10990ab8ce04c4fb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_refresh-03c5e9d60156c897eb0569c8747e3d42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/recaptcha_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon-1663d1e72cbdf7bae7dde17a55d86707.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon_reset-d8bd918143877a9c6a18d09d002c4858.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ribbon_reset.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/select_arrow-eefb26cb40a68b6e517015c4ee112d67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/select_arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_active-21272ad74df71a8a3d98e7521b1d9dd6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_completed-b816a67497d0833933556ff3388b20f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_completed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_inactive-78dfc57b03f8cd809258d87a058cf98a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/shield_inactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sign_up_button-eaf01cc688e0262f510517a67b0164c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sign_up_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/steps_background-ad8942f2ded1991c7caeb1ef61c8f1f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/steps_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/used_chance-6db99df850c67ad45da39fd86fc9b8d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/used_chance.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_login.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_login.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/challenges.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/challenges.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/challenges_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/challenges_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/challenges/completed.html.haml" afterPath="$PROJECT_DIR$/app/views/challenges/completed.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/entry.rb" afterPath="$PROJECT_DIR$/app/models/entry.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/challenges/index.html.haml" afterPath="$PROJECT_DIR$/app/views/challenges/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/challenges/play.html.haml" afterPath="$PROJECT_DIR$/app/views/challenges/play.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/purmoments.iml" afterPath="$PROJECT_DIR$/.idea/purmoments.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362623397742" ignored="false" />
     <file path="/Gemfile" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362536963195" ignored="false" />
-    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362654781441" ignored="false" />
-    <file path="/main_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471700389" ignored="false" />
+    <file path="/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362701454041" ignored="false" />
+    <file path="/main_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703481256" ignored="false" />
     <file path="/application.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362419277307" ignored="false" />
     <file path="/application.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362642014856" ignored="false" />
     <file path="/a.dummy" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361926903293" ignored="false" />
-    <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473850201" ignored="false" />
-    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362639170896" ignored="false" />
-    <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473043659" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362656556688" ignored="false" />
+    <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
+    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362708344758" ignored="false" />
+    <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362707075915" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362713450967" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078262757" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
     <file path="/prizes.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362557514362" ignored="false" />
-    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362651076739" ignored="false" />
+    <file path="/index.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362690565143" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/views/layouts/page_templates/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988726092" ignored="false" />
     <file path="/_blog.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361988508049" ignored="false" />
     <file path="$USER_HOME$/railsprojects/rcvclaims/app/assets/stylesheets/main.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361993232526" ignored="false" />
@@ -33,23 +447,23 @@
     <file path="$PROJECT_DIR$/../AjoRegister/config/initializers/devise.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032415926" ignored="false" />
     <file path="/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032509610" ignored="false" />
     <file path="/engine_routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362033701982" ignored="false" />
-    <file path="/new.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278219447" ignored="false" />
+    <file path="/new.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362712637146" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362038698817" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/lib/ajo_contact/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362038708292" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/app/controllers/ajo_contact/contact_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362621557007" ignored="false" />
     <file path="/contact_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362621553747" ignored="false" />
     <file path="/development.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362079138013" ignored="false" />
     <file path="/production.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362071581954" ignored="false" />
-    <file path="/Ruby Console" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362655579449" ignored="false" />
+    <file path="/Ruby Console" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703364137" ignored="false" />
     <file path="/devise.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362072763222" ignored="false" />
-    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362279054800" ignored="false" />
-    <file path="/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362279054800" ignored="false" />
-    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/passwords_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362076742150" ignored="false" />
-    <file path="/passwords_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362076735544" ignored="false" />
+    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362712495411" ignored="false" />
+    <file path="/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362712495411" ignored="false" />
+    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/passwords_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362706835959" ignored="false" />
+    <file path="/passwords_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362706824121" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/sessions_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078277011" ignored="false" />
     <file path="/sessions_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362076810725" ignored="false" />
-    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/confirmations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471512718" ignored="false" />
-    <file path="/confirmations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471511311" ignored="false" />
+    <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/confirmations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703221082" ignored="false" />
+    <file path="/confirmations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703188350" ignored="false" />
     <file path="/new.html.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362078577298" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/ajo_register.gemspec" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362085555592" ignored="false" />
     <file path="/ajo_register.gemspec" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362085119483" ignored="false" />
@@ -64,13 +478,13 @@
     <file path="/contact.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471256444" ignored="false" />
     <file path="/prizes.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362376244639" ignored="false" />
     <file path="/rules.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362377057056" ignored="false" />
-    <file path="/registration.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362472750916" ignored="false" />
+    <file path="/registration.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703848567" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/db/migrate/20130226174652_create_ajo_register_users.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362432817286" ignored="false" />
     <file path="/20130226174652_create_ajo_register_users.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362432814788" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/views/users/registrations/new.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362274502445" ignored="false" />
-    <file path="$PROJECT_DIR$/../AjoRegister/app/models/ajo_register/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278592450" ignored="false" />
-    <file path="/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362278590566" ignored="false" />
-    <file path="/challenges.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362477249306" ignored="false" />
+    <file path="$PROJECT_DIR$/../AjoRegister/app/models/ajo_register/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362713405506" ignored="false" />
+    <file path="/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362713186795" ignored="false" />
+    <file path="/challenges.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362683996747" ignored="false" />
     <file path="/challenge_one.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362356973494" ignored="false" />
     <file path="/challenge_two.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362359753138" ignored="false" />
     <file path="/challenge_three.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362359931815" ignored="false" />
@@ -90,17 +504,17 @@
     <file path="/opt_out_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362437985715" ignored="false" />
     <file path="/login.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362473238186" ignored="false" />
     <file path="/20130305041225_create_entries.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362657289409" ignored="false" />
-    <file path="/entry.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362656177150" ignored="false" />
+    <file path="/entry.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362687541457" ignored="false" />
     <file path="/schema.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362457363739" ignored="false" />
     <file path="/intro.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362465317658" ignored="false" />
-    <file path="/play.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362462069143" ignored="false" />
+    <file path="/play.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362691439668" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/controllers/reports_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362468364737" ignored="false" />
     <file path="/reports_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362468357565" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/app/views/ajo_contact/contact_mailer/contact_email.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362470086114" ignored="false" />
     <file path="/contact_email.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362469709076" ignored="false" />
     <file path="/thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471300693" ignored="false" />
     <file path="/sign_up_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362472829862" ignored="false" />
-    <file path="/completed.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362476857245" ignored="false" />
+    <file path="/completed.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362690605903" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513348103" ignored="false" />
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
@@ -126,6 +540,12 @@
     <file path="/20130307061752_create_facts.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362637150375" ignored="false" />
     <file path="/fact.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362637236504" ignored="false" />
     <file path="/fact_importer.rake" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362637676639" ignored="false" />
+    <file path="/challenges.js.coffee" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362685883877" ignored="false" />
+    <file path="/_progress_chart.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362691833218" ignored="false" />
+    <file path="/application_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362701392639" ignored="false" />
+    <file path="/custom_failure.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362696741835" ignored="false" />
+    <file path="/registration_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362703761540" ignored="false" />
+    <file path="/layout.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362704068301" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,226 +570,163 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5094787">
+    <splitter split-orientation="horizontal" split-proportion="0.30706075">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.596463">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="true" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="30" column="34" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.6923077">
-                      <folding>
-                        <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
-                        <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-                        <element signature="e#1772#1819#1" expanded="true" />
-                        <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="entry.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="3" column="98" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="how_to_play.html.haml" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="13" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.125">
-                      <folding>
-                        <element signature="e#384#425#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="fact.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="3" column="50" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="20130305041225_create_entries.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="17" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="fact_importer.rake" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/lib/tasks/fact_importer.rake">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="11" column="35" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="493" column="22" selection-start="16984" selection-end="16984" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="20130307013149_create_words.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/db/migrate/20130307013149_create_words.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="11" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="word_importer.rake" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="12" column="30" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="word.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/models/word.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="3" column="58" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/database.yml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="33" column="88" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="registration.css.sass" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="94" column="19" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout.css.sass" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="41" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="31" selection-start="498" selection-end="498" vertical-scroll-proportion="-8.125">
+                  <folding>
+                    <element signature="e#265#313#1" expanded="true" />
+                    <element signature="e#390#443#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="42" column="49" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="39" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="registration_thank_you.html.haml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/main/registration_thank_you.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="15" selection-start="433" selection-end="433" vertical-scroll-proportion="0.21523179">
+                  <folding>
+                    <element signature="n#t('register.thank_you.header')#0;n#!!top" expanded="true" />
+                    <element signature="n#t('register.thank_you.subheader')#0;n#!!top" expanded="true" />
+                    <element signature="e#240#276#1" expanded="true" />
+                    <element signature="e#353#394#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/schema.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="61" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.6664541">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="7" column="78" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/db/schema.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="62" column="72" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.60544217">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/routes.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="33" column="19" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/application.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="41" column="43" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="52" column="55" selection-start="1480" selection-end="1480" vertical-scroll-proportion="-9.795918">
-                      <folding>
-                        <element signature="e#2371#2410#1" expanded="true" />
-                        <element signature="e#2558#2592#1" expanded="true" />
-                        <element signature="e#2814#2854#0" expanded="true" />
-                        <element signature="e#2912#2945#0" expanded="true" />
-                        <element signature="e#3002#3044#0" expanded="true" />
-                        <element signature="e#3179#3214#0" expanded="true" />
-                        <element signature="e#3273#3307#1" expanded="true" />
-                        <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="41" column="74" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="52" column="64" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/config/routes.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="82" selection-start="694" selection-end="694" vertical-scroll-proportion="-0.03448276">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="application.css.sass" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="62" selection-start="503" selection-end="503" vertical-scroll-proportion="-8.125">
+                  <folding>
+                    <element signature="e#265#313#1" expanded="true" />
+                    <element signature="e#390#443#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="26" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_login.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/shared/_login.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="83" selection-start="851" selection-end="851" vertical-scroll-proportion="-14.375">
+                  <folding>
+                    <element signature="e#929#958#0" expanded="true" />
+                    <element signature="e#982#1019#1" expanded="true" />
+                    <element signature="e#1041#1085#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="34" column="50" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-21.25">
+                  <folding>
+                    <element signature="n#I18n.t('register.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#774#808#1" expanded="true" />
+                    <element signature="e#928#969#0" expanded="true" />
+                    <element signature="e#1017#1046#1" expanded="true" />
+                    <element signature="e#1156#1192#0" expanded="true" />
+                    <element signature="e#1259#1292#1" expanded="true" />
+                    <element signature="e#1410#1450#0" expanded="true" />
+                    <element signature="e#1522#1552#1" expanded="true" />
+                    <element signature="e#1946#1983#1" expanded="true" />
+                    <element signature="e#2333#2379#0" expanded="true" />
+                    <element signature="e#2548#2583#0" expanded="true" />
+                    <element signature="e#2752#2791#0" expanded="true" />
+                    <element signature="e#3214#3266#0" expanded="true" />
+                    <element signature="e#3601#3646#1" expanded="true" />
+                    <element signature="e#3835#3865#1" expanded="true" />
+                    <element signature="e#3964#3994#1" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="149" column="51" selection-start="4293" selection-end="4293" vertical-scroll-proportion="-24.84">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/AjoRegister-8b749c56407f/app/models/ajo_register/user.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="48" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.3669276">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -393,22 +750,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/facebook/prizes.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20130307061752_create_facts.rb" />
-        <option value="$PROJECT_DIR$/app/models/fact.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/fact_importer.rake" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day_thank_you.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/facebook/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass" />
+        <option value="$PROJECT_DIR$/app/views/challenges/_progress_chart.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/challenges_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/custom_failure.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/entry.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb" />
-        <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/main/registration_thank_you.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_login.html.haml" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/AjoRegister-8b749c56407f/app/models/ajo_register/user.rb" />
       </list>
     </option>
   </component>
@@ -420,10 +777,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="945" />
-    <option name="y" value="22" />
-    <option name="width" value="1614" />
-    <option name="height" value="1361" />
+    <option name="x" value="1047" />
+    <option name="y" value="24" />
+    <option name="width" value="1513" />
+    <option name="height" value="1356" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -578,11 +935,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,7 +993,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="facebook" />
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +1008,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purmoments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,7 +1109,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,66 +1223,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/games" />
+      <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/images/facebook" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate">
-    <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="purmoments" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="assets:precompile" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="purmoments" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:precompile" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rails.Development: purmoments">
     <configuration default="false" name="db:rollback" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="purmoments" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -877,6 +1276,58 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:clean" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="purmoments" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assets:precompile" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="purmoments" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:precompile" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -1220,18 +1671,18 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: purmoments" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: purmoments" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.assets:clean" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.assets:clean" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.assets:precompile" />
       <item index="8" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:rollback" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
         <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
         <item index="4" class="java.lang.String" itemvalue="Rake.assets:clean" />
       </list>
     </recent_temporary>
@@ -1605,28 +2056,32 @@
       <created>1362656559148</created>
       <updated>1362656559148</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="add controller actions">
+      <created>1362657506736</created>
+      <updated>1362657506737</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="22" width="1614" height="1361" extended-state="0" />
+    <frame x="1047" y="24" width="1513" height="1356" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22195892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18431123" sideWeight="0.8238547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16973415" sideWeight="0.84298176" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17614534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15701824" sideWeight="0.993865" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1710,133 +2165,144 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/fact.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/_progress_chart.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="50" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+        <state line="33" column="48" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.018337408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facebook/application.css.sass">
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6">
+        <state line="34" column="30" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.62347186">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/prizes.html.haml">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/AjoRegister-5b307c2294da/app/controllers/ajo_register/registrations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="0" selection-end="479" vertical-scroll-proportion="0.23550725">
-          <folding>
-            <element signature="e#354#395#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="19" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0">
+        <state line="42" column="49" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="742" selection-end="742" vertical-scroll-proportion="0.7553957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="64" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/fact_importer.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="74" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="98" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130305041225_create_entries.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="55" selection-start="1480" selection-end="1480" vertical-scroll-proportion="-9.795918">
+        <state line="13" column="62" selection-start="503" selection-end="503" vertical-scroll-proportion="-8.125">
           <folding>
-            <element signature="e#2371#2410#1" expanded="true" />
-            <element signature="e#2558#2592#1" expanded="true" />
-            <element signature="e#2814#2854#0" expanded="true" />
-            <element signature="e#2912#2945#0" expanded="true" />
-            <element signature="e#3002#3044#0" expanded="true" />
-            <element signature="e#3179#3214#0" expanded="true" />
-            <element signature="e#3273#3307#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+            <element signature="e#265#313#1" expanded="true" />
+            <element signature="e#390#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.125">
+        <state line="11" column="57" selection-start="247" selection-end="247" vertical-scroll-proportion="0.19951633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="19" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="41" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_login.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="83" selection-start="851" selection-end="851" vertical-scroll-proportion="-14.375">
           <folding>
-            <element signature="e#384#425#0" expanded="true" />
+            <element signature="e#929#958#0" expanded="true" />
+            <element signature="e#982#1019#1" expanded="true" />
+            <element signature="e#1041#1085#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/word_importer.rake">
+    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="277" selection-end="277" vertical-scroll-proportion="0.37578288">
+        <state line="31" column="39" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="72" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.60544217">
+        <state line="30" column="61" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="34" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.6923077">
+        <state line="34" column="50" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-21.25">
           <folding>
-            <element signature="n#I18n.t('facebook.word_of_the_day.header')#0;n#!!top" expanded="true" />
-            <element signature="n#I18n.t('facebook.word_of_the_day.subheader')#0;n#!!top" expanded="true" />
-            <element signature="e#1772#1819#1" expanded="true" />
-            <element signature="n#I18n.t('facebook.word_of_the_day.chances_header')#0;n#!!top" expanded="true" />
+            <element signature="n#I18n.t('register.header')#0;n#!!top" expanded="true" />
+            <element signature="e#774#808#1" expanded="true" />
+            <element signature="e#928#969#0" expanded="true" />
+            <element signature="e#1017#1046#1" expanded="true" />
+            <element signature="e#1156#1192#0" expanded="true" />
+            <element signature="e#1259#1292#1" expanded="true" />
+            <element signature="e#1410#1450#0" expanded="true" />
+            <element signature="e#1522#1552#1" expanded="true" />
+            <element signature="e#1946#1983#1" expanded="true" />
+            <element signature="e#2333#2379#0" expanded="true" />
+            <element signature="e#2548#2583#0" expanded="true" />
+            <element signature="e#2752#2791#0" expanded="true" />
+            <element signature="e#3214#3266#0" expanded="true" />
+            <element signature="e#3601#3646#1" expanded="true" />
+            <element signature="e#3835#3865#1" expanded="true" />
+            <element signature="e#3964#3994#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/registration_thank_you.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="433" selection-end="433" vertical-scroll-proportion="0.21523179">
+          <folding>
+            <element signature="n#t('register.thank_you.header')#0;n#!!top" expanded="true" />
+            <element signature="n#t('register.thank_you.subheader')#0;n#!!top" expanded="true" />
+            <element signature="e#240#276#1" expanded="true" />
+            <element signature="e#353#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="51" selection-start="4293" selection-end="4293" vertical-scroll-proportion="-24.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/AjoRegister-8b749c56407f/app/models/ajo_register/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.3669276">
+          <folding />
         </state>
       </provider>
     </entry>

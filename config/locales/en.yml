@@ -117,10 +117,32 @@ en:
         password: '* Please enter your password'
         password_confirmation: '* Please confirm your password'
         recaptcha: '* Enter the above letters'
+    form_errors:
+      first_name:
+        required: '* Please enter your first name'
+      last_name:
+        required: '* Please enter your last name'
+      email:
+        required: '* Please enter your email address'
+      gender:
+        required: '* Required'
+      year_of_birth:
+        required: '* Required'
+      mailing_address:
+        required: ' * Please enter your address'
+      city:
+        required: '* Please enter your city'
+      province:
+        required: '* Required'
+      password:
+        required: '* Please enter your password'
+      password_confirmation:
+        required: '* Please confirm your password'
+
     thank_you:
       header: 'ACCOUNT ACTIVATION'
       subheader: 'Almost there!'
-      copy: |
+      instructions: |
         Lactantia PurMoments has just
         sent you an email to activate
         your account.

@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/andrewajo/AjoRegister.git
-  revision: 5e6a3c67015a1fa82365333bf6bee1ea8f4e0692
+  revision: 8b749c56407f6a98dc74a1932bc62f97e169b15d
   specs:
     ajo_register (0.0.1)
       bcrypt-ruby
@@ -125,6 +125,9 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    swf_fu (2.0.4)
+      coffee-script
+      rails (>= 3.1)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -157,5 +160,6 @@ DEPENDENCIES
   pg
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
+  swf_fu (~> 2.0)
   uglifier (>= 1.0.3)
   unicorn

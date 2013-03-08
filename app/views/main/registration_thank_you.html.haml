@@ -1,0 +1,14 @@
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #reset_header
+        %h1= t('register.thank_you.header')
+      #reset_container
+        %h1= t('register.thank_you.subheader')
+        #reset_copy
+          = simple_format t('register.thank_you.instructions')
+        = link_to root_path do
+          #back_to_home_button
+            = I18n.t('register.thank_you.back_to_home')
+    #main_narrow_right
+      = image_tag('milk_carton.png')

@@ -2,6 +2,9 @@ class MainController < ApplicationController
   def index
   end
 
+  def registration_thank_you
+  end
+
   def optin
   end
 

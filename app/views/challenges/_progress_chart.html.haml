@@ -1,0 +1,98 @@
+#progress_chart
+  .row-fluid
+    .span8
+    .span43
+      #step_one.row-fluid{:class => [@latest_challenge >= 1 ? 'completed' : '', Date.today <= Date.new(2013,3,3) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            1
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[0]
+              - if @latest_challenge >= 1
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(1) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_one')
+      #step_two.row-fluid{:class => [@latest_challenge >= 2 ? 'completed' : '', Date.today <= Date.new(2013,2,8) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            2
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[1]
+              - if @latest_challenge >= 2
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(2) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_two')
+      #step_three.row-fluid{:class => [@latest_challenge >= 3 ? 'completed' : '', Date.today <= Date.new(2013,2,22) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            3
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[2]
+              - if @latest_challenge >= 3
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(3) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_three')
+      #step_four.row-fluid{:class => [@latest_challenge >= 4 ? 'completed' : '', Date.today <= Date.new(2013,4,6) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            4
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[3]
+              - if @latest_challenge >= 4
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(4) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_four')
+      #step_five.row-fluid{:class => [@latest_challenge >= 5 ? 'completed' : '', Date.today <= Date.new(2013,4,20) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            5
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[4]
+              - if @latest_challenge >= 5
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(5) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_five')
+      #step_six.row-fluid{:class => [@latest_challenge >= 6 ? 'completed' : '', Date.today <= Date.new(2013,5,3) ? 'inactive' : 'active']}
+        .span18
+          .shield
+            6
+        .span29
+          #challenge_text
+            - if Date.today >= @available_dates[5]
+              - if @latest_challenge >= 6
+                = t('challenges.progress.challenge_completed')
+              - else
+                = link_to challenge_intro_path(6) do
+                  = t('challenges.progress.challenge_active')
+            - else
+              = t('challenges.progress.challenge_active')
+          #challenge_date= t('challenges.dates.challenge_six')
+      #progress_copy
+        = simple_format t('challenges.progress.copy')
+      #progress_tagline
+        = simple_format t('challenges.progress.tagline')

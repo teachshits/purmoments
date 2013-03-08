@@ -1,3 +1,26 @@
+:javascript
+  var addEntry = function() {
+    $.ajax({
+    type: "POST",
+    url: "#{new_entry_path}",
+    data: {
+       entry: {
+         user_id: "#{current_user.id}",
+         first_name: "#{current_user.first_name}",
+         last_name: "#{current_user.last_name}",
+         email: "#{current_user.email}",
+         gender: "#{current_user.gender}",
+         source: 'microsite',
+         challenge_id: "#{@challenge_number}"
+       }
+    },
+    success: function () {
+      window.location.replace("#{challenge_completed_path}");
+    }
+  })
+  }
+
 #main_wide
-  #main_wide_container
+  #main_wide_container.play
     #play_container
+      = swf_tag "game#{@challenge_number}", :height => '704px'

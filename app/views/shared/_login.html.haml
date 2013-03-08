@@ -21,7 +21,8 @@
             = simple_format t('login.reset_password.instructions')
 
           = form_for "user", :url => ajo_register.user_password_path, :html => { :method => :post } do |f|
-            = f.text_field :email, :placeholder => 'Email Address'
+            .field{:class => [flash[:reset_error].nil? ? '' : '.field_with_errors']}
+              = f.text_field :email, :placeholder => flash[:reset_error] || I18n.t('register.form.email')
             = f.submit I18n.t('login.reset_password.submit')
 
           = link_to I18n.t('login.reset_password.back_to_login'), '?reset=false'
