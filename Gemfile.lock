@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/andrewajo/AjoContact.git
-  revision: 34268c643600f57ce55b6f870efe24b736c3888c
+  revision: b9fbcfc330350943a42beba3c66c45b31bf8e3a4
   specs:
     ajo_contact (0.0.1)
       haml
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/andrewajo/AjoRegister.git
-  revision: 8b749c56407f6a98dc74a1932bc62f97e169b15d
+  revision: d54f61afd5f77466735bbfa24281810031806973
   specs:
     ajo_register (0.0.1)
       bcrypt-ruby
@@ -66,7 +66,7 @@ GEM
       railties (~> 3.1)
       warden (~> 1.2.1)
     erubis (2.7.0)
-    eventmachine (1.0.1)
+    eventmachine (1.0.2)
     execjs (1.4.0)
       multi_json (~> 1.0)
     haml (4.0.0)

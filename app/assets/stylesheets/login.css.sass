@@ -1,5 +1,23 @@
 //LOGIN
 
+#login_form
+  .field_with_errors
+    input[type=text]
+      background: #FFF URL('login_email_icon_error.png') no-repeat 5px
+    input[type=password]
+      background: #FFF URL('login_password_icon_error.png') no-repeat 5px
+    input[type=text]:focus, input[type=password]:focus
+      background: #FFF
+    input[type=text], textarea, select, p
+      color: #cd1631
+    ::-webkit-input-placeholder
+      color: #cd1631
+    :-moz-placeholder
+      color: #cd1631
+    ::-moz-placeholder
+      color: #cd1631
+    :-ms-input-placeholder
+      color: #cd1631
 #login
   margin-left: -8px
   background: URL('ribbon.png') no-repeat
@@ -7,6 +25,21 @@
   input[type=text], input[type=password]
     margin-top: 2px
     margin-bottom: 5px
+
+  ::-webkit-input-placeholder
+    text-indent: 16px
+  :-moz-placeholder
+    text-indent: 16px
+  ::-moz-placeholder
+    text-indent: 16px
+  :-ms-input-placeholder
+    text-indent: 16px
+  input[type=text]
+    background: #FFF URL('login_email_icon.png') no-repeat 5px
+  input[type=password]
+    background: #FFF URL('login_password_icon.png') no-repeat 5px
+  input[type=text]:focus, input[type=password]:focus
+    background: #FFF
   input[type=submit]
     display: block
     width:  208px
@@ -17,6 +50,24 @@
     border:  none
   a
     text-align: center
+  .field_with_errors
+    input[type=text]
+      background: #FFF URL('login_email_icon_error.png') no-repeat 5px
+    input[type=password]
+      background: #FFF URL('login_password_icon_error.png') no-repeat 5px
+    input[type=text]:focus, input[type=password]:focus
+      background: #FFF
+    input[type=text], textarea, select, p
+      color: #cd1631
+    ::-webkit-input-placeholder
+      color:    #cd1631
+    :-moz-placeholder
+      color:    #cd1631
+    ::-moz-placeholder
+      color:    #cd1631
+    :-ms-input-placeholder
+      color:    #cd1631
+
 
 #login.reset
   background:  URL('ribbon_reset.png') no-repeat
@@ -25,6 +76,20 @@
   a
     color: #FFFF99
     margin-left: 65px
+  input#user_password_confirmation
+    margin-bottom: 5px !important
+
+#login_copy
+  margin:  0px
+  line-height: 13px
+  color:  #FFFF99
+  p
+    font-size: 12px
+    margin-top:  0px
+    margin-bottom: 5px
+    margin-left: -40px
+    text-align: center
+
 #login_reset_instructions
   line-height: 12px
   width: 220px

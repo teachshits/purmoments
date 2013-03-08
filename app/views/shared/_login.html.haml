@@ -21,11 +21,27 @@
             = simple_format t('login.reset_password.instructions')
 
           = form_for "user", :url => ajo_register.user_password_path, :html => { :method => :post } do |f|
-            .field{:class => [flash[:reset_error].nil? ? '' : '.field_with_errors']}
+            .field{:class => [flash[:reset_error].nil? ? '' : 'field_with_errors']}
               = f.text_field :email, :placeholder => flash[:reset_error] || I18n.t('register.form.email')
             = f.submit I18n.t('login.reset_password.submit')
 
           = link_to I18n.t('login.reset_password.back_to_login'), '?reset=false'
+
+
+- elsif params[:reset_password_token] || (controller.controller_name == 'passwords' && controller.action_name == 'update')
+  #login.reset
+    #login_form
+      .row
+        .span12
+          #login_header
+            = t('login.new_password.header')
+          #login_copy
+            = simple_format t('login.new_password.copy')
+          = form_for resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put } do |f|
+            = f.hidden_field :reset_password_token
+            = f.password_field :password, :placeholder => resource.errors[:password].first || I18n.t('login.new_password.prompt.password')
+            = f.password_field :password_confirmation, :placeholder => resource.errors[:password_confirmation].first || I18n.t('login.new_password.prompt.confirm')
+            = f.submit I18n.t('login.reset_password.submit')
 -else
   #login
     #login_form
@@ -33,9 +49,16 @@
         .span12
           #login_header= t('login.header')
           = form_for "user", :url => ajo_register.user_session_path do |f|
-            = f.text_field :email, :placeholder => 'email'
-            %br
-            = f.password_field :password, :placeholder => 'password'
+            %div{:class => if flash[:alert] then 'field_with_errors' end}
+              - if flash[:alert]
+                = f.text_field :email, :placeholder => I18n.t('login.error.email')
+              - else
+                = f.text_field :email, :placeholder => I18n.t('login.prompt.email')
+              %br
+              - if flash[:alert]
+                = f.password_field :password, :placeholder => I18n.t('login.error.password')
+              -else
+                = f.password_field :password, :placeholder => I18n.t('login.prompt.password')
             = f.submit 'Submit', :id => 'login_submit_button'
           #login_links
             = link_to I18n.t('login.register_link'), ajo_register.new_user_registration_path

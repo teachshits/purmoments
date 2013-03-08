@@ -9,18 +9,21 @@
         .field
           = f.label I18n.t('contact.form.first_name')
           %br
-          = f.text_field :first_name, :placeholder => I18n.t('contact.form.prompt.first_name')
+          = f.text_field :first_name, :placeholder => @message.errors['first_name'].first || I18n.t('contact.form.prompt.first_name')
       #right
         .field
           = f.label I18n.t('contact.form.last_name')
           %br
-          = f.text_field :last_name, :placeholder => I18n.t('contact.form.prompt.last_name')
+          = f.text_field :last_name, :placeholder => @message.errors['last_name'].first || I18n.t('contact.form.prompt.last_name')
     #full
       .field
         = f.label I18n.t('contact.form.email_address')
         %br
         .wide
-          = f.text_field :email_address, :placeholder => I18n.t('contact.form.prompt.email_address')
+          - if @message.errors['email_address'].count > 0
+            = f.text_field :email_address, :placeholder => @message.errors['email_address'].first || I18n.t('contact.form.prompt.email_address'), :value => ''
+          - else
+            = f.text_field :email_address, :placeholder => @message.errors['email_address'].first || I18n.t('contact.form.prompt.email_address')
     #full
       .field
         = f.label I18n.t('contact.form.subject')
@@ -32,16 +35,15 @@
         .field
           = f.label I18n.t('contact.form.message')
           %br
-          = f.text_area :message
-          .error= @message.errors['message'].first
+          = f.text_area :message, :placeholder => @message.errors['message'].first
 
     .row-fluid
       #left
         .field
           = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
           = render 'shared/recaptcha_contact'
-          .error= @message.errors['recaptcha'].first
       #right
         .field
-          %input#recaptcha_response_field{:name => "recaptcha_response_field", :type => "text", :placeholder => I18n.t('register.form.prompt.recaptcha')}
+          %div{:class => @message.errors['recaptcha'].count > 0 ? 'field_with_errors' : ''}
+            %input#recaptcha_response_field{:name => "recaptcha_response_field", :type => "text", :placeholder => @message.errors['recaptcha'].first || I18n.t('register.form.prompt.recaptcha')}
         = f.submit I18n.t('contact.form.submit')

@@ -2,9 +2,6 @@ class MainController < ApplicationController
   def index
   end
 
-  def registration_thank_you
-  end
-
   def optin
   end
 
@@ -26,9 +23,6 @@ class MainController < ApplicationController
   end
 
   def opt_in_thank_you
-    if current_user.opt_in_confirmed == true
-      redirect_to root_path
-    end
   end
 
   def opt_out_thank_you

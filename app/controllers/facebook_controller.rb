@@ -10,6 +10,11 @@ class FacebookController < ApplicationController
   def how_to_play
   end
 
+  def registration_check
+    @user = AjoRegister::User.where('uid = ? Or email = ?', params[:user][:facebook_id], params[:user][:email])
+    render :json => @user_
+  end
+
   def word_of_the_day
     @word = Word.find_by_date(Date.today+23)
     Rails.logger.info(Date.today+23)

@@ -5,6 +5,7 @@ Purmoments::Application.routes.draw do
   match '/how_to_play' => 'main#how_to_play', :as => 'how_to_play'
   match '/terms_of_use' => 'main#terms_of_use', :as => 'terms_of_use'
   match '/privacy_policy' => 'main#privacy_policy', :as => 'privacy_policy'
+  match '/rules_and_regulations' => 'main#rules_and_regulations', :as => 'rules_and_regulations'
 
   match '/sign_up_thank_you' => 'main#sign_up_thank_you', :as => 'after_sign_up'
 
@@ -24,6 +25,7 @@ Purmoments::Application.routes.draw do
 
   #FACEBOOK ROUTES
   match '/facebook' => 'facebook#index', :as => 'facebook_root'
+  match '/facebook/registration_check' => 'facebook#registration_check', :as => 'facebook_registration_check'
   match '/facebook/prizes' => 'facebook#prizes', :as => 'facebook_prizes'
   match '/facebook/how_to_play' => 'facebook#how_to_play', :as => 'facebook_how_to_play'
   match '/facebook/contact' => 'facebook#contact', :as => 'facebook_contact'
@@ -36,7 +38,7 @@ Purmoments::Application.routes.draw do
   match '/facebook/create_entry' => 'facebook#create_entry', :as => 'facebook_create_entry'
 
   match '/facebook/channel.html' => 'facebook#channel', :as => 'facebook_channel'
-
+  get '/users' => redirect('/users/sign_up?reset=true')
   mount AjoContact::Engine => '/contact'
   mount AjoRegister::Engine => '/'
 end

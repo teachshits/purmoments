@@ -43,6 +43,24 @@
   a
     text-decoration: none
 
+  label.error
+    color: #cd1631
+  //ERRORS
+  .field_with_errors
+    display: inline
+    input[type=text], textarea, select, p
+      color: #cd1631
+    ::-webkit-input-placeholder
+      color:    #cd1631
+    :-moz-placeholder
+      color:    #cd1631
+    ::-moz-placeholder
+      color:    #cd1631
+    :-ms-input-placeholder
+      color:    #cd1631
+    textarea
+      font-size: 12px
+
 #back_to_home_button
   background: URL('back_to_home_button.png')
   width:  225px

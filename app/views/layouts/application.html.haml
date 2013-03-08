@@ -31,9 +31,9 @@
             .span51
               %ul#footer
                 %li.left= link_to I18n.t('navigation.footer.terms_of_use'), main_app.terms_of_use_path
-                %li= link_to I18n.t('navigation.footer.rules'), main_app.how_to_play_path
-                %li= link_to I18n.t('navigation.footer.privacy_policy'), main_app.privacy_policy_path
-                %li= link_to "www.lactantia.ca", 'http://www.lactantia.ca'
+                %li= link_to I18n.t('navigation.footer.rules'), '/rules_and_regulations.pdf', :target => '_blank'
+                %li= link_to I18n.t('navigation.footer.privacy_policy'), 'http://www.parmalat.ca/legal/privacy.htm', :target => '_blank'
+                %li= link_to "www.lactantia.ca", 'http://www.lactantia.ca', :target => '_blank'
                 %li= link_to I18n.t('navigation.footer.contact'), main_app.ajo_contact_path
                 %li.right= link_to I18n.t('navigation.footer.french')
               #footer_notes

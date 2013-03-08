@@ -1,0 +1,39 @@
+#main_wide
+  #main_wide_container
+    #get_started
+      .row
+        #main_wide_left
+          #enter_for_your_chance_copy
+            =image_tag('enter_for_your_chance.png')
+            %p= simple_format t('landing.main_copy')
+            = link_to main_app.challenges_path do
+              #click_here_to_get_started
+          #challenge_tagline
+            =t('landing.challenge_tagline')
+          %ul#landing_prizes
+            %li.bordered
+              = image_tag('milk_bags.png')
+              .landing_prizes_header.left
+                = t('landing.landing_prizes.milk_bags.header')
+              .landing_prizes_copy.left
+                = simple_format t('landing.landing_prizes.milk_bags.copy')
+            %li.bordered
+              = image_tag('bay_card.png')
+              .landing_prizes_header
+                = t('landing.landing_prizes.bay.header')
+              .landing_prizes_copy
+                = simple_format t('landing.landing_prizes.bay.copy')
+            %li
+              = image_tag('ipad.png')
+              .landing_prizes_header
+                = t('landing.landing_prizes.ipad.header')
+              .landing_prizes_copy
+                = simple_format t('landing.landing_prizes.ipad.copy')
+
+        #main_wide_right
+          = image_tag('milk_carton.png')
+          #landing_enter_today= image_tag('landing_enter_today.png')
+          #landing_fine_print
+            = simple_format t('landing.fine_print.one')
+            = simple_format t('landing.fine_print.two')
+            = simple_format t('landing.fine_print.three')

@@ -26,8 +26,21 @@
     padding:  7px
     width: 298px
     +border-radius(3px)
+  .radio_label .field_with_errors label
+    color: #cd1631
   .field_with_errors
     display: inline
+    input[type=text], textarea, select, p
+      color: #cd1631
+    ::-webkit-input-placeholder
+      color:    #cd1631
+    :-moz-placeholder
+      color:    #cd1631
+    ::-moz-placeholder
+      color:    #cd1631
+    :-ms-input-placeholder
+      color:    #cd1631
+
   #full
     width: 635px
     input[type=text]
@@ -52,6 +65,10 @@
     p
       margin-top: 3px
       margin-bottom: 0px
+    a
+      color: #cd1631
+      font-size: 12px
+      font-family: 'Gotham-Medium'
   input[type="checkbox"]
     -webkit-appearance: radio
     -moz-appearance: radio

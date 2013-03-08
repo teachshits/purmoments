@@ -6,8 +6,8 @@
       .span5
         %div
           %a{:href => "javascript:Recaptcha.reload()"}= image_tag('recaptcha_refresh.png')
-        .recaptcha_only_if_image
-          %a{:href => "javascript:Recaptcha.switch_type('audio')"}= image_tag('recaptcha_audio.png')
+        -#.recaptcha_only_if_image
+        -#  %a{:href => "javascript:Recaptcha.switch_type('audio')"}= image_tag('recaptcha_audio.png')
         .recaptcha_only_if_audio
           %a{:href => "javascript:Recaptcha.switch_type('image')"} Get an image CAPTCHA
         %div

@@ -43,6 +43,7 @@
                   $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
+                    checkRegistration();
                   })
                 } else {
                   $('.prelike').removeClass('hidden');
@@ -50,6 +51,23 @@
               }
             );
         };
+
+        function checkRegistration() {
+          $.ajax({
+            type: "GET",
+            url: "#{facebook_registration_check_path}",
+            data: {
+              user : {
+                 facebook_id: $user.uid,
+                 email: $user.email
+              }
+            },
+            success: function (data) {
+              console.log('data');
+            }
+          })
+        };
+
       };
 
       (function(d) {
