@@ -56,13 +56,12 @@
           $.ajax({
             type: "GET",
             url: "#{facebook_registration_check_path}",
+            dataType: "JSON",
             data: {
               email: $user.email
             },
-            success: function (data, response, jqXHR) {
+            success: function (data) {
               console.log(data);
-              console.log(response);
-              console.log(jqXHR);
             }
           })
         };
