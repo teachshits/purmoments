@@ -44,10 +44,10 @@
                   FB.api('/me', function(user){
                     $user = user;
                     console.log(window.location.href);
-                    console.log("#{facebook_register_path}");
-                    //if (window.location.href != "#{facebook_register_path}") {
-                    //  checkRegistration();
-                    //}
+                    console.log("#{facebook_register_url}");
+                    if (window.location.href != "#{facebook_register_url}") {
+                      checkRegistration();
+                    }
                   })
                 } else {
                   $('.prelike').removeClass('hidden');
