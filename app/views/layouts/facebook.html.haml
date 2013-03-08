@@ -61,7 +61,7 @@
               email: $user.email
             },
             success: function (data) {
-              if (data.length == 1) {
+              if (data.length == 1 && $registrationpage != true ) {
                 console.log('ok');
               } else {
                 window.location.replace("#{facebook_register_path}")
