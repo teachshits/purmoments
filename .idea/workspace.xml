@@ -17,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740731078" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743406744" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362752971139" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362753337523" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724802352" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -166,7 +166,7 @@
           <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="66" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.65430754">
+                <state line="45" column="46" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.73609596">
                   <folding>
                     <element signature="e#3048#3087#1" expanded="true" />
                     <element signature="e#3235#3269#1" expanded="true" />
@@ -1862,7 +1862,11 @@
       <created>1362752973859</created>
       <updated>1362752973859</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="add unversioned files">
+      <created>1362753340114</created>
+      <updated>1362753340114</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2078,7 +2082,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="66" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.65430754">
+        <state line="45" column="46" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.73609596">
           <folding>
             <element signature="e#3048#3087#1" expanded="true" />
             <element signature="e#3235#3269#1" expanded="true" />

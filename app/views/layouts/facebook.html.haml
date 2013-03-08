@@ -43,7 +43,7 @@
                   $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
-                    if (window.location.href != "#{facebook_word_of_the_day_url}") {
+                    if (window.location.href == "#{facebook_word_of_the_day_url}") {
                       checkRegistration();
                     }
                   })
