@@ -26,6 +26,7 @@ Purmoments::Application.routes.draw do
   #FACEBOOK ROUTES
   match '/facebook' => 'facebook#index', :as => 'facebook_root'
   match '/facebook/registration_check' => 'facebook#registration_check', :as => 'facebook_registration_check'
+  match '/facebook/register' => 'facebook#register', :as => 'facebook_register'
   match '/facebook/prizes' => 'facebook#prizes', :as => 'facebook_prizes'
   match '/facebook/how_to_play' => 'facebook#how_to_play', :as => 'facebook_how_to_play'
   match '/facebook/contact' => 'facebook#contact', :as => 'facebook_contact'

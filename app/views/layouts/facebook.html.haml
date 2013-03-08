@@ -61,7 +61,11 @@
               email: $user.email
             },
             success: function (data) {
-              console.log(data);
+              if (data.length == 1) {
+                console.log('ok');
+              } else {
+                window.location.replace("#{facebook_register_path}")
+              }
             }
           })
         };

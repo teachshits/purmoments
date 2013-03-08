@@ -16,6 +16,9 @@ class FacebookController < ApplicationController
     respond_with @user
   end
 
+  def register
+  end
+
   def word_of_the_day
     @word = Word.find_by_date(Date.today+23)
     Rails.logger.info(Date.today+23)
