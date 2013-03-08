@@ -1,6 +1,7 @@
 # coding: utf-8
 class FacebookController < ApplicationController
   layout 'facebook'
+  respond_to :json
   def index
   end
 
@@ -12,7 +13,7 @@ class FacebookController < ApplicationController
 
   def registration_check
     @user = AjoRegister::User.where(:email => params[:email])
-    render :json => @user_
+    respond_with @user
   end
 
   def word_of_the_day
