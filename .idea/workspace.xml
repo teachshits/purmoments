@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/register.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/register.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740731078" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743406744" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362751466414" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362752023110" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724802352" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -194,7 +193,7 @@
           <file leaf-file-name="register.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/facebook/register.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="19" selection-start="31" selection-end="31" vertical-scroll-proportion="0.016129032">
+                <state line="1" column="37" selection-start="39" selection-end="39" vertical-scroll-proportion="0.016129032">
                   <folding />
                 </state>
               </provider>
@@ -1844,7 +1843,11 @@
       <created>1362751468571</created>
       <updated>1362751468572</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="add unversioned files">
+      <created>1362752025698</created>
+      <updated>1362752025699</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2069,7 +2072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/register.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="31" selection-end="31" vertical-scroll-proportion="0.016129032">
+        <state line="1" column="37" selection-start="39" selection-end="39" vertical-scroll-proportion="0.016129032">
           <folding />
         </state>
       </provider>
