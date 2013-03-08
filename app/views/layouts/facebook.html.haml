@@ -43,7 +43,9 @@
                   $('.postlike').removeClass('hidden');
                   FB.api('/me', function(user){
                     $user = user;
-                    checkRegistration();
+                    if ($window.location != "purmoments.herokuapp.com/facebook/register") {
+                      checkRegistration();
+                    }
                   })
                 } else {
                   $('.prelike').removeClass('hidden');
