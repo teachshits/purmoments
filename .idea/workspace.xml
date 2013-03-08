@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/users/passwords/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ajo_contact/contact/_contact_form.html.haml" afterPath="$PROJECT_DIR$/app/views/ajo_contact/contact/_contact_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_login.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_login.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_recaptcha.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_recaptcha.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_recaptcha_contact.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_recaptcha_contact.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_recaptcha_facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_recaptcha_facebook.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/login.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/login.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/optin.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/optin.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/purmoments.iml" afterPath="$PROJECT_DIR$/.idea/purmoments.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/registration.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -37,7 +17,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740731078" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743406744" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743077136" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362748880033" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724802352" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -123,7 +103,7 @@
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362748614698" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362748361362" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362749014699" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -182,28 +162,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="67" column="63" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-16.708334">
+                <state line="65" column="30" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.49731904">
                   <folding>
-                    <element signature="e#2816#2855#1" expanded="true" />
-                    <element signature="e#3003#3037#1" expanded="true" />
-                    <element signature="e#3259#3299#0" expanded="true" />
-                    <element signature="e#3357#3390#0" expanded="true" />
-                    <element signature="e#3447#3489#0" expanded="true" />
-                    <element signature="e#3624#3659#0" expanded="true" />
-                    <element signature="e#3718#3752#1" expanded="true" />
+                    <element signature="e#2814#2853#1" expanded="true" />
+                    <element signature="e#3001#3035#1" expanded="true" />
+                    <element signature="e#3257#3297#0" expanded="true" />
+                    <element signature="e#3355#3388#0" expanded="true" />
+                    <element signature="e#3445#3487#0" expanded="true" />
+                    <element signature="e#3622#3657#0" expanded="true" />
+                    <element signature="e#3716#3750#1" expanded="true" />
                     <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="facebook_controller.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="58" selection-start="423" selection-end="423" vertical-scroll-proportion="0.37012988">
+                <state line="36" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -269,8 +249,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
       </list>
     </option>
   </component>
@@ -1813,7 +1793,11 @@
       <created>1362713902764</created>
       <updated>1362713902764</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="fix registration add fb js calls">
+      <created>1362748884308</created>
+      <updated>1362748884308</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1878,7 +1862,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add controller actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix registration add fb js calls" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1905,6 +1889,7 @@
     <MESSAGE value="add auth" />
     <MESSAGE value="add fonts" />
     <MESSAGE value="add controller actions" />
+    <MESSAGE value="fix registration add fb js calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2020,26 +2005,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="63" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-16.708334">
-          <folding>
-            <element signature="e#2816#2855#1" expanded="true" />
-            <element signature="e#3003#3037#1" expanded="true" />
-            <element signature="e#3259#3299#0" expanded="true" />
-            <element signature="e#3357#3390#0" expanded="true" />
-            <element signature="e#3447#3489#0" expanded="true" />
-            <element signature="e#3624#3659#0" expanded="true" />
-            <element signature="e#3718#3752#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="36" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="58" selection-start="423" selection-end="423" vertical-scroll-proportion="0.37012988">
-          <folding />
+        <state line="65" column="30" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.49731904">
+          <folding>
+            <element signature="e#2814#2853#1" expanded="true" />
+            <element signature="e#3001#3035#1" expanded="true" />
+            <element signature="e#3257#3297#0" expanded="true" />
+            <element signature="e#3355#3388#0" expanded="true" />
+            <element signature="e#3445#3487#0" expanded="true" />
+            <element signature="e#3622#3657#0" expanded="true" />
+            <element signature="e#3716#3750#1" expanded="true" />
+            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
