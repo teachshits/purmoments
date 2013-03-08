@@ -2,429 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/AFFECTION_TENDRESSE-02f5ff8e91895a101c121c5da4ef912e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/AFFECTION_TENDRESSE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BAKING_CUISINER-9d873646f8c25d3b1bc7eee3148d81ba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BAKING_CUISINER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BEACH_PLAGE-0ad814734aa100a3a63f0f27b48b7187.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BEACH_PLAGE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BEVERAGE_BREUVAGE-3a4445394d853540b564c8d71a8dbbd6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BEVERAGE_BREUVAGE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BIRTHDAY_FETE-41271a278b5e477b53e5f98a7506f4b4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BIRTHDAY_FETE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BREAKFAST_DEJEUNER-1f4eb8e041c1ccf65d8e9ada10acb4ad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BREAKFAST_DEJEUNER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BUBBLES_BULLES-bf08845c78f47ece2cbddfcc47803a3c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/BUBBLES_BULLES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CALCIUM_CALCIUM-06f552b61d0724a6da256368d66c798e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CALCIUM_CALCIUM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CALM_CALME-bfd675bb5a9bed0dcd2064cd1c9b7ebb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CALM_CALME.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CAMPING_CAMPING-403b82138dc8ccb2252500cfab5552fc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CAMPING_CAMPING.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CAPPUCCINO_CAPPUCCINO-9db49ea142994bc7d71973b13bf9f168.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CAPPUCCINO_CAPPUCCINO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CEREAL_CEREALES-e6315c28953f9181c83c23677b631166.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CEREAL_CEREALES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHATTING_BAVARDER-7e74f9ad976e33dfc3702a723d7bacfc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHATTING_BAVARDER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHEERS_SANTE-e4feea2dc70cf472c9bba1371312477a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHEERS_SANTE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHILDHOOD_ENFANCE-c8dc05c23bbb3b582c22eb0b893447d8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CHILDHOOD_ENFANCE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COLD_FROID-d4a830640e75e5579546594b101cf07e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COLD_FROID.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COMFORT_CONFORT-243ac6e84e6f2f59c4d49f1e0957d802.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COMFORT_CONFORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COMPANIONS_COMPAGNES-1db80b6333b08b4dea0aefd098c30cdb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COMPANIONS_COMPAGNES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CONTENT_COMBLEE-f96790e503dbfc12706751b855ec3b67.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CONTENT_COMBLEE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COOKIE_BISCUIT-7f6ad265ab62f2ec71e96ea7405146c9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COOKIE_BISCUIT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COW_VACHE-7f634b498afcb1b56c02225b6b078911.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/COW_VACHE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CUPCAKE_GATEAU-c4d5096c24ae39c3fd6e3032735398b3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CUPCAKE_GATEAU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CUP_TASSE-0ffc35295e1775aba565a24e6cd1c97e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/CUP_TASSE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DELIGHT_DELICE-b92fbb8b2cba18c9dd5a95db90a09c46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DELIGHT_DELICE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DESSERT_DESSERT-0691edf6226ef5e5d335669f7788d847.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DESSERT_DESSERT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DIP_TREMPER-3d78e004316cc0f604a824df12a4d99a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/DIP_TREMPER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/EASTER_PAQUES-9a0cdf3c73bd80485c91e1cebc22f0e3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/EASTER_PAQUES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ENERGY_ENERGIE-a78a1ca02ca64c190120516eecbde416.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ENERGY_ENERGIE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ENJOY_SAVOURER-820ef975870a71b19f81b533eb1937e7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ENJOY_SAVOURER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FAMILY_FAMILLE-ef708f13037a791bdd4c4c629acf3d9f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FAMILY_FAMILLE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FARMER_FERMIER-f5c9ed5f5adbb7355ff17ddbb9014782.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FARMER_FERMIER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FARM_FERME-fdc4d9c5cc45ec6bd243fb5f7808f2e8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FARM_FERME.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FITNESS_EXERCICE-834b696463fa2c791afc854588af2548.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FITNESS_EXERCICE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FRIENDSHIP_AMITIE-5b606c2067459a72ebc043f72abe3bbb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FRIENDSHIP_AMITIE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FRIENDS_AMIES-1d9f67a98ba8b8b1a8fcdc49a1e4ef99.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FRIENDS_AMIES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FROTH_MOUSSE-82a1047dd59c0fc2d33487bddf5913e9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FROTH_MOUSSE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FUN_PLAISIR-d3dbc3ef277c965c88c585cff7f215bd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/FUN_PLAISIR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GENERATION_GENERATION-62fd375ccce2f399a82dbdd16bd7d805.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GENERATION_GENERATION.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GOODNESS_BIENFAITS-049421d929131b5b02558383117dd139.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GOODNESS_BIENFAITS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GOURMET_GOURMET-ba2ce1504d0766d61ab761041724101e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/GOURMET_GOURMET.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HAPPINESS_BONHEUR-ffac4a99e0a1d369a2ebe66815a7241d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HAPPINESS_BONHEUR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HAPPY_HEUREUSE-3d3bd7c742109554f8d0e89490d97eba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HAPPY_HEUREUSE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HOBBY_LOISIR-97971d27e1a3ab09bfecf48fb1b8447f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HOBBY_LOISIR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HUG_CALIN-09685dd823d2bd0392d60548f96cc7c5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/HUG_CALIN.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ICE CREAM_CREME GLACEE-51d84849ae7b2c7473adaa229e53f826.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/ICE CREAM_CREME GLACEE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/JOY_JOIE-bc2ecdbb58d5f2742182b9714d61965f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/JOY_JOIE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/KITCHEN_CUISINE-694ccacfcbcae1b1adeffd551423a97f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/KITCHEN_CUISINE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LAIT_MILK-b17c471cb9b299d3e8b086cce4ff6a29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LAIT_MILK.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LATTE_LATTE-2dc6f4f92ccbd17dac22eb0546239135.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LATTE_LATTE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LAUGHTER_RIRE-e832c8f7e388bbbfb1e8cdfae8beb64c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LAUGHTER_RIRE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LOVE_AMOUR-011c9bb3b8eb06370b4866280bf6449e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/LOVE_AMOUR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MEMORIES_SOUVENIRS-fffb858be8aad774046c0d7a854a73a4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MEMORIES_SOUVENIRS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MENTOR_MENTOR-baae4fb9d44f91dc4f9f4a1a516d2f19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MENTOR_MENTOR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MILKSHAKE_FRAPPE-806c74d3331e9d7b63b0124d0ce1eef7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MILKSHAKE_FRAPPE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MISCHIEF_COQUIN-8d94129a925129c4f518192af2eee1bc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/MISCHIEF_COQUIN.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/NATURE_NATURE-eb651eade1e8a72a454de0ed22ac5568.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/NATURE_NATURE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/NUTRITION_NUTRITION-f0bd756f4d482b3012f29c0dd50de85a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/NUTRITION_NUTRITION.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/OUTDOORS_PLEIN AIR-22113d9d6bff8c5f5a32208cfd65f43e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/OUTDOORS_PLEIN AIR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PANCAKES_CREPES-4fadc57095e72f6b8aa426db0e5b88a9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PANCAKES_CREPES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PARENTHOOD_PATERNITE-5e55c9187cbd32a8b7791a73e5842155.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PARENTHOOD_PATERNITE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PICNIC_PIQUE-NIQUE-6015350f8dffb745185e10f43ed694b1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PICNIC_PIQUE-NIQUE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PLAYFUL_JOUER-f398026011120eb4f397a77594db3260.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PLAYFUL_JOUER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PLAYTIME_RECREATION-464b18f0a43b693ecbb46de529dfcca2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PLAYTIME_RECREATION.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/POUR_VERSER-fe298cb860558147254d54ed2bbdb09c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/POUR_VERSER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PURMOMENT_PURMOMENT-729483667411e7e35069529b3048c57e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/PURMOMENT_PURMOMENT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/READING_LECTURE-fabb09e302dc4db587699031922c92ba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/READING_LECTURE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/RELAXING_RELAXER-20240701037c35e494e655dba017c9a4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/RELAXING_RELAXER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SHARING_PARTAGER-ac004c6c828e4340484c55b5179a3743.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SHARING_PARTAGER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SHINE_ECLAT-006237f8e09cbd54ef9cd74eb0f00427.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SHINE_ECLAT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SIBLINGS_PARENTE-6c8c386d3ca474cf5bdf8bfe5b33f027.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SIBLINGS_PARENTE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SISTERS_SOEURS-8c7fab8b05dd044cce043380b29e8cff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SISTERS_SOEURS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE-1b277c08abf67a4a2bb40f0a793d7453.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE_May22-77b91bbcb88047631925504fd0c7b057.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMILE_SOURIRE_May22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMOOTHIE_SMOOTHIE-f9b6770b950845119fdbb8a0dbaec4bc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SMOOTHIE_SMOOTHIE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SNACK_COLLATION-88a8dbf42299c9be75b03d9b0616157d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SNACK_COLLATION.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SPLASH_ARROSER-c63c901d32d60229801bb5c13a405900.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SPLASH_ARROSER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SPORTS_SPORT-eb4a0929cfe508de461723ee7eeed290.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SPORTS_SPORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/STRENGTH_FORCE-ecb9f3234d04b1efd8cfbe7beb278100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/STRENGTH_FORCE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SURPRISE_SURPRISE-57aca3326fb50b3b679c342d1958d961.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/SURPRISE_SURPRISE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TASTE_GOUTER-8f8b018fb3338daaac2ac81d922d83b3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TASTE_GOUTER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEACHING_ENSEIGNER-3bd28b681113a30b6fd40b0ae7d31d6a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEACHING_ENSEIGNER.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEAMWORK_EQUIPE-e3553f383143a48de90a0c8d920ffcff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEAMWORK_EQUIPE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEETH_DENTS-a3766120c6dfdfc5e2aff8c01cc87fbd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TEETH_DENTS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/THIRST_SOIF-3d3e4d50715b49d88265051cc723e7e0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/THIRST_SOIF.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TODDLER_BAMBINE-0e723b7f3114c932b5218df64a26d17a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TODDLER_BAMBINE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TOGETHER_ENSEMBLE-14e91f37ee4e110106a6bd3d81ab5c6e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TOGETHER_ENSEMBLE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TRIUMPH_REUSSITE-84cbd213a0f18ec4f94b0718b08728bd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/TRIUMPH_REUSSITE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/VACATION_VACANCES-9e8a47fcb821911dfca03e0b44d449b3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/VACATION_VACANCES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/WARM_CHAUD.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/WHOLESOME_SAIN-b4547fce7e1fb9603a0c407115fb1256.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/WHOLESOME_SAIN.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/YOGA_YOGA-9c2320ea46cd08328a546daf64d964e9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/YOGA_YOGA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/YUMMY_DELICIEUX-35d5916485f14182cb7989d7316bace2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game/YUMMY_DELICIEUX.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-33dab62fba87bfad72e157e8462b5fdd.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9aa37dd9f8863b6aaee7048cb8fe266c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/back_to_home_button-bd1aba09a682e849fc6ab015206feaed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/back_to_home_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/background-78f3265fdc28cc1665845ec871c7fedf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card-7bedc42600d32e406e5d2d7282cfc91c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_five-f9e656e290eb4f2d2fe31bbf8545a101.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_five.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_four-9297a9ee4fe42724ab167adfdaf908cb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_four.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_index-0aab96dc8f2a820c023fbf82cfb64538.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_index.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_one-0fafa6b1b14a1ae1e7a323697866c6ed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_one.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_six-6d6dbc3b04bc4d85fb9303ec7ba8bc1c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_six.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_start_button-551e3a09599933b17c2b5d79a23e0a89.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_start_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_three-8fa34835266d1c878113a288aa4b76d7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_three.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_two-2d20ce4dc1e0f6e385a964cecea0760f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/challenge_two.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/click_to_get_started_button-3f5609e57e985175ad33d843b798fab7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/click_to_get_started_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/enter_for_your_chance-d306a4e225b4e481174ac037de53f7d6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/enter_for_your_chance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/expressInstall-cdebbee6d715f7a77b529d08cf4ad90f.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/expressInstall.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_app_container-9812e8a6347f6c57f474edcdb8343c52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_app_container.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_logo-a649a64baed24d6c90d171edeb579c9e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo-eeb27d6d240694eaba6d17209c051731.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_purmoments_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_ribbon-11a170a1f05ae6564b06c73a00dcf593.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_ribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_send_button-0d0b94d3186b4119f106c7cfbc1f6fc3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_send_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_back_to_home_button-a761dafabc0de5eb17cd4697fff056d5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_back_to_home_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_background-568bc81d8a4cedf28df465620f444002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_contact_background-03b2807738b346a27e7c0acdd7fb2aed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_contact_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_play_background-10c397367041c03db373f797aa4f7344.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_play_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_prizes_background-501d652e16701411b0dcc60696ce5663.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_prizes_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_right_side-b7de956032de7c1197a05b49d563a650.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_right_side.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_thank_you_background-4fd7b853e664c4cb64d07058e3bbdd1d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fb_thank_you_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/free_chance-d2ea344a875429a7482c2753a6ceae44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/free_chance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/galaxy_tab-facc1442ab870c40e201e9c16ed0a95a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/galaxy_tab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game1-dec84d944bdd04f2ce124128bd7e29be.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game1.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game1.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game2-c5b43e9eb2accdc27ec5ab7e2ce4addc.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game2.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game2.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game3-998f953d2c26739e38aba65f9a9d0d84.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game3.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game3.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game4-38c6561451e5d936673c7e532e8eacb0.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game4.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game4.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game5-a310853228902bb76eeba8329e6f12e4.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game5.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game5.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game6-af22acada144be3810f995b85a477aa7.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/swfs/game6.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/game6.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started-96ef35f2139597151caa2072cbcd8c99.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started_button-4cf7a71928d591b2c146c9640a1d374b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/get_started_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-4fcb00e25bd68b1ee6101df33d284f11.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-5ce548c6677ba4710f9e5abb446b49ae.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-bb1b33827a2151dd45c268ad4ae761de.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-3f9f0b5bf9ad1fbf00a25f5e0fa78372.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-79b085c0a75f76e40cc3344441aa4828.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-9723641c77d3092fa9bb1482a2e2dfef.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-0358e63b44cf993be78340d7e3e96dba.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-67e62259037e6340c6de1ed1d1031680.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-c11340fb4039fff8d0079f933ddcfb7b.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-5176cdbd7f87b71489f96239d085df8d.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-dc977e81ace28a6d0ac53841ca48031e.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-f759ced0e081e921fa5f635b2003ac20.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-3f2c855e7f10315dca426b87905297e5.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-a20f5d29214bfd23fa74b689598d5dfd.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-f21562013595274d775e5e093943b93f.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-4c7581a6df22a9cd8813db1057a28874.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-60f3327bd085f606480ed69bcb4c1d58.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-a57eb8cd66fad2bbb5be1bc2aaa1f107.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ipad-94df03f85ed2c3c362c08fb1e141d630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/lactantia_logo-8ed8cba7a57db5b9bfed83aaee11130b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/lactantia_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_enter_today-708f9e8968481ec18d36d01939d8b9e5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_enter_today.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_prize_social_share-5cdf8bbfe9377a57950a436fa9fccbb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing_prize_social_share.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/letter_button-13d107f24c9fefeb64c2a8ea96017151.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/letter_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_email_icon-f7c5b124528e4c7dc490095b2df6fa11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/login_email_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_email_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_email_icon_error-6084297c6a33ff9aad384fe256b784f1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/login_email_icon_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_email_icon_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_password_icon-46e04dd6b431b67d7c3aaab7e478e22a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/login_password_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_password_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_password_icon_error-6b08aaab4ea60c64b22234f8412e76fc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/login_password_icon_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/login_password_icon_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_narrow-88230b0117b416e2139d011a38270791.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_narrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_wide-b0842ee8b9afa01de4eebcf355d74715.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/main_wide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_bags-8f2aeec78dd9194c73ace164fbfc7f12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_bags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_carton-03c0dcb67ac7a9150d034ea9638bd0f8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/milk_carton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/parmalat_logo-ee621b707aac8d4013e8bb4da0341366.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/parmalat_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/password_reset_button-af340e7524e15bb048320ddade9dab23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/password_reset_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/play_now_button-5179b09cfbc6b74413d37c45b6cfa426.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/play_now_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/prelike_container_background-d9879835590372c8f99113e9a393d3dd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/prelike_container_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/prelike_ribbon-3c2d93c65f7f82bce3782de1f0beff62.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/prelike_ribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/proceed_button-4f65966f1825deefe55a80481ab1291f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/proceed_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/purmoments_header-e123caa7ffe04fc16e73324b6b61da44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/purmoments_header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails-a3386665c05a2d82f711a4aaa72d247c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_audio-28cf940e697cd11730b4bc26a1e47e0f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_audio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_help-79994654f907c78f10990ab8ce04c4fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_refresh-03c5e9d60156c897eb0569c8747e3d42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/recaptcha_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon-1663d1e72cbdf7bae7dde17a55d86707.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon_reset-d8bd918143877a9c6a18d09d002c4858.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ribbon_reset.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/rules_and_regulations.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select_arrow-eefb26cb40a68b6e517015c4ee112d67.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select_arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_active-21272ad74df71a8a3d98e7521b1d9dd6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_completed-b816a67497d0833933556ff3388b20f0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_completed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_inactive-78dfc57b03f8cd809258d87a058cf98a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/shield_inactive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sign_up_button-eaf01cc688e0262f510517a67b0164c0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sign_up_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/steps_background-ad8942f2ded1991c7caeb1ef61c8f1f1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/steps_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/used_chance-6db99df850c67ad45da39fd86fc9b8d6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/used_chance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-33dab62fba87bfad72e157e8462b5fdd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9aa37dd9f8863b6aaee7048cb8fe266c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold-7e6c030f2cae7e3e7d3b163c5fadc4a8.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gibsonsemibold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold-84f5bf9d5c42dd77388c95bf7649f5ca.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic-2fa70e59c5e7d3b3961f6b1979bd45f5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambolditalic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook-3501b49dafb13737ac6b73575fecaa38.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic-067d80c4262c88ed01e60f2fd0c6ad28.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothambookitalic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium-9a6a874bb2223bb29309ef9bb8b24f82.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gothammedium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -439,7 +18,7 @@
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
     <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740731078" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743406744" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362750263240" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362750269358" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724802352" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -524,7 +103,7 @@
     <file path="$PROJECT_DIR$/../lit-chamber-2375/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513348103" ignored="false" />
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
-    <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362748614698" ignored="false" />
+    <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362750683886" ignored="false" />
     <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362749612550" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
@@ -581,21 +160,21 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.784955">
       <split-first>
         <leaf>
           <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="9" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.4700109">
+                <state line="59" column="14" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.5967742">
                   <folding>
-                    <element signature="e#2902#2941#1" expanded="true" />
-                    <element signature="e#3089#3123#1" expanded="true" />
-                    <element signature="e#3345#3385#0" expanded="true" />
-                    <element signature="e#3443#3476#0" expanded="true" />
-                    <element signature="e#3533#3575#0" expanded="true" />
-                    <element signature="e#3710#3745#0" expanded="true" />
-                    <element signature="e#3804#3838#1" expanded="true" />
+                    <element signature="e#2819#2858#1" expanded="true" />
+                    <element signature="e#3006#3040#1" expanded="true" />
+                    <element signature="e#3262#3302#0" expanded="true" />
+                    <element signature="e#3360#3393#0" expanded="true" />
+                    <element signature="e#3450#3492#0" expanded="true" />
+                    <element signature="e#3627#3662#0" expanded="true" />
+                    <element signature="e#3721#3755#1" expanded="true" />
                     <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -605,7 +184,7 @@
           <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+                <state line="8" column="30" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -627,7 +206,7 @@
           <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="108" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.4303932">
+                <state line="27" column="108" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.44117647">
                   <folding />
                 </state>
               </provider>
@@ -2235,15 +1814,19 @@
       <created>1362749939164</created>
       <updated>1362749939165</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="add unversioned files">
+      <created>1362750276024</created>
+      <updated>1362750276025</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1056" y="22" width="1513" height="1356" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291039" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22125298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22125298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32751784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2335,7 +1918,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml</url>
-          <line>90</line>
+          <line>87</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -2439,29 +2022,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="108" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.4303932">
+        <state line="27" column="108" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+        <state line="8" column="30" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.4700109">
+        <state line="59" column="14" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.5967742">
           <folding>
-            <element signature="e#2902#2941#1" expanded="true" />
-            <element signature="e#3089#3123#1" expanded="true" />
-            <element signature="e#3345#3385#0" expanded="true" />
-            <element signature="e#3443#3476#0" expanded="true" />
-            <element signature="e#3533#3575#0" expanded="true" />
-            <element signature="e#3710#3745#0" expanded="true" />
-            <element signature="e#3804#3838#1" expanded="true" />
+            <element signature="e#2819#2858#1" expanded="true" />
+            <element signature="e#3006#3040#1" expanded="true" />
+            <element signature="e#3262#3302#0" expanded="true" />
+            <element signature="e#3360#3393#0" expanded="true" />
+            <element signature="e#3450#3492#0" expanded="true" />
+            <element signature="e#3627#3662#0" expanded="true" />
+            <element signature="e#3721#3755#1" expanded="true" />
             <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
           </folding>
         </state>

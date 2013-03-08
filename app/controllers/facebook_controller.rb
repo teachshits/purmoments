@@ -11,7 +11,7 @@ class FacebookController < ApplicationController
   end
 
   def registration_check
-    @user = AjoRegister::User.where('uid = ? Or email = ?', params[:user][:facebook_id], params[:user][:email])
+    @user = AjoRegister::User.where(:email => params[:email])
     render :json => @user_
   end
 

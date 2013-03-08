@@ -57,10 +57,7 @@
             type: "GET",
             url: "#{facebook_registration_check_path}",
             data: {
-              user : {
-                 facebook_id: $user.uid,
-                 email: $user.email
-              }
+              email: $user.email
             },
             success: function (data, response, jqXHR) {
               console.log(data);
