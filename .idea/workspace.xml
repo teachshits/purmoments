@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="add unversioned files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-46c3717839c69625b99677b348c25378.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card_share-176c186e0f2a464ea3b735a54ed45cca.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bay_card_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bay_card_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/email_share-f0503fcb4d1b1d6cf06d79e0cd280f4f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/email_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/email_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_share-33268234347a72687190229618c17fb4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter_share-f2c2e57dd80d250a78573ed6512e3dae.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/twitter_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-46c3717839c69625b99677b348c25378.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-33dab62fba87bfad72e157e8462b5fdd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-33dab62fba87bfad72e157e8462b5fdd.css.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-155203b7144128c2047da6377a6f613e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-155203b7144128c2047da6377a6f613e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-9aa37dd9f8863b6aaee7048cb8fe266c.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-9aa37dd9f8863b6aaee7048cb8fe266c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_contact/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/ajo_register/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-9a717ea62eac3463d689b2ba0a4e85b4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.css.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/facebook.js.gz" afterPath="$PROJECT_DIR$/public/assets/facebook.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/challenges/completed.html.haml" afterPath="$PROJECT_DIR$/app/views/challenges/completed.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" afterPath="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purmoments.iws" />
@@ -16,9 +54,9 @@
     <file path="/application.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362642014856" ignored="false" />
     <file path="/a.dummy" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1361926903293" ignored="false" />
     <file path="/challenges_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362693342354" ignored="false" />
-    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740731078" ignored="false" />
+    <file path="/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362897565460" ignored="false" />
     <file path="/_login.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743406744" ignored="false" />
-    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362753383058" ignored="false" />
+    <file path="/Dummy.txt" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362899181044" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/config/routes.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724802352" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/lib/ajo_register/engine.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362032508776" ignored="false" />
     <file path="/rules.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362254088581" ignored="false" />
@@ -39,7 +77,7 @@
     <file path="/contact_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362718806219" ignored="false" />
     <file path="/development.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362079138013" ignored="false" />
     <file path="/production.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362071581954" ignored="false" />
-    <file path="/Ruby Console" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362732278743" ignored="false" />
+    <file path="/Ruby Console" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362755079191" ignored="false" />
     <file path="/devise.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362072763222" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/controllers/ajo_register/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724574842" ignored="false" />
     <file path="/registrations_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362724464218" ignored="false" />
@@ -69,7 +107,7 @@
     <file path="$PROJECT_DIR$/../AjoRegister/app/views/users/registrations/new.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362274502445" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoRegister/app/models/ajo_register/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362741124706" ignored="false" />
     <file path="/user.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362740909937" ignored="false" />
-    <file path="/challenges.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362683996747" ignored="false" />
+    <file path="/challenges.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362895600869" ignored="false" />
     <file path="/challenge_one.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362356973494" ignored="false" />
     <file path="/challenge_two.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362359753138" ignored="false" />
     <file path="/challenge_three.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362359931815" ignored="false" />
@@ -99,12 +137,12 @@
     <file path="/contact_email.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362469709076" ignored="false" />
     <file path="/thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362471300693" ignored="false" />
     <file path="/sign_up_thank_you.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362472829862" ignored="false" />
-    <file path="/completed.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362690605903" ignored="false" />
+    <file path="/completed.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362898965733" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513348103" ignored="false" />
     <file path="/app.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513337740" ignored="false" />
     <file path="$PROJECT_DIR$/../lit-chamber-2375/views/index.erb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362513805353" ignored="false" />
     <file path="/facebook_controller.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362751422655" ignored="false" />
-    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362753647862" ignored="false" />
+    <file path="/facebook.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362893392557" ignored="false" />
     <file path="/application.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532144602" ignored="false" />
     <file path="/facebook-application.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362515622805" ignored="false" />
     <file path="$PROJECT_DIR$/../esi/app/assets/stylesheets/costing.css" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362532260924" ignored="false" />
@@ -133,7 +171,7 @@
     <file path="/layout.css.sass" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362719405119" ignored="false" />
     <file path="/message.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362727302511" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/app/models/ajo_contact/message.rb" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362727302511" ignored="false" />
-    <file path="/main.js.coffee" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362743491786" ignored="false" />
+    <file path="/main.js.coffee" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362896685457" ignored="false" />
     <file path="/edit.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362738621455" ignored="false" />
     <file path="$PROJECT_DIR$/../AjoContact/config/locales/en.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362742864857" ignored="false" />
     <file path="/register.html.haml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362752016631" ignored="false" />
@@ -161,23 +199,53 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53237903">
+    <splitter split-orientation="horizontal" split-proportion="0.53306454">
       <split-first>
         <leaf>
-          <file leaf-file-name="facebook.html.haml" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+          <file leaf-file-name="completed.html.haml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/challenges/completed.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="73" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.7524536">
+                <state line="21" column="37" selection-start="807" selection-end="807" vertical-scroll-proportion="0.3372591">
                   <folding>
-                    <element signature="e#3087#3126#1" expanded="true" />
-                    <element signature="e#3274#3308#1" expanded="true" />
-                    <element signature="e#3530#3570#0" expanded="true" />
-                    <element signature="e#3628#3661#0" expanded="true" />
-                    <element signature="e#3718#3760#0" expanded="true" />
-                    <element signature="e#3895#3930#0" expanded="true" />
-                    <element signature="e#3989#4023#1" expanded="true" />
-                    <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+                    <element signature="n#I18n.t('challenges.completed.share.twitter')#0;n#!!top" expanded="true" />
+                    <element signature="n#t('challenges.completed.header')#0;n#!!top" expanded="true" />
+                    <element signature="n#t('challenges.completed.tagline')#0;n#!!top" expanded="true" />
+                    <element signature="e#1724#1759#1" expanded="true" />
+                    <element signature="n#t('challenges.completed.subtagline')#0;n#!!top" expanded="true" />
+                    <element signature="n#t('challenges.landing_prizes.milk_bags.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#2168#2213#1" expanded="true" />
+                    <element signature="n#t('challenges.landing_prizes.bay.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#2776#2815#1" expanded="true" />
+                    <element signature="n#t('challenges.landing_prizes.ipad.header')#0;n#!!top" expanded="true" />
+                    <element signature="e#3035#3075#1" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/ajo_contact/contact/index.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="challenges_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/challenges_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="57" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -185,7 +253,7 @@
           <file leaf-file-name="facebook_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="33" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+                <state line="40" column="5" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -195,10 +263,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="word_of_the_day.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="43" column="43" selection-start="1301" selection-end="1330" vertical-scroll-proportion="0.22580644">
+                <state line="37" column="34" selection-start="1264" selection-end="1264" vertical-scroll-proportion="-23.125">
                   <folding />
                 </state>
               </provider>
@@ -208,6 +276,42 @@
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="40" column="54" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="challenges.css.sass" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js.coffee" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="14" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="389" column="54" selection-start="13345" selection-end="13345" vertical-scroll-proportion="-17.84">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="facebook.html.haml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="76" column="6" selection-start="2204" selection-end="2534" vertical-scroll-proportion="0.6423983">
                   <folding />
                 </state>
               </provider>
@@ -237,22 +341,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/contact.css.sass" />
-        <option value="$PROJECT_DIR$/app/views/ajo_contact/contact/_contact_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/optin.css.sass" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/login.css.sass" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/shared/_login.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/facebook_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook/register.html.haml" />
         <option value="$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/facebook.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/views/challenges/completed.html.haml" />
       </list>
     </option>
   </component>
@@ -264,10 +368,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1056" />
+    <option name="x" value="945" />
     <option name="y" value="22" />
-    <option name="width" value="1513" />
-    <option name="height" value="1356" />
+    <option name="width" value="1615" />
+    <option name="height" value="1361" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -818,7 +922,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,6 +945,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1413,8 +1521,8 @@
         <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
         <item index="1" class="java.lang.String" itemvalue="Rake.assets:clean" />
         <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.routes" />
-        <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: purmoments" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.routes" />
       </list>
     </recent_temporary>
   </component>
@@ -1871,24 +1979,32 @@
       <created>1362753385329</created>
       <updated>1362753385329</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="add unversioned files">
+      <created>1362753658705</created>
+      <updated>1362753658705</updated>
+    </task>
+    <task id="LOCAL-00109" summary="add share functions">
+      <created>1362899204006</created>
+      <updated>1362899204006</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1056" y="22" width="1513" height="1356" extended-state="0" />
-    <editor active="true" />
+    <frame x="945" y="22" width="1615" height="1361" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291039" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22125298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22116904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32751784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33878663" sideWeight="0.778747" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12683238" sideWeight="0.807267" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35685962" sideWeight="0.993865" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19273302" sideWeight="0.993865" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1936,7 +2052,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add share functions" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1965,6 +2081,7 @@
     <MESSAGE value="add controller actions" />
     <MESSAGE value="fix registration add fb js calls" />
     <MESSAGE value="add unversioned files" />
+    <MESSAGE value="add share functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1978,71 +2095,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/challenges.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="559" selection-end="559" vertical-scroll-proportion="0.26819924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/prizes.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="449" selection-end="449" vertical-scroll-proportion="0.2613941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/how_to_play.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="0.2613941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/contact_thank_you.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="412" selection-end="412" vertical-scroll-proportion="0.22117962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.46246648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook/contact.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="80" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.6635389">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="113" selection-start="823" selection-end="823" vertical-scroll-proportion="0.4743083">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="25" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.76407504">
@@ -2066,7 +2118,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/facebook_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="33" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+        <state line="40" column="5" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2078,25 +2130,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/challenges_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="57" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ajo_contact/contact/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="52" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.69154775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook/word_of_the_day.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1301" selection-end="1330" vertical-scroll-proportion="0.22580644">
+        <state line="37" column="34" selection-start="1264" selection-end="1264" vertical-scroll-proportion="-23.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/challenges.css.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/facebook/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="822" selection-end="822" vertical-scroll-proportion="0.29286927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="389" column="54" selection-start="13345" selection-end="13345" vertical-scroll-proportion="-17.84">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/facebook.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="73" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.7524536">
+        <state line="76" column="6" selection-start="2204" selection-end="2534" vertical-scroll-proportion="0.6423983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/challenges/completed.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="807" selection-end="807" vertical-scroll-proportion="0.3372591">
           <folding>
-            <element signature="e#3087#3126#1" expanded="true" />
-            <element signature="e#3274#3308#1" expanded="true" />
-            <element signature="e#3530#3570#0" expanded="true" />
-            <element signature="e#3628#3661#0" expanded="true" />
-            <element signature="e#3718#3760#0" expanded="true" />
-            <element signature="e#3895#3930#0" expanded="true" />
-            <element signature="e#3989#4023#1" expanded="true" />
-            <element signature="n#t('navigation.footer.trademarks')#0;n#!!top" expanded="true" />
+            <element signature="n#I18n.t('challenges.completed.share.twitter')#0;n#!!top" expanded="true" />
+            <element signature="n#t('challenges.completed.header')#0;n#!!top" expanded="true" />
+            <element signature="n#t('challenges.completed.tagline')#0;n#!!top" expanded="true" />
+            <element signature="e#1724#1759#1" expanded="true" />
+            <element signature="n#t('challenges.completed.subtagline')#0;n#!!top" expanded="true" />
+            <element signature="n#t('challenges.landing_prizes.milk_bags.header')#0;n#!!top" expanded="true" />
+            <element signature="e#2168#2213#1" expanded="true" />
+            <element signature="n#t('challenges.landing_prizes.bay.header')#0;n#!!top" expanded="true" />
+            <element signature="e#2776#2815#1" expanded="true" />
+            <element signature="n#t('challenges.landing_prizes.ipad.header')#0;n#!!top" expanded="true" />
+            <element signature="e#3035#3075#1" expanded="true" />
           </folding>
         </state>
       </provider>

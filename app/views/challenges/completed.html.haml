@@ -1,3 +1,43 @@
+:javascript
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId     : '465089766897235',
+      channelUrl: 'http://purmoments.herokuapp.com/facebook/channel.html',
+      status    : true,
+      cookie    : true,
+      xfbml     : true
+    });
+    $('document').ready(function() {
+      $('#facebook_share').click(function(e){
+            e.preventDefault();
+          	FB.ui(
+          	  {
+          		method: 'feed',
+          		name: "Take Lactantia's Purmoments Challenge!",
+          		link: 'http://purmoments.herokuapp.com',
+          		picture: 'http://beribglorious.com/img/mastro-logo.png',
+          		description: "I just took today's Lactantia PurMoments Challenge! You should try it, you could win free milk for life! http://dev.purmoments.ca"
+          	  }
+          	);
+      });
+    })
+
+  }
+  $('document').ready(function() {
+    $('#twitter_share').click(function(e){
+        e.preventDefault();
+    	var twitterUrl = "https://twitter.com/intent/tweet?text=#{I18n.t('challenges.completed.share.twitter')}";
+    	window.open(twitterUrl, '_blank', 'width=520, height=420');
+    });
+  })
+  (function(d) {
+    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0]
+    if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    ref.parentNode.insertBefore(js, ref);
+  }(document));
+
 #main_narrow
   #main_narrow_container
     #main_narrow_left
@@ -19,7 +59,15 @@
               .landing_prizes_copy.left
                 = simple_format t('challenges.landing_prizes.milk_bags.copy')
             %li.bordered
-              = image_tag('landing_prize_social_share.jpg')
+              #social_share.row-fluid
+                .span3
+                .span15
+                  %a#facebook_share{:href => ''}
+                    = image_tag('facebook_share.png')
+                  %a#twitter_share{:href => ''}
+                    = image_tag('twitter_share.png')
+                  %a#email_share
+                    = image_tag('email_share.png')
               .landing_prizes_header
                 = t('challenges.landing_prizes.bay.header')
               .landing_prizes_copy

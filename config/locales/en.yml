@@ -409,6 +409,9 @@ en:
         You could win
         a Samsung
         Galaxy Tab 2!<span id="asterix">**</span>
+      share:
+        twitter: "I just took today's Lactantia PurMoments Challenge! You should try it, you could win free milk for life! http://dev.purmoments.ca"
+
     landing_prizes:
       milk_bags:
         header: 'THE NEXT CHALLENGE'
