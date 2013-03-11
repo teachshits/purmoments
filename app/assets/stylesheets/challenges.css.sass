@@ -51,6 +51,100 @@
   height: 162px
   width:  225px
 
+#email_share_dialogue
+  background: URL('email_share_background.png') no-repeat
+  position: fixed
+  top: 15%
+  left:  50%
+  z-index: 20
+  margin-left: -473px
+  height:  427px
+  width:  945px
+  input[type=text]
+    width: 294px
+    margin-right: 13px
+    border:  2px solid #CCCCCC
+    +border-radius(3px)
+    font-family: 'Gotham-Medium'
+    font-size: 12px
+    padding: 8px
+  .field
+    float: left
+    display: inline-block
+    width:  325px
+  textarea
+    width: 630px
+    height:  115px
+    border: 2px solid #CCCCCC
+    +border-radius(3px)
+    margin-top: 10px
+    resize: none
+#share_submit, #share_cancel, #share_facebook_page
+  background: URL('share_button.png') no-repeat
+  -webkit-appearance: none
+  -moz-appearance: none
+  text-align: center
+  color: #FFFFFF
+  border:  none
+  width: 310px
+  height: 30px
+  float: left
+  margin-right: 17px
+  margin-top: 15px
+  display: inline
+  font-family: 'Gotham-Bold'
+  line-height: 30px
+
+#share_submit:hover, #share_cancel:hover, #share_facebook_page:hover
+  background: URL('share_button.png') no-repeat 0px -31px
+
+.hidden
+  display: none
+
+#email_share_header
+  margin-top: 47px
+  margin-bottom: 12px
+  font-family: 'Gibson-Semibold'
+  font-size: 40px
+  color: #013a81
+
+#email_share_header.thank_you
+  margin-top: 50px
+
+#email_share_copy
+  font-size: 16px
+  line-height: 18px
+
+#email_share_copy.thank_you
+  line-height: 22px
+  p b
+    font-family: 'Gotham-Bold'
+    font-size:  16px
+
+#milk_share
+  position: fixed
+  z-index: 21
+  top: 15%
+  left:  50%
+  width:  260px
+  margin-left: 240px
+  margin-top: -42px
+.modal-backdrop
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 15
+  background-color: #000000
+  // Fade for backdrop
+  &.fade
+    opacity: 0
+
+.modal-backdrop,
+.modal-backdrop.fade.in
+  @include opacity(80)
+
 #progress_chart
   margin-left: 43px
   height:  550px

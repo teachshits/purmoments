@@ -5,7 +5,8 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+
+gem 'mysql2'
 gem 'haml'
 gem 'ajo_contact', :git => 'git://github.com/andrewajo/AjoContact.git'
 gem 'ajo_register', :git => 'git://github.com/andrewajo/AjoRegister.git'

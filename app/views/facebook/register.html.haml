@@ -1,0 +1,86 @@
+#main_narrow
+  #main_narrow_container
+    #main_narrow_left
+      #registration
+        %h1= I18n.t('register.header')
+        = form_for(@user, :as => 'user', :url => registration_path('user')) do |f|
+          = f.hidden_field :source, :value => 'facebook'
+          .row-fluid
+            #left
+              .field
+                .field{:class => !flash[:error].nil? && flash[:error][:first_name].count > 0 ? 'field_with_errors' : ''}
+                  = f.label I18n.t('register.form.first_name')
+                  %br
+                  = f.text_field :first_name, :placeholder => flash[:error].nil? ? I18n.t('register.form.prompt.first_name') : flash[:error][:first_name]
+            #right
+              .field
+                .field{:class => !flash[:error].nil? && flash[:error][:last_name].count > 0 ? 'field_with_errors' : ''}
+                  = f.label I18n.t('register.form.last_name')
+                  %br
+                  = f.text_field :last_name, :placeholder => flash[:error].nil? ?  I18n.t('register.form.prompt.last_name') : flash[:error][:last_name]
+
+            #left
+              .field
+                .field{:class => !flash[:error].nil? && flash[:error][:email].count > 0 ? 'field_with_errors' : ''}
+                  = f.label I18n.t('register.form.email')
+                  %br
+                  - if !flash[:error].nil? && flash[:error][:email].count > 0
+                    = f.text_field :email, :placeholder => flash[:error][:email].first, :value => ''
+                  - else
+                    = f.text_field :email, :placeholder => I18n.t('register.form.prompt.email')
+            #right
+              #mini
+                .field
+                  .field{:class => !flash[:error].nil? && flash[:error][:gender].count > 0 ? 'field_with_errors' : ''}
+                    = f.label I18n.t('register.form.gender')
+                    %br
+                    .radio
+                      = f.radio_button :gender, 'M'
+                    .radio_label
+                      = f.label :gender, 'Male'
+
+
+                    .radio
+                      = f.radio_button :gender, 'F'
+                    .radio_label
+                      = f.label :gender, 'Female'
+              #mini
+                .field
+                  .field.mini.select{:class => !flash[:error].nil? && flash[:error][:date_of_birth].count > 0 ? 'field_with_errors' : ''}
+                    = f.label I18n.t('register.form.date_of_birth')
+                    %br
+                    = f.select(:date_of_birth, [['Select', '']] + 2013.downto(1913).to_a.collect { |y| ["#{y}", "#{y}-01-01"]})
+          #full
+            .field
+              .field{:class => !flash[:error].nil? && flash[:error][:mailing_address].count > 0 ? 'field_with_errors' : ''}
+                = f.label :mailing_address
+                %br
+                = f.text_field :mailing_address, :placeholder => @user.errors['mailing_address'].first || I18n.t('register.form.prompt.mailing_address')
+          #left
+            .field
+              .field{:class => !flash[:error].nil? && flash[:error][:city].count > 0 ? 'field_with_errors' : ''}
+                = f.label :city
+                %br
+                = f.text_field :city, :placeholder => @user.errors['city'].first || I18n.t('register.form.prompt.city')
+          #right
+            .field
+              .field{:class => !flash[:error].nil? && flash[:error][:province].count > 0 ? 'field_with_errors' : ''}
+                = f.label :province
+                %br
+                = f.select :province, I18n.t('register.form.province_options').map{|key, value| [value[:option], value[:value]]}
+          #left
+            .field{:class => @user.errors['recaptcha'].count > 0 ? 'field_with_errors' : ''}
+              = recaptcha_tags :display => {:theme => 'custom', :custom_theme_widget => 'recaptcha_widget'}
+              = render 'shared/facebook_recaptcha'
+          #right
+            .field
+              .field
+                .checkbox= f.check_box :rules_and_regulations
+                .label{:class => !flash[:error].nil? && flash[:error][:recaptcha].count > 0 ? 'field_with_errors' : ''}
+                  = simple_format I18n.t('register.form.rules_and_regulations')
+                %br
+                .checkbox= f.check_box :opt_in
+                .label
+                  = simple_format I18n.t('register.form.opt_in')
+            .field
+              = f.submit I18n.t('register.form.submit')

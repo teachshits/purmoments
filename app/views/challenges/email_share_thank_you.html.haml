@@ -38,7 +38,7 @@
 
     $('.email_share').click(function(e){
       e.preventDefault();
-      $('.modal-backdrop, #email_share_dialogue, #milk_share').removeClass('hidden');
+      $('.modal-backdrop, #email_share_dialogue').removeClass('hidden');
     });
 
   })
@@ -97,35 +97,27 @@
   .row-fluid
     .span2
     .span32
-      #email_share_header
-        =I18n.t('challenges.completed.share.email.header')
-      #email_share_copy
-        = simple_format I18n.t('challenges.completed.share.email.copy')
     .span10
       %a.facebook_share{:href => ''}
         = image_tag('facebook_share.png')
       %a.twitter_share{:href => ''}
         = image_tag('twitter_share.png')
-  = form_for @message, :url => challenge_email_share_path do |f|
-    .row-fluid
-      .span2
-      .span38
-        .field
-          = label_tag I18n.t('challenges.completed.share.email.to')
-          = f.text_field :to, :placeholder => flash[:error].nil? ? I18n.t('challenges.completed.share.email.prompt.to') : flash[:error][:to]
-        .field
-          = label_tag I18n.t('challenges.completed.share.email.from')
-          = f.text_field :from, :placeholder => flash[:error].nil? ? I18n.t('challenges.completed.share.email.prompt.from') : flash[:error][:to]
-    .row-fluid
-      .span2
-      .span32
-        = f.text_area :message, :placeholder => flash[:error].nil? ? '' : flash[:error][:to], :value => @message.message || I18n.t('challenges.completed.share.email.default_message')
-    .row-fluid
-      .span2
-      .span37
-        = submit_tag I18n.t('challenges.completed.share.email.send'), :id => 'share_submit'
-        = link_to '' do
-          #share_cancel
-            = I18n.t('challenges.completed.share.email.cancel')
+  .row-fluid
+    .span2
+    .span33
+      #email_share_header.thank_you
+        =I18n.t('challenges.completed.share.email_thank_you.header')
+      #email_share_copy.thank_you
+        = simple_format I18n.t('challenges.completed.share.email_thank_you.copy')
+
+  .row-fluid
+    .span2
+    .span37
+      = link_to challenges_path, :id => 'share_submit' do
+        = I18n.t('challenges.completed.share.email_thank_you.progress')
+      = link_to 'http://facebook.com' do
+        #share_facebook_page
+          = I18n.t('challenges.completed.share.email_thank_you.facebook')
+
 #milk_share
   = image_tag('milk_carton.png')

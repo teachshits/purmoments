@@ -76,5 +76,55 @@ class ChallengesController < ApplicationController
     else
       @latest_challenge = 0
     end
+    @next_challenge = @available_dates[@latest_challenge + 1]
+    @message = ShareMessage.new()
+  end
+
+  def email_share
+    @available_dates = [
+        Date.new(2013,1,25),
+        Date.new(2013,2,8),
+        Date.new(2013,2,22),
+        Date.new(2013,4,6),
+        Date.new(2013,4,20),
+        Date.new(2013,5,3)
+    ]
+    if current_user && Entry.where(:user_id => current_user.id).count > 0
+      @latest_challenge = Entry.where(:user_id => current_user.id).max_by(&:challenge_id).challenge_id || 0
+    else
+      @latest_challenge = 0
+    end
+    @next_challenge = @available_dates[@latest_challenge + 1]
+    @message = ShareMessage.new(params[:share_message])
+    if @message.valid?
+      ShareMailer.share_message(@message).deliver
+      redirect_to challenge_email_share_thank_you_path
+    else
+      Rails.logger.info @message.errors.to_json
+      respond_to do |format|
+       format.html {
+        flash[:error] = @message.errors
+        redirect_to challenge_completed_path
+       }
+      end
+    end
+
+  end
+
+  def email_share_thank_you
+    @available_dates = [
+        Date.new(2013,1,25),
+        Date.new(2013,2,8),
+        Date.new(2013,2,22),
+        Date.new(2013,4,6),
+        Date.new(2013,4,20),
+        Date.new(2013,5,3)
+    ]
+    if current_user && Entry.where(:user_id => current_user.id).count > 0
+      @latest_challenge = Entry.where(:user_id => current_user.id).max_by(&:challenge_id).challenge_id || 0
+    else
+      @latest_challenge = 0
+    end
+    @next_challenge = @available_dates[@latest_challenge + 1]
   end
 end

@@ -411,6 +411,33 @@ en:
         Galaxy Tab 2!<span id="asterix">**</span>
       share:
         twitter: "I just took today's Lactantia PurMoments Challenge! You should try it, you could win free milk for life! http://dev.purmoments.ca"
+        email:
+          header: 'Share for more chances to win!'
+          copy: |
+            Share your entry and you will receive an additional entry into the draw for
+            weekly prizes. You can share via Facebook, Twitter or email.
+            One share per day, per participant.
+          default_message: |
+            I just took today's Lactantia PurMoments Challenge! You should try it,
+            you could win free milk for life!
+          to: 'To:'
+          from: 'From:'
+          prompt:
+            to: '* Please enter your friend’s email address'
+            from: '* Please enter your address'
+          send: 'SHARE'
+          cancel: 'NO THANKS'
+        email_thank_you:
+          header: 'Thank you for sharing!'
+          copy: |
+            You have earned an additionnal entry to win a weekly prize of Lactantia
+            PurFiltre milk for a year or a $150 Hudson’s Bay gift card.
+
+            <b>Like us on Facebook for a chance to win a Samsung Galaxy Tab 2!</b>
+            Take our Facebook PurMoments Word of the day challenge for a chance
+            to win one of 24 weekly Samsung Galaxy Tab 2TM 10.1" 16GB!
+          progress: 'GO TO CHALLENGE PROGRESS'
+          facebook: 'VISIT OUR FACEBOOK PAGE'
 
     landing_prizes:
       milk_bags:

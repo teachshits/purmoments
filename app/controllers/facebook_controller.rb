@@ -17,6 +17,7 @@ class FacebookController < ApplicationController
   end
 
   def register
+    @user = AjoRegister::User.new()
   end
 
   def word_of_the_day
