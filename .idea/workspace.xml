@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-46c3717839c69625b99677b348c25378.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-46c3717839c69625b99677b348c25378.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/email_share-f0503fcb4d1b1d6cf06d79e0cd280f4f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook/application-a03199562df9c42a7c7ac76c46721cf3.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facebook_share-33268234347a72687190229618c17fb4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/twitter_share-f2c2e57dd80d250a78573ed6512e3dae.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f844ab93-e89a-45a6-9931-e57a9630106c" name="Default" comment="" />
     <ignored path="purmoments.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="f844ab93-e89a-45a6-9931-e57a9630106c" time="1362969629903" ignored="false" />
